@@ -1,0 +1,113 @@
+﻿@using System.Data
+@model CollegeBasketballRankingsModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 20px 5px 1px;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px 20px 5px 0;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .nav-link active {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 20px 5px 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1><img src="../img/basketballhoop.png" style="height: 1.5em"> College Basketball Rankings</h1>
+    <nav class="nav nav-pills" navbar-right">
+        @foreach (DataRow season in @Model.dtSeasons.Rows)
+        {
+
+            <a class="nav-link text-dark" style="font-size:1em;" asp-action="CollegeBasketballRankings" asp-route-pstrSeason=@season["fstrSeason"] asp-route-pstrRankingView="@Model.strRankingView">@season["fstrSeason"]</a>
+        }
+    </nav>
+
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pstrSeason="@Model.strSeason" asp-route-pstrRankingView="Power">Power Rankings</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pstrSeason="@Model.strSeason" asp-route-pstrRankingView="Dominance">Dominance Rating</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pstrSeason="@Model.strSeason" asp-route-pstrRankingView="SOV">SCRANK SOV</a>
+    </nav>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="9" , style="background-color:forestgreen; align-content:center">NCAA Mens Division 1 @Model.strSeason @Model.strRankingView Rankings</th>
+            </tr>
+            <tr>
+
+                <th>Rank</th>
+                <th>School</th>
+                <th>SCRANK Rating</th>
+                <th>W</th>
+                <th>L</th>
+                <th>Conf. W</th>
+                <th>Conf. L</th>
+                <th>Dominance Rating</th>
+                <th>SCRANK SOV</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int counter = 1;
+
+                @foreach (DataRow team in @Model.dtRankings.Rows)
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td>@team["fstrSchoolName"]</td>
+                        <td>@team["flngPowerRanking"]</td>
+                        <td>@team["fintWins"]</td>
+                        <td>@team["fintLosses"]</td>
+                        <td>@team["fintConferenceWins"]</td>
+                        <td>@team["fintConferenceLosses"]</td>
+                        <td>@team["flngDominanceRating"]</td>
+                        <td>@team["flngAdjustedStrengthOfVictory"]</td>
+                    </tr>
+                    ++counter;
+                }
+            }
+        </tbody>
+    </table>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+@* <nav class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-link text-dark nav-link active " id="nav-2025-tab" data-toggle="tab" role="tab" aria-controls="nav-2025" aria-selected="true" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pstrSeason="2025">2025</a>
+    <a class="nav-link text-dark" id="nav-2024-tab" data-toggle="tab" role="tab" aria-controls="tab-2024" aria-selected="false" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pstrSeason="2024">2024</a>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-2025" role="tabpanel" aria-labelledby="nav-2025-tab"></div>
+        <div class="tab-pane fade" id="nav-2024" role="tabpanel" aria-labelledby="nav-2024-tab"></div>
+    </div>
+</nav> *@
+
