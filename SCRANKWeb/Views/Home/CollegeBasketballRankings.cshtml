@@ -39,20 +39,20 @@
         @foreach (DataRow season in @Model.dtSeasons.Rows)
         {
 
-            <a class="nav-link text-dark" style="font-size:1em;" asp-action="CollegeBasketballRankings" asp-route-pstrSeason=@season["fstrSeason"] asp-route-pstrRankingView="@Model.strRankingView">@season["fstrSeason"]</a>
+            <a class="nav-link text-dark" style="font-size:1em;" asp-action="CollegeBasketballRankings" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView">@season["fintSeason"]</a>
         }
     </nav>
 
     <nav class="nav nav-pills navbar-right">
-        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pstrSeason="@Model.strSeason" asp-route-pstrRankingView="Power">Power Rankings</a>
-        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pstrSeason="@Model.strSeason" asp-route-pstrRankingView="Dominance">Dominance Rating</a>
-        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pstrSeason="@Model.strSeason" asp-route-pstrRankingView="SOV">SCRANK SOV</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power">Power Rankings</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Dominance">Dominance Rating</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV">SCRANK SOV</a>
     </nav>
 
     <table>
         <thead>
             <tr>
-                <th colspan="9" , style="background-color:forestgreen; align-content:center">NCAA Mens Division 1 @Model.strSeason @Model.strRankingView Rankings</th>
+                <th colspan="9" , style="background-color:forestgreen; align-content:center">NCAA Mens Division 1 @Model.intSeason @Model.strRankingView Rankings</th>
             </tr>
             <tr>
 
@@ -103,8 +103,8 @@
 
 
 @* <nav class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-link text-dark nav-link active " id="nav-2025-tab" data-toggle="tab" role="tab" aria-controls="nav-2025" aria-selected="true" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pstrSeason="2025">2025</a>
-    <a class="nav-link text-dark" id="nav-2024-tab" data-toggle="tab" role="tab" aria-controls="tab-2024" aria-selected="false" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pstrSeason="2024">2024</a>
+    <a class="nav-link text-dark nav-link active " id="nav-2025-tab" data-toggle="tab" role="tab" aria-controls="nav-2025" aria-selected="true" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025">2025</a>
+    <a class="nav-link text-dark" id="nav-2024-tab" data-toggle="tab" role="tab" aria-controls="tab-2024" aria-selected="false" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2024">2024</a>
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-2025" role="tabpanel" aria-labelledby="nav-2025-tab"></div>
         <div class="tab-pane fade" id="nav-2024" role="tabpanel" aria-labelledby="nav-2024-tab"></div>

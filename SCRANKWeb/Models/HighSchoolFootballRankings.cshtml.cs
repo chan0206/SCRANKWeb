@@ -28,10 +28,11 @@ namespace SCRANKWeb.Models
         public DataTable dtRankings { get; set; } = new();
         public DataTable dtSeasons { get; set; } = new();
         public DataTable dtClasses { get; set; } = new();
+        public DataTable dtDistricts { get; set; } = new();
+        public DataTable dtDistrictStandings { get; set; } = new();
 
-        public string strConnectionString = "Server=DESKTOP-6RCKDG6\\SurfaceDB;Database=SCRANK;Integrated Security=True;Trust Server Certificate=True";
-
-        public string strSeason { get; set; } = "";
+        public string strPathStart = "C:\\Users\\schan\\source\\repos\\SCRANKWeb\\SCRANKWeb\\wwwroot\\xmldata\\";
+        public int intSeason { get; set; } = 0;
         public string strClass { get; set; } = "";
         public string strRankingView { get; set; } = "";
         public string strState { get; set; } = "";
@@ -39,67 +40,45 @@ namespace SCRANKWeb.Models
         public string strStateLogo { get; set; } = "";
 
 
-        public void GetRankings(string pstrClass, string pstrSeason, string pstrState, string pstrOrderBy)
-        {
-            string strQuery = "select m.fstrSchoolName, " +
-                      "'../img/'+ i.fstrBoundURLCode + '.png' as fimgLogo," +
-                      "m.flngPowerRanking, " +
-                      "d.fintWins, " +
-                      "d.fintLosses, " +
-                      "d.fintDistrictWins, " +
-                      "d.fintDistrictLosses, " +
-                      "d.flngRegRPI, " +
-                      "m.flngAdjustedStrengthOfVictory " +
-
-                      "from tblHighSchoolFootballMetrics M, " +
-                      "tblHighSchoolFootballTeamData D, " + 
-                      "tblHighSchoolInfo I " +
-
-                      "where m.fstrSchoolName = D.fstrSchoolName " +
-                      "and m.fstrSchoolName = I.fstrSchoolName " +
-                      "and m.fintSeason = d.fintSeason " +
-                      "and m.fintSeason = " + pstrSeason + " "+
-                      "and m.fstrClass = '" + pstrClass +"' " +
-                      "and i.fstrState = '" + pstrState +"' " +
-                      "order by m."+pstrOrderBy+" desc";
-
-
-            dtRankings = new DataTable();
-            CallQuery(strQuery, dtRankings, strConnectionString);                     
+        public void GetRankings(string pstrClass, int pintSeason, string pstrState, string pstrOrderBy)
+        {   
+            string strPath = strPathStart + pstrState + "Football\\Rankings\\" + pintSeason.ToString() + pstrClass + pstrOrderBy +".xml";
+            dtRankings = new DataTable("dtRanking");
+            dtRankings.ReadXml(strPath);                   
         }
 
-        public void GetClasses(string pstrSeason, string pstrState)
+        public void GetClasses(int pintSeason, string pstrState)
         {
-            string strQuery = "select fstrClass " +
+            string strPath = strPathStart + pstrState + "Football\\General\\" + pintSeason.ToString() + "Classes.xml";
+            dtClasses = new DataTable("dtClasses");
+            dtClasses.ReadXml(strPath);
+        }
 
-                      "from tblHighSchoolFootballStateClass " +
+        public void GetDistricts(int pintSeason, string pstrState, string pstrClass)
+        {
 
-                      "where fintSeason = " + pstrSeason + " "+
-                      "and fstrState = '" + pstrState +"' " +
-                      "order by fintClassOrder";
+            string strPath = strPathStart + pstrState + "Football\\General\\" + pintSeason.ToString() + pstrClass + "Districts.xml";           
+            dtDistricts = new DataTable("dtDistricts");
+            dtDistricts.ReadXml(strPath);
+        }
 
-
-            dtClasses = new DataTable();
-            CallQuery(strQuery, dtClasses, strConnectionString);
+        public void GetDistrictStandings(int pintSeason, string pstrState)
+        {
+            string strPath = strPathStart + pstrState + "Football\\Rankings\\" + pintSeason.ToString() + "DistrictStandings.xml";
+            dtDistrictStandings = new DataTable("dtDistrictStandings");
+            dtDistrictStandings.ReadXml(strPath);
         }
 
         public void GetSeasons(string pstrState)
         {
-            string strQuery = "select fintSeason " +
-
-                      "from tblHighSchoolFootballStateClass " +
-
-                      "where fstrState = '" + pstrState +"' " +
-                      "group by fintSeason";
-
-            dtSeasons = new DataTable();
-            CallQuery(strQuery, dtSeasons, strConnectionString);
-
+            string strPath = strPathStart + pstrState + "Football\\General\\Seasons.xml";
+            dtSeasons = new DataTable("dtSeasons");
+            dtSeasons.ReadXml(strPath);
         }
 
-        public void setSeason(string pstrSeason)
+        public void setSeason(int pintSeason)
         {
-            strSeason = pstrSeason;
+            intSeason = pintSeason;
 
         }
         public void setStateInfo(string pstrState)

@@ -1,0 +1,38 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dtClasses" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dtClasses">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="fstrClass" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dtClasses>
+    <fstrClass>5A</fstrClass>
+  </dtClasses>
+  <dtClasses>
+    <fstrClass>4A</fstrClass>
+  </dtClasses>
+  <dtClasses>
+    <fstrClass>3A</fstrClass>
+  </dtClasses>
+  <dtClasses>
+    <fstrClass>2A</fstrClass>
+  </dtClasses>
+  <dtClasses>
+    <fstrClass>1A</fstrClass>
+  </dtClasses>
+  <dtClasses>
+    <fstrClass>A</fstrClass>
+  </dtClasses>
+  <dtClasses>
+    <fstrClass>8P</fstrClass>
+  </dtClasses>
+</NewDataSet>

@@ -30,12 +30,12 @@ namespace SCRANKWeb.Models
 
         public string strConnectionString = "Server=DESKTOP-6RCKDG6\\SurfaceDB;Database=SCRANK;Integrated Security=True;Trust Server Certificate=True";
 
-        public string strSeason { get; set; } = "";
+        public string intSeason { get; set; } = "";
         public string strConference { get; set; } = "";
         public string strRankingView { get; set; } = "";
 
 
-        public void GetRankings(string pstrSeason, string pstrOrderBy)
+        public void GetRankings(string pintSeason, string pstrOrderBy)
         {
             string strQuery = "select m.fstrSchoolName, " +
                       "m.flngPowerRanking, " +
@@ -53,7 +53,7 @@ namespace SCRANKWeb.Models
                       "where m.fstrSchoolName = D.fstrSchoolName " +
                       "and m.fstrSchoolName = I.fstrSchoolName " +
                       "and m.fintSeason = d.fintSeason " +
-                      "and m.fintSeason = " + pstrSeason + " "+
+                      "and m.fintSeason = " + pintSeason + " "+
                       "order by m."+pstrOrderBy+" desc";
 
 
@@ -66,15 +66,15 @@ namespace SCRANKWeb.Models
         public void GetSeasons()
         {
             dtSeasons = new DataTable();
-            dtSeasons.Columns.Add("fstrSeason");
+            dtSeasons.Columns.Add("fintSeason");
 
             dtSeasons.Rows.Add("2025");
 
         }
 
-        public void setSeason(string pstrSeason)
+        public void setSeason(string pintSeason)
         {
-            strSeason = pstrSeason;
+            intSeason = pintSeason;
 
         }
 

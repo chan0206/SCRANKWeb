@@ -22,14 +22,6 @@ namespace SCRANKWeb.Controllers
         {
             return View();
         }
-        //public ActionResult Rankings()
-        //{
-        //    using (MvcDB dataBase = new MvcDB())
-        //    {
-
-        //    }
-        //    return View(RankingsModel);
-        //}
 
         public IActionResult Rankings()
         {
@@ -42,51 +34,61 @@ namespace SCRANKWeb.Controllers
             return View();
         }
         
-        public IActionResult HighSchoolFootballRankings(string pstrClass, string pstrSeason, string pstrRankingView, string pstrState, HighSchoolFootballRankingsModel rank)
+        public IActionResult HighSchoolFootballRankings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballRankingsModel rank)
         {
             rank.GetSeasons(pstrState);
-            rank.GetClasses(pstrSeason,pstrState);
+            rank.GetClasses(pintSeason,pstrState);
             rank.setStateInfo(pstrState);
-            rank.strSeason = pstrSeason;
+            rank.intSeason = pintSeason;
             rank.strClass = pstrClass;
             rank.strRankingView = pstrRankingView;
             rank.strState = pstrState;
-
-
-
             switch (pstrRankingView)
             {
                 case "Power":
-                    rank.GetRankings(pstrClass, pstrSeason, pstrState, "flngPowerRanking");
+                    rank.GetRankings(pstrClass, pintSeason, pstrState, "Power");
                     break;
                 case "RPI":
-                    rank.GetRankings(pstrClass, pstrSeason, pstrState, "flngRegRPI");
+                    rank.GetRankings(pstrClass, pintSeason, pstrState, "RPI");
                     break;
                 case "SOV":
-                    rank.GetRankings(pstrClass, pstrSeason, pstrState, "flngAdjustedStrengthOfVictory");
+                    rank.GetRankings(pstrClass, pintSeason, pstrState, "SOV");
                     break;
-
-            }
-            
+            }            
             
             return View(rank);
         }
 
-        public IActionResult CollegeBasketballRankings(string pstrSeason, string pstrRankingView, CollegeBasketballRankingsModel rank)
+        public IActionResult HighSchoolFootballDistrictStandings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballRankingsModel rank)
+        {
+            rank.GetSeasons(pstrState);
+            rank.GetClasses(pintSeason, pstrState);
+            rank.setStateInfo(pstrState);
+            rank.GetDistricts(pintSeason, pstrState, pstrClass);
+            rank.GetDistrictStandings(pintSeason, pstrState);
+            rank.intSeason = pintSeason;
+            rank.strClass = pstrClass;
+            rank.strRankingView = pstrRankingView;
+            rank.strState = pstrState;            
+
+            return View(rank);
+        }
+
+        public IActionResult CollegeBasketballRankings(string pintSeason, string pstrRankingView, CollegeBasketballRankingsModel rank)
         {
             rank.GetSeasons();
-            rank.strSeason = pstrSeason;
+            rank.intSeason = pintSeason;
             rank.strRankingView = pstrRankingView;
             switch (pstrRankingView)
             {
                 case "Power":
-                    rank.GetRankings(pstrSeason, "flngPowerRanking");
+                    rank.GetRankings(pintSeason, "flngPowerRanking");
                     break;
                 case "Dominance":
-                    rank.GetRankings(pstrSeason, "flngDominanceRating");
+                    rank.GetRankings(pintSeason, "flngDominanceRating");
                     break;
                 case "SOV":
-                    rank.GetRankings(pstrSeason, "flngAdjustedStrengthOfVictory");
+                    rank.GetRankings(pintSeason, "flngAdjustedStrengthOfVictory");
                     break;
             }
 

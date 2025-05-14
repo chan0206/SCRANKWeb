@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\xmldata\IAFootball\Probabilities\" />
+    <Folder Include="wwwroot\xmldata\IAFootball\Projections\" />
+    <Folder Include="wwwroot\xmldata\IAFootball\Rankings\" />
+    <Folder Include="wwwroot\xmldata\IAFootball\General\" />
   </ItemGroup>
 
 </Project>
