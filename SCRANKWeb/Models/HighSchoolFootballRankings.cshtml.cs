@@ -31,7 +31,7 @@ namespace SCRANKWeb.Models
         public DataTable dtDistricts { get; set; } = new();
         public DataTable dtDistrictStandings { get; set; } = new();
 
-        public string strPathStart = "..\\xmldata\\";
+        public string strPathStart = "../xmldata/";
         public int intSeason { get; set; } = 0;
         public string strClass { get; set; } = "";
         public string strRankingView { get; set; } = "";
@@ -42,14 +42,14 @@ namespace SCRANKWeb.Models
 
         public void GetRankings(string pstrClass, int pintSeason, string pstrState, string pstrOrderBy)
         {   
-            string strPath = strPathStart + pstrState + "Football\\Rankings\\" + pintSeason.ToString() + pstrClass + pstrOrderBy +".xml";
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + pstrClass + pstrOrderBy +".xml";
             dtRankings = new DataTable("dtRanking");
             dtRankings.ReadXml(strPath);                   
         }
 
         public void GetClasses(int pintSeason, string pstrState)
         {
-            string strPath = strPathStart + pstrState + "Football\\General\\" + pintSeason.ToString() + "Classes.xml";
+            string strPath = strPathStart + pstrState + "Football/General/" + pintSeason.ToString() + "Classes.xml";
             dtClasses = new DataTable("dtClasses");
             dtClasses.ReadXml(strPath);
         }
@@ -57,21 +57,21 @@ namespace SCRANKWeb.Models
         public void GetDistricts(int pintSeason, string pstrState, string pstrClass)
         {
 
-            string strPath = strPathStart + pstrState + "Football\\General\\" + pintSeason.ToString() + pstrClass + "Districts.xml";           
+            string strPath = strPathStart + pstrState + "Football/General/" + pintSeason.ToString() + pstrClass + "Districts.xml";           
             dtDistricts = new DataTable("dtDistricts");
             dtDistricts.ReadXml(strPath);
         }
 
         public void GetDistrictStandings(int pintSeason, string pstrState)
         {
-            string strPath = strPathStart + pstrState + "Football\\Rankings\\" + pintSeason.ToString() + "DistrictStandings.xml";
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + "DistrictStandings.xml";
             dtDistrictStandings = new DataTable("dtDistrictStandings");
             dtDistrictStandings.ReadXml(strPath);
         }
 
         public void GetSeasons(string pstrState)
         {
-            string strPath = strPathStart + pstrState + "Football\\General\\Seasons.xml";
+            string strPath = strPathStart + pstrState + "Football/General/Seasons.xml";
             dtSeasons = new DataTable("dtSeasons");
             dtSeasons.ReadXml(strPath);
         }
