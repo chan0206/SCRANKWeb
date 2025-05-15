@@ -24,41 +24,42 @@
     }
 </style>
 <h1>Rankings</h1>
-
-<div class="row">
-    <div class="column">
-        <h4>Football</h4><br>
-        <h5>High School</h5>
-        <ul class="nav nav-pills">
-            <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="6A" asp-route-pstrRankingView="Power" asp-route-pstrState="ID"><img src="../img/idahooutline.png" style="height: 2em"> Idaho</a>
-            <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="5A" asp-route-pstrRankingView="Power" asp-route-pstrState="IA"><img src="../img/iowaoutline.png" style="height: 2em"> Iowa</a>            
-            <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="AA" asp-route-pstrRankingView="Power" asp-route-pstrState="MT"><img src="../img/montanaoutline.png" style="height: 2em"> Montana</a>
-        </ul><br>
-        <h5>College</h5>
-        <ul class="nav nav-pills">
-            <a class="nav-link text-dark"><img src="../img/redhelmet.png" style="height: 2em"> FBS</a>
-            <a class="nav-link text-dark"><img src="../img/greenhelmet.png" style="height: 2em"> FCS</a>
-        </ul><br>
-        <h5>Proffesional</h5>
+<div class="container-fluid">
+    <div class="row">
+        <div class="column">
+            <h4>Football</h4><br>
+            <h5>High School</h5>
             <ul class="nav nav-pills">
-            <a class="nav-link text-dark"><img src="../img/bluehelmet.png" style="height: 2em"> NFL</a>
-        </ul>
-    </div>
-    <div class="column">
-        <h4>Basketball</h4><br>
-        <h5>High School</h5>
-        <ul class="nav nav-pills">
-            <a class="nav-link text-dark"><img src="../img/iowaoutline.png" style="height: 2em"> Iowa</a>
-            <a class="nav-link text-dark"><img src="../img/idahooutline.png" style="height: 2em"> Idaho</a>
-            <a class="nav-link text-dark"><img src="../img/montanaoutline.png" style="height: 2em"> Montana</a>
-        </ul><br>
-        <h5>College</h5>
+                <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="6A" asp-route-pstrRankingView="Power" asp-route-pstrState="ID"><img src="../img/idahooutline.png" style="height: 2em"> Idaho</a>
+                <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="5A" asp-route-pstrRankingView="Power" asp-route-pstrState="IA"><img src="../img/iowaoutline.png" style="height: 2em"> Iowa</a>            
+                <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="AA" asp-route-pstrRankingView="Power" asp-route-pstrState="MT"><img src="../img/montanaoutline.png" style="height: 2em"> Montana</a>
+            </ul><br>
+            <h5>College</h5>
             <ul class="nav nav-pills">
-            <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="2025" asp-route-pstrRankingView="Power"><img src="../img/basketballhoop.png" style="height: 2em"> NCAA Mens Division 1</a>
-        </ul><br>
-        <h5>Proffesional</h5>
+                <a class="nav-link text-dark"><img src="../img/redhelmet.png" style="height: 2em"> FBS</a>
+                <a class="nav-link text-dark"><img src="../img/greenhelmet.png" style="height: 2em"> FCS</a>
+            </ul><br>
+            <h5>Proffesional</h5>
                 <ul class="nav nav-pills">
-            <a class="nav-link text-dark"><img src="../img/basketballhoop.png" style="height: 2em"> NBA</a>
-        </ul>
+                <a class="nav-link text-dark"><img src="../img/bluehelmet.png" style="height: 2em"> NFL</a>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Basketball</h4><br>
+            <h5>High School</h5>
+            <ul class="nav nav-pills">
+                <a class="nav-link text-dark"><img src="../img/iowaoutline.png" style="height: 2em"> Iowa</a>
+                <a class="nav-link text-dark"><img src="../img/idahooutline.png" style="height: 2em"> Idaho</a>
+                <a class="nav-link text-dark"><img src="../img/montanaoutline.png" style="height: 2em"> Montana</a>
+            </ul><br>
+            <h5>College</h5>
+                <ul class="nav nav-pills">
+                <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="2025" asp-route-pstrRankingView="Power"><img src="../img/basketballhoop.png" style="height: 2em"> NCAA Mens Division 1</a>
+            </ul><br>
+            <h5>Proffesional</h5>
+                    <ul class="nav nav-pills">
+                <a class="nav-link text-dark"><img src="../img/basketballhoop.png" style="height: 2em"> NBA</a>
+            </ul>
+        </div>
     </div>
 </div>

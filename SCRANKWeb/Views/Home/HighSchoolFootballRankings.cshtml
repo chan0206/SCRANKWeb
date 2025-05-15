@@ -60,65 +60,47 @@
         }
     </nav>
 
-<table>    
-    <thead>
-            <tr>
-                <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
-            </tr>
-        <tr>
-                
-            <th>Rank</th>
-            <th>School</th>
-            <th>SCRANK Rating</th>            
-            <th>Wins</th>
-            <th>Losses</th>
-            <th>District Wins</th>
-            <th>District Losses</th>
-            <th>RPI</th>
-            <th>SCRANK SOV</th>
-        </tr>
-    </thead>
-    <tbody>
-        @{
-            int counter = 1;
-
-            @foreach (DataRow team in @Model.dtRankings.Rows)
-            {
-                   <tr>
-                    <td>@counter</td>
-                        <td><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
-                    <td>@team["flngPowerRanking"]</td>
-                    <td>@team["fintWins"]</td>
-                    <td>@team["fintLosses"]</td>
-                    <td>@team["fintDistrictWins"]</td>
-                    <td>@team["fintDistrictLosses"]</td>
-                    <td>@team["flngRegRPI"]</td>
-                    <td>@team["flngAdjustedStrengthOfVictory"]</td>
+    <table style ="font-size:1vw;white-space: nowrap">
+        <thead>
+                <tr>
+                    <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
                 </tr>
-                ++counter;
+            <tr>
+                
+                <th>Rank</th>
+                <th>School</th>
+                <th>SCRANK Rating</th>            
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>District Wins</th>
+                <th>District Losses</th>
+                <th>RPI</th>
+                <th>SCRANK SOV</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int counter = 1;
+
+                @foreach (DataRow team in @Model.dtRankings.Rows)
+                {
+                       <tr>
+                        <td>@counter</td>
+                            <td><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
+                        <td>@team["flngPowerRanking"]</td>
+                        <td>@team["fintWins"]</td>
+                        <td>@team["fintLosses"]</td>
+                        <td>@team["fintDistrictWins"]</td>
+                        <td>@team["fintDistrictLosses"]</td>
+                        <td>@team["flngRegRPI"]</td>
+                        <td>@team["flngAdjustedStrengthOfVictory"]</td>
+                    </tr>
+                    ++counter;
+                }
             }
-        }
-    </tbody>
+        </tbody>
 </table>
 
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-@* <nav class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-link text-dark nav-link active " id="nav-2025-tab" data-toggle="tab" role="tab" aria-controls="nav-2025" aria-selected="true" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025">2025</a>
-    <a class="nav-link text-dark" id="nav-2024-tab" data-toggle="tab" role="tab" aria-controls="tab-2024" aria-selected="false" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2024">2024</a>
-    <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-2025" role="tabpanel" aria-labelledby="nav-2025-tab"></div>
-        <div class="tab-pane fade" id="nav-2024" role="tabpanel" aria-labelledby="nav-2024-tab"></div>
-    </div>
-</nav> *@
-
