@@ -59,8 +59,7 @@
         <a class="nav-link text-dark" asp-action="HighSchoolFootballDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Standings</a>
         }
     </nav>
-    <div class="container-fluid">
-        <table style="font-size:1.2vw;white-space: nowrap;table-layout:auto">
+        <table style="font-size:1.5vw;white-space: nowrap;table-layout:auto; width:100%">
         <thead>
                 <tr>
                     <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
@@ -70,12 +69,12 @@
                 <th>Rank</th>
                 <th>School</th>
                 <th>SCRANK Rating</th>            
-                <th>Wins</th>
-                <th>Losses</th>
-                <th>District Wins</th>
-                <th>District Losses</th>
+                <th>W</th>
+                <th>L</th>
+                <th>DW</th>
+                <th>DL</th>
                 <th>RPI</th>
-                <th>SCRANK SOV</th>
+                <th>SOV</th>
             </tr>
         </thead>
         <tbody>
@@ -100,7 +99,6 @@
             }
         </tbody>
 </table>
-</div>
 
 </body>
 
