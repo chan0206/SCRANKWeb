@@ -14,19 +14,19 @@
         th {
             background-color: cornflowerblue;
             color: white;
-            padding: 5px 20px 5px 1px;
+            padding: 5px 10px 5px 1px;
         }
 
         td {
           text-align: left;
-          padding: 5px 20px 5px 0;
+          padding: 5px 10px 5px 0;
         }
         tr:nth-child(even) {background-color: #f2f2f2;}
 
         .nav-link active{
             background-color: cornflowerblue;
             color: white;
-            padding: 5px 20px 5px 0;
+            padding: 5px 10px 5px 0;
         }
         
     </style>  
@@ -59,8 +59,8 @@
         <a class="nav-link text-dark" asp-action="HighSchoolFootballDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Standings</a>
         }
     </nav>
-
-    <table style ="font-size:1vw;white-space: nowrap">
+    <div class="container-fluid">
+        <table style="font-size:1.2vw;white-space: nowrap;table-layout:auto">
         <thead>
                 <tr>
                     <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
@@ -100,6 +100,7 @@
             }
         </tbody>
 </table>
+</div>
 
 </body>
 
