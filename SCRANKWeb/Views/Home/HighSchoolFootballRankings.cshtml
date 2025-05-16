@@ -5,39 +5,57 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <html>
-<head>
-    <style>
-        table {
-          border-collapse: collapse;
-        }
+    <head>
+        <style>
+            table {
+              border-collapse: collapse;
+            }
 
-        th {
-            background-color: cornflowerblue;
-            color: white;
-            padding: 5px 10px 5px 1px;
-        }
+            thead {
+                position: sticky;
+                top: 0;
+                background-color: cornflowerblue;
+            }
 
-        td {
-          text-align: left;
-          padding: 5px 10px 5px 0;
-        }
-        tr:nth-child(even) {background-color: #f2f2f2;}
+            th {
+                background-color: cornflowerblue;
+                color: white;
+                padding: 5px 10px 5px 1px;
+            }
 
-        .nav-link active{
-            background-color: cornflowerblue;
-            color: white;
-            padding: 5px 10px 5px 0;
-        }
+            td {
+              text-align: left;
+              padding: 5px 10px 5px 2px;
+            }
+            tr:nth-child(even) {background-color: #f2f2f2;}
+
+            .nav-link {
+                    font-size: clamp(1px, 2.5vw, 1em) !important;
+                background-color: white;
+                color: black;
+                    padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+                }
+
         
-    </style>  
+            .navbar-right {
+              background-color: white;
+              white-space: nowrap;
+              display: flex;
+              flex-wrap: nowrap;
+              font-size: clamp(1px, 2.5vw, 1em);
+              width: 100%;
+          
+            }
+        
+        </style>  
     </head>
 <body>
-    <h1><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Rankings</h1>
+        <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Rankings</h1>
     <nav class="nav nav-pills navbar-right">
     @foreach (DataRow season in @Model.dtSeasons.Rows)
     {
 
-            <a class="nav-link text-dark" style="font-size:1em;" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@season["fintSeason"]</a>
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@season["fintSeason"]</a>
     }
     </nav>
 
@@ -59,24 +77,24 @@
         <a class="nav-link text-dark" asp-action="HighSchoolFootballDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Standings</a>
         }
     </nav>
-        <table style="font-size:2vw;white-space: nowrap;table-layout:auto; width:100%">
-        <thead>
+        <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
+            <thead>
+                    <tr>
+                        <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
+                    </tr>
                 <tr>
-                    <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
-                </tr>
-            <tr>
                 
-                <th>Rank</th>
-                <th>School</th>
-                <th>SCRANK Rating</th>            
-                <th>W</th>
-                <th>L</th>
-                <th>DW</th>
-                <th>DL</th>
-                <th>RPI</th>
-                <th>SOV</th>
-            </tr>
-        </thead>
+                    <th>Rank</th>
+                    <th>School</th>
+                    <th>SCRANK Rating</th>            
+                    <th>W</th>
+                    <th>L</th>
+                    <th>DW</th>
+                    <th>DL</th>
+                    <th>RPI</th>
+                    <th>SOV</th>
+                </tr>
+            </thead>
         <tbody>
             @{
                 int counter = 1;
@@ -101,5 +119,4 @@
 </table>
 
 </body>
-
 </html>
