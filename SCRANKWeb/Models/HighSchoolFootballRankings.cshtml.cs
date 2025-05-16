@@ -19,6 +19,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Security.Cryptography.X509Certificates;
 using System.Transactions;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Diagnostics;
 
 namespace SCRANKWeb.Models
 {
@@ -31,9 +32,11 @@ namespace SCRANKWeb.Models
         public DataTable dtDistricts { get; set; } = new();
         public DataTable dtDistrictStandings { get; set; } = new();
 
-        public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
+        public string strPathStart = "";
 
-        //public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
+        public string strPathStartWeb = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
+
+        public string strPathStartLocal = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
         public int intSeason { get; set; } = 0;
         public string strClass { get; set; } = "";
         public string strRankingView { get; set; } = "";
@@ -41,9 +44,22 @@ namespace SCRANKWeb.Models
         public string strStateLong { get; set; } = "";
         public string strStateLogo { get; set; } = "";
 
+        public void SetPath(ref string pstrPath)
+        {
+            if (Debugger.IsAttached)
+            {
+                pstrPath = strPathStartLocal;
+            }
+            else
+            {
+                pstrPath = strPathStartWeb;
+            }
+
+        }
 
         public void GetRankings(string pstrClass, int pintSeason, string pstrState, string pstrOrderBy)
-        {   
+        {
+            SetPath(ref strPathStart);
             string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + pstrClass + pstrOrderBy +".xml";
             dtRankings = new DataTable("dtRanking");
             dtRankings.ReadXml(strPath);                   
@@ -51,6 +67,7 @@ namespace SCRANKWeb.Models
 
         public void GetClasses(int pintSeason, string pstrState)
         {
+            SetPath(ref strPathStart);
             string strPath = strPathStart + pstrState + "Football/General/" + pintSeason.ToString() + "Classes.xml";
             dtClasses = new DataTable("dtClasses");
             dtClasses.ReadXml(strPath);
@@ -59,6 +76,7 @@ namespace SCRANKWeb.Models
         public void GetDistricts(int pintSeason, string pstrState, string pstrClass)
         {
 
+            SetPath(ref strPathStart);
             string strPath = strPathStart + pstrState + "Football/General/" + pintSeason.ToString() + pstrClass + "Districts.xml";           
             dtDistricts = new DataTable("dtDistricts");
             dtDistricts.ReadXml(strPath);
@@ -66,6 +84,7 @@ namespace SCRANKWeb.Models
 
         public void GetDistrictStandings(int pintSeason, string pstrState)
         {
+            SetPath(ref strPathStart);
             string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + "DistrictStandings.xml";
             dtDistrictStandings = new DataTable("dtDistrictStandings");
             dtDistrictStandings.ReadXml(strPath);
@@ -73,6 +92,7 @@ namespace SCRANKWeb.Models
 
         public void GetSeasons(string pstrState)
         {
+            SetPath(ref strPathStart);
             string strPath = strPathStart + pstrState + "Football/General/Seasons.xml";
             dtSeasons = new DataTable("dtSeasons");
             dtSeasons.ReadXml(strPath);

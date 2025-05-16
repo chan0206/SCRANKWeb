@@ -19,6 +19,8 @@ using System.Diagnostics.Eventing.Reader;
 using System.Security.Cryptography.X509Certificates;
 using System.Transactions;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Diagnostics;
+
 
 namespace SCRANKWeb.Models
 {
@@ -28,16 +30,32 @@ namespace SCRANKWeb.Models
         public DataTable dtRankings { get; set; } = new();
         public DataTable dtSeasons { get; set; } = new();
 
-        public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
+        public string strPathStart = "";
 
-        //public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
+        public string strPathStartWeb = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
+
+        public string strPathStartLocal = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
         public string intSeason { get; set; } = "";
         public string strConference { get; set; } = "";
         public string strRankingView { get; set; } = "";
 
+        public void SetPath(ref string pstrPath)
+        {
+            if (Debugger.IsAttached)
+            {
+                pstrPath = strPathStartLocal;
+            }
+            else
+            {
+                pstrPath = strPathStartWeb;
+            }
+
+        }
+
 
         public void GetRankings(string pintSeason, string pstrOrderBy)
         {
+            SetPath(ref strPathStart);
             string strPath = strPathStart + "MensCBB/Rankings/" + pintSeason.ToString() + pstrOrderBy + ".xml";
             dtRankings = new DataTable("dtRankings");
             dtRankings.ReadXml(strPath);          
@@ -46,6 +64,7 @@ namespace SCRANKWeb.Models
 
         public void GetSeasons()
         {
+            SetPath(ref strPathStart);
             string strPath = strPathStart + "MensCBB/General/Seasons.xml";
             dtSeasons = new DataTable("dtSeasons");
             dtSeasons.ReadXml(strPath);
