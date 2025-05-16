@@ -16,6 +16,8 @@
     <Folder Include="wwwroot\xmldata\IAFootball\Projections\" />
     <Folder Include="wwwroot\xmldata\IAFootball\Rankings\" />
     <Folder Include="wwwroot\xmldata\IAFootball\General\" />
+    <Folder Include="wwwroot\xmldata\MensCBB\General\" />
+    <Folder Include="wwwroot\xmldata\MensCBB\Rankings\" />
   </ItemGroup>
 
 </Project>

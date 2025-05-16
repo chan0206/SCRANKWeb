@@ -10,31 +10,47 @@
             border-collapse: collapse;
         }
 
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+        }
+
         th {
             background-color: cornflowerblue;
             color: white;
-            padding: 5px 20px 5px 1px;
+            padding: 5px 10px 5px 1px;
         }
 
         td {
             text-align: left;
-            padding: 5px 20px 5px 0;
+            padding: 5px 10px 5px 2px;
         }
 
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
 
-        .nav-link active {
-            background-color: cornflowerblue;
-            color: white;
-            padding: 5px 20px 5px 0;
+        .nav-link {
+            font-size: clamp(1px, 2.5vw, 1em) !important;
+            background-color: white;
+            color: black;
+            padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+        }
+
+
+        .navbar-right {
+            background-color: white;
+            white-space: nowrap;
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: clamp(1px, 2.5vw, 1em);
+            width: 100%;
         }
     </style>
-    
 </head>
 <body>
-    <h1><img src="../img/basketballhoop.png" style="height: 1.5em"> College Basketball Rankings</h1>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src="../img/basketballhoop.png" style="height: 1.5em"> College Basketball Rankings</h1>
     <nav class="nav nav-pills" navbar-right">
         @foreach (DataRow season in @Model.dtSeasons.Rows)
         {
@@ -49,7 +65,7 @@
         <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV">SCRANK SOV</a>
     </nav>
 
-    <table>
+    <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
         <thead>
             <tr>
                 <th colspan="9" , style="background-color:forestgreen; align-content:center">NCAA Mens Division 1 @Model.intSeason @Model.strRankingView Rankings</th>
@@ -61,10 +77,10 @@
                 <th>SCRANK Rating</th>
                 <th>W</th>
                 <th>L</th>
-                <th>Conf. W</th>
-                <th>Conf. L</th>
-                <th>Dominance Rating</th>
-                <th>SCRANK SOV</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>Dom. Rating</th>
+                <th>SOV</th>
             </tr>
         </thead>
         <tbody>

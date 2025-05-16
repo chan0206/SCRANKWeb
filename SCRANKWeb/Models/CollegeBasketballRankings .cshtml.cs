@@ -28,8 +28,9 @@ namespace SCRANKWeb.Models
         public DataTable dtRankings { get; set; } = new();
         public DataTable dtSeasons { get; set; } = new();
 
-        public string strConnectionString = "Server=DESKTOP-6RCKDG6\\SurfaceDB;Database=SCRANK;Integrated Security=True;Trust Server Certificate=True";
+        //public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
 
+        public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
         public string intSeason { get; set; } = "";
         public string strConference { get; set; } = "";
         public string strRankingView { get; set; } = "";
@@ -37,39 +38,17 @@ namespace SCRANKWeb.Models
 
         public void GetRankings(string pintSeason, string pstrOrderBy)
         {
-            string strQuery = "select m.fstrSchoolName, " +
-                      "m.flngPowerRanking, " +
-                      "d.fintWins, " +
-                      "d.fintLosses, " +
-                      "d.fintConferenceWins, " +
-                      "d.fintConferenceLosses, " +
-                      "m.flngDominanceRating, " +
-                      "m.flngAdjustedStrengthOfVictory " +
-
-                      "from tblCollegeBasketballTeamMetrics M, " +
-                      "tblCollegeBasketballTeamData D, " +
-                      "tblCollegeInfo I " +
-
-                      "where m.fstrSchoolName = D.fstrSchoolName " +
-                      "and m.fstrSchoolName = I.fstrSchoolName " +
-                      "and m.fintSeason = d.fintSeason " +
-                      "and m.fintSeason = " + pintSeason + " "+
-                      "order by m."+pstrOrderBy+" desc";
-
-
-            dtRankings = new DataTable();
-            CallQuery(strQuery, dtRankings, strConnectionString);
-            
+            string strPath = strPathStart + "MensCBB/Rankings/" + pintSeason.ToString() + pstrOrderBy + ".xml";
+            dtRankings = new DataTable("dtRankings");
+            dtRankings.ReadXml(strPath);          
             
         }
 
         public void GetSeasons()
         {
-            dtSeasons = new DataTable();
-            dtSeasons.Columns.Add("fintSeason");
-
-            dtSeasons.Rows.Add("2025");
-
+            string strPath = strPathStart + "MensCBB/General/Seasons.xml";
+            dtSeasons = new DataTable("dtSeasons");
+            dtSeasons.ReadXml(strPath);
         }
 
         public void setSeason(string pintSeason)

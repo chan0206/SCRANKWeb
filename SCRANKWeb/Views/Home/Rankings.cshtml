@@ -1,0 +1,48 @@
+﻿
+@using System.Data
+@model HighSchoolFootballRankingsModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+<h1>Rankings</h1>
+<div class="container-fluid">
+    
+        <div class="column">
+            <h5>High School Football</h5>
+            <ul class="nav nav-pills">
+                @* <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="6A" asp-route-pstrRankingView="Power" asp-route-pstrState="ID"><img src="../img/idahooutline.png" style="height: 2em"> Idaho</a> *@
+                <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="5A" asp-route-pstrRankingView="Power" asp-route-pstrState="IA"><img src="../img/iowaoutline.png" style="height: 2em"> Iowa</a>            
+                @* <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pintSeason="2024" asp-route-pstrClass="AA" asp-route-pstrRankingView="Power" asp-route-pstrState="MT"><img src="../img/montanaoutline.png" style="height: 2em"> Montana</a> *@
+            </ul><br>
+            <h5>College</h5>
+            <ul class="nav nav-pills">
+                <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="2025" asp-route-pstrRankingView="Power"><img src="../img/basketballhoop.png" style="height: 2em"> NCAA Mens Division 1 Basketball</a>
+                @* <a class="nav-link text-dark"><img src="../img/redhelmet.png" style="height: 2em"> FBS Football</a> *@
+                @* <a class="nav-link text-dark"><img src="../img/greenhelmet.png" style="height: 2em"> FCS Football </a> *@
+            </ul><br>
+            @* <h5>Proffesional</h5>
+                <ul class="nav nav-pills">
+                <a class="nav-link text-dark"><img src="../img/bluehelmet.png" style="height: 2em"> NFL</a>
+            </ul> *@
+        </div>
+       
+</div>

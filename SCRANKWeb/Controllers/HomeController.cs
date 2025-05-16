@@ -82,13 +82,13 @@ namespace SCRANKWeb.Controllers
             switch (pstrRankingView)
             {
                 case "Power":
-                    rank.GetRankings(pintSeason, "flngPowerRanking");
+                    rank.GetRankings(pintSeason, "Power");
                     break;
                 case "Dominance":
-                    rank.GetRankings(pintSeason, "flngDominanceRating");
+                    rank.GetRankings(pintSeason, "Dominance");
                     break;
                 case "SOV":
-                    rank.GetRankings(pintSeason, "flngAdjustedStrengthOfVictory");
+                    rank.GetRankings(pintSeason, "SOV");
                     break;
             }
 
