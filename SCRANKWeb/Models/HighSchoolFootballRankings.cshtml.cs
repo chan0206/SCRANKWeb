@@ -31,9 +31,9 @@ namespace SCRANKWeb.Models
         public DataTable dtDistricts { get; set; } = new();
         public DataTable dtDistrictStandings { get; set; } = new();
 
-        //public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
+        public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
 
-        public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
+        //public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
         public int intSeason { get; set; } = 0;
         public string strClass { get; set; } = "";
         public string strRankingView { get; set; } = "";

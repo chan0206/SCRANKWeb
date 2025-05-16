@@ -28,9 +28,9 @@ namespace SCRANKWeb.Models
         public DataTable dtRankings { get; set; } = new();
         public DataTable dtSeasons { get; set; } = new();
 
-        //public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
+        public string strPathStart = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
 
-        public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
+        //public string strPathStart = "..\\SCRANKWeb\\wwwroot\\xmldata\\";
         public string intSeason { get; set; } = "";
         public string strConference { get; set; } = "";
         public string strRankingView { get; set; } = "";
