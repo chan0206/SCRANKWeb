@@ -79,6 +79,7 @@
         <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">Power Rankings</a>
         <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">RPI</a>
         <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV" asp-route-pstrState="@Model.strState">SCRANK SOV</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="DOM" asp-route-pstrState="@Model.strState">SCRANK Dominance Rating</a>
         @if (@Model.strClass != "5A")
         {
             <a class="nav-link text-dark" asp-action="HighSchoolFootballDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Standings</a>

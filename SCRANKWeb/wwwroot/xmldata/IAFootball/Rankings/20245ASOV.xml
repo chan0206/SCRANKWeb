@@ -15,6 +15,7 @@
                 <xs:element name="fintDistrictLosses" type="xs:int" minOccurs="0" />
                 <xs:element name="flngRegRPI" type="xs:decimal" minOccurs="0" />
                 <xs:element name="flngAdjustedStrengthOfVictory" type="xs:decimal" minOccurs="0" />
+                <xs:element name="flngDominanceRating" type="xs:decimal" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -32,6 +33,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5931</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.6188</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>15.6685</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Southeast Polk</fstrSchoolName>
@@ -43,6 +45,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5730</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.6186</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>29.0254</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Valley</fstrSchoolName>
@@ -54,6 +57,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6336</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5769</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>71.6289</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Johnston</fstrSchoolName>
@@ -65,6 +69,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6408</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5556</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>103.4805</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Iowa City Liberty</fstrSchoolName>
@@ -76,6 +81,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6809</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5260</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>90.8265</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Dowling Catholic</fstrSchoolName>
@@ -87,6 +93,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6528</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5243</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>37.8352</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Iowa City West</fstrSchoolName>
@@ -98,6 +105,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5467</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5107</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>21.4556</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Prairie</fstrSchoolName>
@@ -109,6 +117,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5269</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>0.8642</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Pleasant Valley</fstrSchoolName>
@@ -120,6 +129,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6284</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4853</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>51.4494</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Cedar Rapids Kennedy</fstrSchoolName>
@@ -131,6 +141,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4988</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4790</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-22.6437</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Bettendorf</fstrSchoolName>
@@ -142,6 +153,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6425</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4324</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>20.0222</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Iowa City High</fstrSchoolName>
@@ -153,6 +165,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5870</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4269</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-12.6873</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Waterloo West</fstrSchoolName>
@@ -164,6 +177,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5695</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4247</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-84.9975</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Waukee Northwest</fstrSchoolName>
@@ -175,6 +189,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5178</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4054</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>10.8973</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Ankeny Centennial</fstrSchoolName>
@@ -186,6 +201,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5916</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3816</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>64.5123</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Cedar Falls</fstrSchoolName>
@@ -197,6 +213,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5454</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3404</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-28.4834</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Linn-Mar</fstrSchoolName>
@@ -208,6 +225,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5892</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3169</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>8.6692</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Sioux City East</fstrSchoolName>
@@ -219,6 +237,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5636</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2909</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-10.2329</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Waukee</fstrSchoolName>
@@ -230,6 +249,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5403</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2778</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>17.2490</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Urbandale</fstrSchoolName>
@@ -241,6 +261,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4652</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2593</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-70.9018</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Dubuque Hempstead</fstrSchoolName>
@@ -252,6 +273,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5190</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2395</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-16.0646</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Cedar Rapids Jefferson</fstrSchoolName>
@@ -263,6 +285,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4752</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2222</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-53.7395</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Cedar Rapids Washington</fstrSchoolName>
@@ -274,6 +297,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4384</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2222</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-83.0183</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Davenport North</fstrSchoolName>
@@ -285,6 +309,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4880</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2043</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-15.5254</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Sioux City North</fstrSchoolName>
@@ -296,6 +321,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4384</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1935</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-88.6654</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Ottumwa</fstrSchoolName>
@@ -307,6 +333,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5254</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1810</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>11.0086</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Council Bluffs Lincoln</fstrSchoolName>
@@ -318,6 +345,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4849</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1733</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-84.0102</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Davenport Central</fstrSchoolName>
@@ -329,6 +357,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3918</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1333</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-133.7615</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Ames</fstrSchoolName>
@@ -340,6 +369,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3752</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-143.6495</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Des Moines Roosevelt</fstrSchoolName>
@@ -351,6 +381,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3419</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-119.0735</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Marshalltown</fstrSchoolName>
@@ -362,6 +393,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3880</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-84.9717</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Muscatine</fstrSchoolName>
@@ -373,6 +405,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.4165</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-101.8492</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Des Moines East</fstrSchoolName>
@@ -384,6 +417,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3851</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0741</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-94.1082</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Davenport West</fstrSchoolName>
@@ -395,6 +429,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3014</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-151.6988</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Des Moines Lincoln</fstrSchoolName>
@@ -406,6 +441,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3186</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-151.9347</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Dubuque Senior</fstrSchoolName>
@@ -417,5 +453,6 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.3441</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-110.1254</flngDominanceRating>
   </dtRanking>
 </NewDataSet>

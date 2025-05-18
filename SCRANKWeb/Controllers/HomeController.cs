@@ -54,6 +54,9 @@ namespace SCRANKWeb.Controllers
                 case "SOV":
                     rank.GetRankings(pstrClass, pintSeason, pstrState, "SOV");
                     break;
+                case "DOM":
+                    rank.GetRankings(pstrClass, pintSeason, pstrState, "DOM");
+                    break;
             }            
             
             return View(rank);

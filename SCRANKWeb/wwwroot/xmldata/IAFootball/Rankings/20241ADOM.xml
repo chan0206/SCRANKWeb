@@ -36,18 +36,6 @@
     <flngDominanceRating>205.7562</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Regina Catholic</fstrSchoolName>
-    <fimgLogo>../img/regina.png</fimgLogo>
-    <flngPowerRanking>71.4395</flngPowerRanking>
-    <fintWins>9</fintWins>
-    <fintLosses>2</fintLosses>
-    <fintDistrictWins>4</fintDistrictWins>
-    <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.6613</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.6114</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>56.8022</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
     <fstrSchoolName>Dike-New Hartford</fstrSchoolName>
     <fimgLogo>../img/dikenewhartford.png</fimgLogo>
     <flngPowerRanking>76.9750</flngPowerRanking>
@@ -72,52 +60,28 @@
     <flngDominanceRating>91.9465</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Wilton</fstrSchoolName>
-    <fimgLogo>../img/wilton.png</fimgLogo>
-    <flngPowerRanking>70.6110</flngPowerRanking>
-    <fintWins>10</fintWins>
+    <fstrSchoolName>Emmetsburg</fstrSchoolName>
+    <fimgLogo>../img/emmetsburg.png</fimgLogo>
+    <flngPowerRanking>70.8420</flngPowerRanking>
+    <fintWins>8</fintWins>
     <fintLosses>2</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
     <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.6459</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4943</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>49.7097</flngDominanceRating>
+    <flngRegRPI>0.5972</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3686</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>73.2644</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>South Hardin</fstrSchoolName>
-    <fimgLogo>../img/southhardin.png</fimgLogo>
-    <flngPowerRanking>69.6005</flngPowerRanking>
+    <fstrSchoolName>Regina Catholic</fstrSchoolName>
+    <fimgLogo>../img/regina.png</fimgLogo>
+    <flngPowerRanking>71.4395</flngPowerRanking>
     <fintWins>9</fintWins>
     <fintLosses>2</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
     <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.6440</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4415</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>53.0515</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Treynor</fstrSchoolName>
-    <fimgLogo>../img/treynor.png</fimgLogo>
-    <flngPowerRanking>64.9650</flngPowerRanking>
-    <fintWins>8</fintWins>
-    <fintLosses>2</fintLosses>
-    <fintDistrictWins>5</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngRegRPI>0.6377</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3838</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>40.1374</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Sigourney Keota</fstrSchoolName>
-    <fimgLogo>../img/sigourney.png</fimgLogo>
-    <flngPowerRanking>66.9165</flngPowerRanking>
-    <fintWins>7</fintWins>
-    <fintLosses>2</fintLosses>
-    <fintDistrictWins>5</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngRegRPI>0.6291</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4167</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>17.9826</flngDominanceRating>
+    <flngRegRPI>0.6613</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.6114</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>56.8022</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Woodward-Granger</fstrSchoolName>
@@ -132,16 +96,40 @@
     <flngDominanceRating>53.9779</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>AHSTW</fstrSchoolName>
-    <fimgLogo>../img/ahstw.png</fimgLogo>
-    <flngPowerRanking>57.3600</flngPowerRanking>
-    <fintWins>6</fintWins>
-    <fintLosses>3</fintLosses>
+    <fstrSchoolName>South Hardin</fstrSchoolName>
+    <fimgLogo>../img/southhardin.png</fimgLogo>
+    <flngPowerRanking>69.6005</flngPowerRanking>
+    <fintWins>9</fintWins>
+    <fintLosses>2</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
     <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.6169</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4557</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-13.3102</flngDominanceRating>
+    <flngRegRPI>0.6440</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4415</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>53.0515</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Wilton</fstrSchoolName>
+    <fimgLogo>../img/wilton.png</fimgLogo>
+    <flngPowerRanking>70.6110</flngPowerRanking>
+    <fintWins>10</fintWins>
+    <fintLosses>2</fintLosses>
+    <fintDistrictWins>4</fintDistrictWins>
+    <fintDistrictLosses>1</fintDistrictLosses>
+    <flngRegRPI>0.6459</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4943</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>49.7097</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Treynor</fstrSchoolName>
+    <fimgLogo>../img/treynor.png</fimgLogo>
+    <flngPowerRanking>64.9650</flngPowerRanking>
+    <fintWins>8</fintWins>
+    <fintLosses>2</fintLosses>
+    <fintDistrictWins>5</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <flngRegRPI>0.6377</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3838</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>40.1374</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>OABCIG</fstrSchoolName>
@@ -154,30 +142,6 @@
     <flngRegRPI>0.5988</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3355</flngAdjustedStrengthOfVictory>
     <flngDominanceRating>34.8000</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Emmetsburg</fstrSchoolName>
-    <fimgLogo>../img/emmetsburg.png</fimgLogo>
-    <flngPowerRanking>70.8420</flngPowerRanking>
-    <fintWins>8</fintWins>
-    <fintLosses>2</fintLosses>
-    <fintDistrictWins>4</fintDistrictWins>
-    <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.5972</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3686</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>73.2644</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Ridge View</fstrSchoolName>
-    <fimgLogo>../img/ridgeview.png</fimgLogo>
-    <flngPowerRanking>56.3235</flngPowerRanking>
-    <fintWins>6</fintWins>
-    <fintLosses>3</fintLosses>
-    <fintDistrictWins>4</fintDistrictWins>
-    <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.5964</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4000</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>3.3819</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Manson-NW Webster</fstrSchoolName>
@@ -204,40 +168,28 @@
     <flngDominanceRating>20.6856</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Alburnett</fstrSchoolName>
-    <fimgLogo>../img/alburnett.png</fimgLogo>
-    <flngPowerRanking>55.0970</flngPowerRanking>
-    <fintWins>5</fintWins>
-    <fintLosses>4</fintLosses>
-    <fintDistrictWins>3</fintDistrictWins>
-    <fintDistrictLosses>2</fintDistrictLosses>
-    <flngRegRPI>0.5813</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3845</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-9.8438</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Hudson</fstrSchoolName>
-    <fimgLogo>../img/hudson.png</fimgLogo>
-    <flngPowerRanking>47.7270</flngPowerRanking>
-    <fintWins>5</fintWins>
-    <fintLosses>4</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.5698</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.2977</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-46.6234</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>MFL MarMac</fstrSchoolName>
-    <fimgLogo>../img/mflmarmac.png</fimgLogo>
-    <flngPowerRanking>60.9745</flngPowerRanking>
+    <fstrSchoolName>Sigourney Keota</fstrSchoolName>
+    <fimgLogo>../img/sigourney.png</fimgLogo>
+    <flngPowerRanking>66.9165</flngPowerRanking>
     <fintWins>7</fintWins>
+    <fintLosses>2</fintLosses>
+    <fintDistrictWins>5</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <flngRegRPI>0.6291</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4167</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>17.9826</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Ridge View</fstrSchoolName>
+    <fimgLogo>../img/ridgeview.png</fimgLogo>
+    <flngPowerRanking>56.3235</flngPowerRanking>
+    <fintWins>6</fintWins>
     <fintLosses>3</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
     <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.5694</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4240</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-7.4076</flngDominanceRating>
+    <flngRegRPI>0.5964</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>3.3819</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Pleasantville</fstrSchoolName>
@@ -252,16 +204,28 @@
     <flngDominanceRating>-5.9182</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Sumner-Fredericksburg</fstrSchoolName>
-    <fimgLogo>../img/sumnerfredricksburg.png</fimgLogo>
-    <flngPowerRanking>57.0005</flngPowerRanking>
+    <fstrSchoolName>MFL MarMac</fstrSchoolName>
+    <fimgLogo>../img/mflmarmac.png</fimgLogo>
+    <flngPowerRanking>60.9745</flngPowerRanking>
     <fintWins>7</fintWins>
+    <fintLosses>3</fintLosses>
+    <fintDistrictWins>4</fintDistrictWins>
+    <fintDistrictLosses>1</fintDistrictLosses>
+    <flngRegRPI>0.5694</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4240</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-7.4076</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Alburnett</fstrSchoolName>
+    <fimgLogo>../img/alburnett.png</fimgLogo>
+    <flngPowerRanking>55.0970</flngPowerRanking>
+    <fintWins>5</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>3</fintDistrictWins>
     <fintDistrictLosses>2</fintDistrictLosses>
-    <flngRegRPI>0.5356</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3944</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-19.5429</flngDominanceRating>
+    <flngRegRPI>0.5813</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3845</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-9.8438</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Underwood</fstrSchoolName>
@@ -276,16 +240,52 @@
     <flngDominanceRating>-12.3236</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>South Hamilton</fstrSchoolName>
-    <fimgLogo>../img/southhamilton.png</fimgLogo>
-    <flngPowerRanking>42.2225</flngPowerRanking>
-    <fintWins>5</fintWins>
-    <fintLosses>5</fintLosses>
+    <fstrSchoolName>AHSTW</fstrSchoolName>
+    <fimgLogo>../img/ahstw.png</fimgLogo>
+    <flngPowerRanking>57.3600</flngPowerRanking>
+    <fintWins>6</fintWins>
+    <fintLosses>3</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
     <fintDistrictLosses>1</fintDistrictLosses>
-    <flngRegRPI>0.5170</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3721</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-126.9853</flngDominanceRating>
+    <flngRegRPI>0.6169</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4557</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-13.3102</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Sumner-Fredericksburg</fstrSchoolName>
+    <fimgLogo>../img/sumnerfredricksburg.png</fimgLogo>
+    <flngPowerRanking>57.0005</flngPowerRanking>
+    <fintWins>7</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintDistrictWins>3</fintDistrictWins>
+    <fintDistrictLosses>2</fintDistrictLosses>
+    <flngRegRPI>0.5356</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3944</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-19.5429</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>West Sioux</fstrSchoolName>
+    <fimgLogo>../img/westsioux.png</fimgLogo>
+    <flngPowerRanking>40.9305</flngPowerRanking>
+    <fintWins>3</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.4621</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.2741</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-26.8751</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>West Central Valley</fstrSchoolName>
+    <fimgLogo>../img/westcentralvalleystuart.png</fimgLogo>
+    <flngPowerRanking>39.9650</flngPowerRanking>
+    <fintWins>4</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.4509</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.1745</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-37.4340</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Sioux Central</fstrSchoolName>
@@ -298,6 +298,18 @@
     <flngRegRPI>0.5029</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1136</flngAdjustedStrengthOfVictory>
     <flngDominanceRating>-44.8172</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Hudson</fstrSchoolName>
+    <fimgLogo>../img/hudson.png</fimgLogo>
+    <flngPowerRanking>47.7270</flngPowerRanking>
+    <fintWins>5</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.5698</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.2977</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-46.6234</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>MVAOCOU</fstrSchoolName>
@@ -324,52 +336,16 @@
     <flngDominanceRating>-69.1619</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Grand View Christian</fstrSchoolName>
-    <fimgLogo>../img/grandviewchristian.png</fimgLogo>
-    <flngPowerRanking>40.1590</flngPowerRanking>
-    <fintWins>5</fintWins>
-    <fintLosses>4</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4714</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.1417</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-89.8938</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Pella Christian</fstrSchoolName>
-    <fimgLogo>../img/pellachristian.png</fimgLogo>
-    <flngPowerRanking>32.3235</flngPowerRanking>
-    <fintWins>3</fintWins>
-    <fintLosses>6</fintLosses>
-    <fintDistrictWins>3</fintDistrictWins>
-    <fintDistrictLosses>2</fintDistrictLosses>
-    <flngRegRPI>0.4695</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.1147</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-139.3874</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>West Sioux</fstrSchoolName>
-    <fimgLogo>../img/westsioux.png</fimgLogo>
-    <flngPowerRanking>40.9305</flngPowerRanking>
+    <fstrSchoolName>Shenandoah</fstrSchoolName>
+    <fimgLogo>../img/shenandoah.png</fimgLogo>
+    <flngPowerRanking>35.8300</flngPowerRanking>
     <fintWins>3</fintWins>
     <fintLosses>6</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
     <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4621</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.2741</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-26.8751</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Aplington-Parkersburg</fstrSchoolName>
-    <fimgLogo>../img/aplingtonparkersburg.png</fimgLogo>
-    <flngPowerRanking>27.8140</flngPowerRanking>
-    <fintWins>2</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4585</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3292</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-178.8789</flngDominanceRating>
+    <flngRegRPI>0.4341</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.0769</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-74.3198</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Central Springs</fstrSchoolName>
@@ -384,30 +360,6 @@
     <flngDominanceRating>-75.7716</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>West Branch</fstrSchoolName>
-    <fimgLogo>../img/westbranch.png</fimgLogo>
-    <flngPowerRanking>38.0295</flngPowerRanking>
-    <fintWins>3</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>1</fintDistrictWins>
-    <fintDistrictLosses>4</fintDistrictLosses>
-    <flngRegRPI>0.4538</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.4400</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-123.2170</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>West Central Valley</fstrSchoolName>
-    <fimgLogo>../img/westcentralvalleystuart.png</fimgLogo>
-    <flngPowerRanking>39.9650</flngPowerRanking>
-    <fintWins>4</fintWins>
-    <fintLosses>4</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4509</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.1745</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-37.4340</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
     <fstrSchoolName>East Marshall</fstrSchoolName>
     <fimgLogo>../img/eastmarshall.png</fimgLogo>
     <flngPowerRanking>36.8605</flngPowerRanking>
@@ -420,124 +372,16 @@
     <flngDominanceRating>-89.2749</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Durant</fstrSchoolName>
-    <fimgLogo>../img/durant.png</fimgLogo>
-    <flngPowerRanking>30.3935</flngPowerRanking>
-    <fintWins>3</fintWins>
-    <fintLosses>6</fintLosses>
-    <fintDistrictWins>1</fintDistrictWins>
-    <fintDistrictLosses>4</fintDistrictLosses>
-    <flngRegRPI>0.4417</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.2222</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-128.8144</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Shenandoah</fstrSchoolName>
-    <fimgLogo>../img/shenandoah.png</fimgLogo>
-    <flngPowerRanking>35.8300</flngPowerRanking>
-    <fintWins>3</fintWins>
-    <fintLosses>6</fintLosses>
+    <fstrSchoolName>Grand View Christian</fstrSchoolName>
+    <fimgLogo>../img/grandviewchristian.png</fimgLogo>
+    <flngPowerRanking>40.1590</flngPowerRanking>
+    <fintWins>5</fintWins>
+    <fintLosses>4</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
     <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4341</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.0769</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-74.3198</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Denver</fstrSchoolName>
-    <fimgLogo>../img/denver.png</fimgLogo>
-    <flngPowerRanking>30.5575</flngPowerRanking>
-    <fintWins>2</fintWins>
-    <fintLosses>6</fintLosses>
-    <fintDistrictWins>1</fintDistrictWins>
-    <fintDistrictLosses>4</fintDistrictLosses>
-    <flngRegRPI>0.4302</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3176</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-139.2236</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>East Sac County</fstrSchoolName>
-    <fimgLogo>../img/eastsaccounty.png</fimgLogo>
-    <flngPowerRanking>32.1290</flngPowerRanking>
-    <fintWins>3</fintWins>
-    <fintLosses>6</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4282</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.0769</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-105.5400</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Ogden</fstrSchoolName>
-    <fimgLogo>../img/ogden.png</fimgLogo>
-    <flngPowerRanking>30.7380</flngPowerRanking>
-    <fintWins>2</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.4175</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3333</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-130.9998</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Columbus Catholic</fstrSchoolName>
-    <fimgLogo>../img/columbuscatholic.png</fimgLogo>
-    <flngPowerRanking>25.9485</flngPowerRanking>
-    <fintWins>1</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>1</fintDistrictWins>
-    <fintDistrictLosses>4</fintDistrictLosses>
-    <flngRegRPI>0.4021</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.3852</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-148.0497</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Red Oak</fstrSchoolName>
-    <fimgLogo>../img/redoak.png</fimgLogo>
-    <flngPowerRanking>26.8025</flngPowerRanking>
-    <fintWins>2</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>1</fintDistrictWins>
-    <fintDistrictLosses>4</fintDistrictLosses>
-    <flngRegRPI>0.3989</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.2353</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-118.1829</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Lawton-Bronson</fstrSchoolName>
-    <fimgLogo>../img/lawtonbronson.png</fimgLogo>
-    <flngPowerRanking>18.3040</flngPowerRanking>
-    <fintWins>0</fintWins>
-    <fintLosses>9</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>5</fintDistrictLosses>
-    <flngRegRPI>0.3789</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-107.7818</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Eddyville-Blakesburg-Fremont</fstrSchoolName>
-    <fimgLogo>../img/eddyvilleblakesburgfremont.png</fimgLogo>
-    <flngPowerRanking>19.3770</flngPowerRanking>
-    <fintWins>2</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>2</fintDistrictWins>
-    <fintDistrictLosses>3</fintDistrictLosses>
-    <flngRegRPI>0.3760</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.0542</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-186.3960</flngDominanceRating>
-  </dtRanking>
-  <dtRanking>
-    <fstrSchoolName>Pocahontas Area</fstrSchoolName>
-    <fimgLogo>../img/pocahontas.png</fimgLogo>
-    <flngPowerRanking>19.5260</flngPowerRanking>
-    <fintWins>1</fintWins>
-    <fintLosses>7</fintLosses>
-    <fintDistrictWins>1</fintDistrictWins>
-    <fintDistrictLosses>4</fintDistrictLosses>
-    <flngRegRPI>0.3721</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-136.5629</flngDominanceRating>
+    <flngRegRPI>0.4714</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.1417</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-89.8938</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Colfax-Mingo</fstrSchoolName>
@@ -552,16 +396,100 @@
     <flngDominanceRating>-99.5857</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Missouri Valley</fstrSchoolName>
-    <fimgLogo>../img/missourivalley.png</fimgLogo>
-    <flngPowerRanking>9.4485</flngPowerRanking>
+    <fstrSchoolName>East Sac County</fstrSchoolName>
+    <fimgLogo>../img/eastsaccounty.png</fimgLogo>
+    <flngPowerRanking>32.1290</flngPowerRanking>
+    <fintWins>3</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.4282</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.0769</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-105.5400</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Lawton-Bronson</fstrSchoolName>
+    <fimgLogo>../img/lawtonbronson.png</fimgLogo>
+    <flngPowerRanking>18.3040</flngPowerRanking>
     <fintWins>0</fintWins>
     <fintLosses>9</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>5</fintDistrictLosses>
-    <flngRegRPI>0.3198</flngRegRPI>
+    <flngRegRPI>0.3789</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-172.9514</flngDominanceRating>
+    <flngDominanceRating>-107.7818</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Red Oak</fstrSchoolName>
+    <fimgLogo>../img/redoak.png</fimgLogo>
+    <flngPowerRanking>26.8025</flngPowerRanking>
+    <fintWins>2</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>1</fintDistrictWins>
+    <fintDistrictLosses>4</fintDistrictLosses>
+    <flngRegRPI>0.3989</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.2353</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-118.1829</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>West Branch</fstrSchoolName>
+    <fimgLogo>../img/westbranch.png</fimgLogo>
+    <flngPowerRanking>38.0295</flngPowerRanking>
+    <fintWins>3</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>1</fintDistrictWins>
+    <fintDistrictLosses>4</fintDistrictLosses>
+    <flngRegRPI>0.4538</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.4400</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-123.2170</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>South Hamilton</fstrSchoolName>
+    <fimgLogo>../img/southhamilton.png</fimgLogo>
+    <flngPowerRanking>42.2225</flngPowerRanking>
+    <fintWins>5</fintWins>
+    <fintLosses>5</fintLosses>
+    <fintDistrictWins>4</fintDistrictWins>
+    <fintDistrictLosses>1</fintDistrictLosses>
+    <flngRegRPI>0.5170</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3721</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-126.9853</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Durant</fstrSchoolName>
+    <fimgLogo>../img/durant.png</fimgLogo>
+    <flngPowerRanking>30.3935</flngPowerRanking>
+    <fintWins>3</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintDistrictWins>1</fintDistrictWins>
+    <fintDistrictLosses>4</fintDistrictLosses>
+    <flngRegRPI>0.4417</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.2222</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-128.8144</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Ogden</fstrSchoolName>
+    <fimgLogo>../img/ogden.png</fimgLogo>
+    <flngPowerRanking>30.7380</flngPowerRanking>
+    <fintWins>2</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.4175</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3333</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-130.9998</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Pocahontas Area</fstrSchoolName>
+    <fimgLogo>../img/pocahontas.png</fimgLogo>
+    <flngPowerRanking>19.5260</flngPowerRanking>
+    <fintWins>1</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>1</fintDistrictWins>
+    <fintDistrictLosses>4</fintDistrictLosses>
+    <flngRegRPI>0.3721</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-136.5629</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Nodaway Valley</fstrSchoolName>
@@ -576,16 +504,40 @@
     <flngDominanceRating>-137.2453</flngDominanceRating>
   </dtRanking>
   <dtRanking>
-    <fstrSchoolName>Cardinal</fstrSchoolName>
-    <fimgLogo>../img/cardinal.png</fimgLogo>
-    <flngPowerRanking>6.3310</flngPowerRanking>
-    <fintWins>0</fintWins>
-    <fintLosses>8</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>5</fintDistrictLosses>
-    <flngRegRPI>0.3062</flngRegRPI>
-    <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
-    <flngDominanceRating>-210.5019</flngDominanceRating>
+    <fstrSchoolName>Denver</fstrSchoolName>
+    <fimgLogo>../img/denver.png</fimgLogo>
+    <flngPowerRanking>30.5575</flngPowerRanking>
+    <fintWins>2</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintDistrictWins>1</fintDistrictWins>
+    <fintDistrictLosses>4</fintDistrictLosses>
+    <flngRegRPI>0.4302</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3176</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-139.2236</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Pella Christian</fstrSchoolName>
+    <fimgLogo>../img/pellachristian.png</fimgLogo>
+    <flngPowerRanking>32.3235</flngPowerRanking>
+    <fintWins>3</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintDistrictWins>3</fintDistrictWins>
+    <fintDistrictLosses>2</fintDistrictLosses>
+    <flngRegRPI>0.4695</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.1147</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-139.3874</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Columbus Catholic</fstrSchoolName>
+    <fimgLogo>../img/columbuscatholic.png</fimgLogo>
+    <flngPowerRanking>25.9485</flngPowerRanking>
+    <fintWins>1</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>1</fintDistrictWins>
+    <fintDistrictLosses>4</fintDistrictLosses>
+    <flngRegRPI>0.4021</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3852</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-148.0497</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Eagle Grove</fstrSchoolName>
@@ -598,5 +550,53 @@
     <flngRegRPI>0.2914</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1778</flngAdjustedStrengthOfVictory>
     <flngDominanceRating>-156.3388</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Missouri Valley</fstrSchoolName>
+    <fimgLogo>../img/missourivalley.png</fimgLogo>
+    <flngPowerRanking>9.4485</flngPowerRanking>
+    <fintWins>0</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>5</fintDistrictLosses>
+    <flngRegRPI>0.3198</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-172.9514</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Aplington-Parkersburg</fstrSchoolName>
+    <fimgLogo>../img/aplingtonparkersburg.png</fimgLogo>
+    <flngPowerRanking>27.8140</flngPowerRanking>
+    <fintWins>2</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.4585</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.3292</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-178.8789</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Eddyville-Blakesburg-Fremont</fstrSchoolName>
+    <fimgLogo>../img/eddyvilleblakesburgfremont.png</fimgLogo>
+    <flngPowerRanking>19.3770</flngPowerRanking>
+    <fintWins>2</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintDistrictWins>2</fintDistrictWins>
+    <fintDistrictLosses>3</fintDistrictLosses>
+    <flngRegRPI>0.3760</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.0542</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-186.3960</flngDominanceRating>
+  </dtRanking>
+  <dtRanking>
+    <fstrSchoolName>Cardinal</fstrSchoolName>
+    <fimgLogo>../img/cardinal.png</fimgLogo>
+    <flngPowerRanking>6.3310</flngPowerRanking>
+    <fintWins>0</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>5</fintDistrictLosses>
+    <flngRegRPI>0.3062</flngRegRPI>
+    <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-210.5019</flngDominanceRating>
   </dtRanking>
 </NewDataSet>

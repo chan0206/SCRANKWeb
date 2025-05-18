@@ -15,6 +15,7 @@
                 <xs:element name="fintDistrictLosses" type="xs:int" minOccurs="0" />
                 <xs:element name="flngRegRPI" type="xs:decimal" minOccurs="0" />
                 <xs:element name="flngAdjustedStrengthOfVictory" type="xs:decimal" minOccurs="0" />
+                <xs:element name="flngDominanceRating" type="xs:decimal" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -32,6 +33,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6956</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.6088</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>30.7412</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Wahlert Catholic</fstrSchoolName>
@@ -43,6 +45,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6651</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5379</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>135.5816</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Sergeant Bluff-Luton</fstrSchoolName>
@@ -54,6 +57,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6890</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5184</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>110.1550</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Webster City</fstrSchoolName>
@@ -65,6 +69,7 @@
     <fintDistrictLosses>3</fintDistrictLosses>
     <flngRegRPI>0.5004</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.5000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-66.7895</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Solon</fstrSchoolName>
@@ -76,6 +81,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.6112</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4872</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>13.5495</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Creston</fstrSchoolName>
@@ -87,6 +93,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.5117</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4737</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-49.3664</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Harlan Community</fstrSchoolName>
@@ -98,6 +105,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.5752</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4561</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-35.6061</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Nevada</fstrSchoolName>
@@ -109,6 +117,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.6263</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4542</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>43.5543</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Mount Vernon</fstrSchoolName>
@@ -120,6 +129,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.6296</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4484</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>117.1104</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Independence</fstrSchoolName>
@@ -131,6 +141,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.6221</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4053</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>40.1558</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Central DeWitt</fstrSchoolName>
@@ -142,6 +153,7 @@
     <fintDistrictLosses>5</fintDistrictLosses>
     <flngRegRPI>0.3954</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.4000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-187.1384</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Algona</fstrSchoolName>
@@ -153,6 +165,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.6440</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3984</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>73.4726</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>MOC-Floyd Valley</fstrSchoolName>
@@ -164,6 +177,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.5856</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3975</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-16.8124</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Benton</fstrSchoolName>
@@ -175,6 +189,7 @@
     <fintDistrictLosses>0</fintDistrictLosses>
     <flngRegRPI>0.5978</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3970</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>33.1033</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Williamsburg</fstrSchoolName>
@@ -186,6 +201,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.5914</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3910</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>65.3499</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Bishop Heelan</fstrSchoolName>
@@ -197,6 +213,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.5766</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3871</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-4.4638</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Assumption</fstrSchoolName>
@@ -208,6 +225,7 @@
     <fintDistrictLosses>1</fintDistrictLosses>
     <flngRegRPI>0.5055</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3611</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-90.8718</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Carroll</fstrSchoolName>
@@ -219,6 +237,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.5757</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3381</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-27.9595</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Grinnell</fstrSchoolName>
@@ -230,6 +249,7 @@
     <fintDistrictLosses>3</fintDistrictLosses>
     <flngRegRPI>0.5475</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.3111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-13.1560</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Atlantic</fstrSchoolName>
@@ -241,6 +261,7 @@
     <fintDistrictLosses>3</fintDistrictLosses>
     <flngRegRPI>0.5055</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2864</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-23.5861</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Clear Lake</fstrSchoolName>
@@ -252,6 +273,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.5664</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2827</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>40.7820</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Washington</fstrSchoolName>
@@ -263,6 +285,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.5172</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2556</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-28.1179</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>West Delaware</fstrSchoolName>
@@ -274,6 +297,7 @@
     <fintDistrictLosses>2</fintDistrictLosses>
     <flngRegRPI>0.5459</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2444</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>30.4086</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Hampton-Dumont-CAL</fstrSchoolName>
@@ -285,6 +309,7 @@
     <fintDistrictLosses>4</fintDistrictLosses>
     <flngRegRPI>0.4669</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2296</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-53.8667</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Mount Pleasant</fstrSchoolName>
@@ -296,6 +321,7 @@
     <fintDistrictLosses>3</fintDistrictLosses>
     <flngRegRPI>0.4506</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.2114</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-85.1713</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Keokuk</fstrSchoolName>
@@ -307,6 +333,7 @@
     <fintDistrictLosses>4</fintDistrictLosses>
     <flngRegRPI>0.4281</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1630</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-109.2323</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Boyden-Hull/Rock Valley</fstrSchoolName>
@@ -318,6 +345,7 @@
     <fintDistrictLosses>5</fintDistrictLosses>
     <flngRegRPI>0.4069</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1556</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-139.8754</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Center Point-Urbana</fstrSchoolName>
@@ -329,6 +357,7 @@
     <fintDistrictLosses>3</fintDistrictLosses>
     <flngRegRPI>0.4724</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1222</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-104.5946</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Maquoketa</fstrSchoolName>
@@ -340,6 +369,7 @@
     <fintDistrictLosses>4</fintDistrictLosses>
     <flngRegRPI>0.3745</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1111</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-169.9410</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Perry</fstrSchoolName>
@@ -351,6 +381,7 @@
     <fintDistrictLosses>5</fintDistrictLosses>
     <flngRegRPI>0.3782</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.1000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-140.1759</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Sioux Center</fstrSchoolName>
@@ -362,6 +393,7 @@
     <fintDistrictLosses>4</fintDistrictLosses>
     <flngRegRPI>0.4144</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0963</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-128.0526</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Charles City</fstrSchoolName>
@@ -373,6 +405,7 @@
     <fintDistrictLosses>5</fintDistrictLosses>
     <flngRegRPI>0.4175</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0923</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-109.0682</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Knoxville</fstrSchoolName>
@@ -384,6 +417,7 @@
     <fintDistrictLosses>4</fintDistrictLosses>
     <flngRegRPI>0.4311</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0690</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-120.2701</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Fairfield</fstrSchoolName>
@@ -395,6 +429,7 @@
     <fintDistrictLosses>4</fintDistrictLosses>
     <flngRegRPI>0.3878</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-94.2711</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>Fort Madison</fstrSchoolName>
@@ -406,6 +441,7 @@
     <fintDistrictLosses>5</fintDistrictLosses>
     <flngRegRPI>0.3044</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-147.6946</flngDominanceRating>
   </dtRanking>
   <dtRanking>
     <fstrSchoolName>South Tama</fstrSchoolName>
@@ -417,5 +453,6 @@
     <fintDistrictLosses>5</fintDistrictLosses>
     <flngRegRPI>0.3290</flngRegRPI>
     <flngAdjustedStrengthOfVictory>0.0000</flngAdjustedStrengthOfVictory>
+    <flngDominanceRating>-173.1554</flngDominanceRating>
   </dtRanking>
 </NewDataSet>
