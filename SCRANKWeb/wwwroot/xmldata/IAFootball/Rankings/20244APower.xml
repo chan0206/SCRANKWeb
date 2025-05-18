@@ -25,7 +25,7 @@
   <dtRanking>
     <fstrSchoolName>North Polk</fstrSchoolName>
     <fimgLogo>../img/northpolk.png</fimgLogo>
-    <flngPowerRanking>83.26400</flngPowerRanking>
+    <flngPowerRanking>83.2640</flngPowerRanking>
     <fintWins>13</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>5</fintDistrictWins>
@@ -36,7 +36,7 @@
   <dtRanking>
     <fstrSchoolName>Lewis Central</fstrSchoolName>
     <fimgLogo>../img/lewiscentral.png</fimgLogo>
-    <flngPowerRanking>72.00950</flngPowerRanking>
+    <flngPowerRanking>72.0095</flngPowerRanking>
     <fintWins>10</fintWins>
     <fintLosses>2</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -47,7 +47,7 @@
   <dtRanking>
     <fstrSchoolName>Decorah</fstrSchoolName>
     <fimgLogo>../img/decorah.png</fimgLogo>
-    <flngPowerRanking>71.69950</flngPowerRanking>
+    <flngPowerRanking>71.6995</flngPowerRanking>
     <fintWins>10</fintWins>
     <fintLosses>1</fintLosses>
     <fintDistrictWins>5</fintDistrictWins>
@@ -58,7 +58,7 @@
   <dtRanking>
     <fstrSchoolName>Gilbert</fstrSchoolName>
     <fimgLogo>../img/gilbert.png</fimgLogo>
-    <flngPowerRanking>71.63450</flngPowerRanking>
+    <flngPowerRanking>71.6345</flngPowerRanking>
     <fintWins>9</fintWins>
     <fintLosses>2</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -69,7 +69,7 @@
   <dtRanking>
     <fstrSchoolName>Pella</fstrSchoolName>
     <fimgLogo>../img/pella.png</fimgLogo>
-    <flngPowerRanking>71.22700</flngPowerRanking>
+    <flngPowerRanking>71.2270</flngPowerRanking>
     <fintWins>11</fintWins>
     <fintLosses>2</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -80,7 +80,7 @@
   <dtRanking>
     <fstrSchoolName>North Scott</fstrSchoolName>
     <fimgLogo>../img/northscotteldridge.png</fimgLogo>
-    <flngPowerRanking>69.37150</flngPowerRanking>
+    <flngPowerRanking>69.3715</flngPowerRanking>
     <fintWins>9</fintWins>
     <fintLosses>3</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -91,7 +91,7 @@
   <dtRanking>
     <fstrSchoolName>ADM</fstrSchoolName>
     <fimgLogo>../img/adm.png</fimgLogo>
-    <flngPowerRanking>67.55050</flngPowerRanking>
+    <flngPowerRanking>67.5505</flngPowerRanking>
     <fintWins>8</fintWins>
     <fintLosses>3</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -102,7 +102,7 @@
   <dtRanking>
     <fstrSchoolName>Xavier</fstrSchoolName>
     <fimgLogo>../img/xavier.png</fimgLogo>
-    <flngPowerRanking>65.55700</flngPowerRanking>
+    <flngPowerRanking>65.5570</flngPowerRanking>
     <fintWins>7</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -113,7 +113,7 @@
   <dtRanking>
     <fstrSchoolName>Le Mars</fstrSchoolName>
     <fimgLogo>../img/lemars.png</fimgLogo>
-    <flngPowerRanking>61.21300</flngPowerRanking>
+    <flngPowerRanking>61.2130</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>3</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -124,7 +124,7 @@
   <dtRanking>
     <fstrSchoolName>Indianola</fstrSchoolName>
     <fimgLogo>../img/indianola.png</fimgLogo>
-    <flngPowerRanking>59.72300</flngPowerRanking>
+    <flngPowerRanking>59.7230</flngPowerRanking>
     <fintWins>5</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -135,7 +135,7 @@
   <dtRanking>
     <fstrSchoolName>Western Dubuque</fstrSchoolName>
     <fimgLogo>../img/epworth.png</fimgLogo>
-    <flngPowerRanking>59.56150</flngPowerRanking>
+    <flngPowerRanking>59.5615</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>3</fintDistrictWins>
@@ -146,7 +146,7 @@
   <dtRanking>
     <fstrSchoolName>Newton</fstrSchoolName>
     <fimgLogo>../img/newton.png</fimgLogo>
-    <flngPowerRanking>59.48050</flngPowerRanking>
+    <flngPowerRanking>59.4805</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>3</fintDistrictWins>
@@ -157,7 +157,7 @@
   <dtRanking>
     <fstrSchoolName>Norwalk</fstrSchoolName>
     <fimgLogo>../img/norwalk.png</fimgLogo>
-    <flngPowerRanking>58.79400</flngPowerRanking>
+    <flngPowerRanking>58.7940</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>5</fintDistrictWins>
@@ -168,7 +168,7 @@
   <dtRanking>
     <fstrSchoolName>Fort Dodge</fstrSchoolName>
     <fimgLogo>../img/fortdodge.png</fimgLogo>
-    <flngPowerRanking>58.48050</flngPowerRanking>
+    <flngPowerRanking>58.4805</flngPowerRanking>
     <fintWins>7</fintWins>
     <fintLosses>3</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -179,7 +179,7 @@
   <dtRanking>
     <fstrSchoolName>Waverly-Shell Rock</fstrSchoolName>
     <fimgLogo>../img/waverlyshellrock.png</fimgLogo>
-    <flngPowerRanking>56.27250</flngPowerRanking>
+    <flngPowerRanking>56.2725</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -190,7 +190,7 @@
   <dtRanking>
     <fstrSchoolName>Spencer</fstrSchoolName>
     <fimgLogo>../img/spencer.png</fimgLogo>
-    <flngPowerRanking>54.32350</flngPowerRanking>
+    <flngPowerRanking>54.3235</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -201,7 +201,7 @@
   <dtRanking>
     <fstrSchoolName>Clear Creek Amana</fstrSchoolName>
     <fimgLogo>../img/clearcreekamana.png</fimgLogo>
-    <flngPowerRanking>54.09100</flngPowerRanking>
+    <flngPowerRanking>54.0910</flngPowerRanking>
     <fintWins>6</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>4</fintDistrictWins>
@@ -212,7 +212,7 @@
   <dtRanking>
     <fstrSchoolName>Winterset</fstrSchoolName>
     <fimgLogo>../img/winterset.png</fimgLogo>
-    <flngPowerRanking>53.93250</flngPowerRanking>
+    <flngPowerRanking>53.9325</flngPowerRanking>
     <fintWins>5</fintWins>
     <fintLosses>4</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -223,7 +223,7 @@
   <dtRanking>
     <fstrSchoolName>Ballard</fstrSchoolName>
     <fimgLogo>../img/ballard.png</fimgLogo>
-    <flngPowerRanking>53.06450</flngPowerRanking>
+    <flngPowerRanking>53.0645</flngPowerRanking>
     <fintWins>5</fintWins>
     <fintLosses>5</fintLosses>
     <fintDistrictWins>3</fintDistrictWins>
@@ -234,7 +234,7 @@
   <dtRanking>
     <fstrSchoolName>Bondurant-Farrar</fstrSchoolName>
     <fimgLogo>../img/bondurantfarrar.png</fimgLogo>
-    <flngPowerRanking>48.05800</flngPowerRanking>
+    <flngPowerRanking>48.0580</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -245,7 +245,7 @@
   <dtRanking>
     <fstrSchoolName>Boone</fstrSchoolName>
     <fimgLogo>../img/boone.png</fimgLogo>
-    <flngPowerRanking>46.46850</flngPowerRanking>
+    <flngPowerRanking>46.4685</flngPowerRanking>
     <fintWins>4</fintWins>
     <fintLosses>5</fintLosses>
     <fintDistrictWins>1</fintDistrictWins>
@@ -256,7 +256,7 @@
   <dtRanking>
     <fstrSchoolName>Glenwood</fstrSchoolName>
     <fimgLogo>../img/glenwood.png</fimgLogo>
-    <flngPowerRanking>38.34000</flngPowerRanking>
+    <flngPowerRanking>38.3400</flngPowerRanking>
     <fintWins>3</fintWins>
     <fintLosses>6</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -267,7 +267,7 @@
   <dtRanking>
     <fstrSchoolName>Mason City</fstrSchoolName>
     <fimgLogo>../img/masoncity.png</fimgLogo>
-    <flngPowerRanking>36.03850</flngPowerRanking>
+    <flngPowerRanking>36.0385</flngPowerRanking>
     <fintWins>3</fintWins>
     <fintLosses>6</fintLosses>
     <fintDistrictWins>1</fintDistrictWins>
@@ -278,7 +278,7 @@
   <dtRanking>
     <fstrSchoolName>Storm Lake</fstrSchoolName>
     <fimgLogo>../img/stormlake.png</fimgLogo>
-    <flngPowerRanking>34.44150</flngPowerRanking>
+    <flngPowerRanking>34.4415</flngPowerRanking>
     <fintWins>4</fintWins>
     <fintLosses>5</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -289,7 +289,7 @@
   <dtRanking>
     <fstrSchoolName>Dallas Center-Grimes</fstrSchoolName>
     <fimgLogo>../img/dallascentergrimes.png</fimgLogo>
-    <flngPowerRanking>34.39800</flngPowerRanking>
+    <flngPowerRanking>34.3980</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -300,7 +300,7 @@
   <dtRanking>
     <fstrSchoolName>Carlisle</fstrSchoolName>
     <fimgLogo>../img/carlisle.png</fimgLogo>
-    <flngPowerRanking>30.15950</flngPowerRanking>
+    <flngPowerRanking>30.1595</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -311,7 +311,7 @@
   <dtRanking>
     <fstrSchoolName>Marion</fstrSchoolName>
     <fimgLogo>../img/marion.png</fimgLogo>
-    <flngPowerRanking>27.99950</flngPowerRanking>
+    <flngPowerRanking>27.9995</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>1</fintDistrictWins>
@@ -322,7 +322,7 @@
   <dtRanking>
     <fstrSchoolName>Burlington</fstrSchoolName>
     <fimgLogo>../img/burlington.png</fimgLogo>
-    <flngPowerRanking>26.58650</flngPowerRanking>
+    <flngPowerRanking>26.5865</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
@@ -333,7 +333,7 @@
   <dtRanking>
     <fstrSchoolName>Waterloo East</fstrSchoolName>
     <fimgLogo>../img/waterlooeast.png</fimgLogo>
-    <flngPowerRanking>25.94800</flngPowerRanking>
+    <flngPowerRanking>25.9480</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>1</fintDistrictWins>
@@ -344,7 +344,7 @@
   <dtRanking>
     <fstrSchoolName>Clinton</fstrSchoolName>
     <fimgLogo>../img/clinton.png</fimgLogo>
-    <flngPowerRanking>24.46250</flngPowerRanking>
+    <flngPowerRanking>24.4625</flngPowerRanking>
     <fintWins>3</fintWins>
     <fintLosses>6</fintLosses>
     <fintDistrictWins>2</fintDistrictWins>
@@ -355,7 +355,7 @@
   <dtRanking>
     <fstrSchoolName>Oskaloosa</fstrSchoolName>
     <fimgLogo>../img/oskaloosa.png</fimgLogo>
-    <flngPowerRanking>24.33400</flngPowerRanking>
+    <flngPowerRanking>24.3340</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>1</fintDistrictWins>
@@ -366,7 +366,7 @@
   <dtRanking>
     <fstrSchoolName>Denison-Schleswig</fstrSchoolName>
     <fimgLogo>../img/denisonschleswig.png</fimgLogo>
-    <flngPowerRanking>22.45250</flngPowerRanking>
+    <flngPowerRanking>22.4525</flngPowerRanking>
     <fintWins>2</fintWins>
     <fintLosses>7</fintLosses>
     <fintDistrictWins>1</fintDistrictWins>
@@ -377,7 +377,7 @@
   <dtRanking>
     <fstrSchoolName>Council Bluffs Jefferson</fstrSchoolName>
     <fimgLogo>../img/cbjefferson.png</fimgLogo>
-    <flngPowerRanking>22.25450</flngPowerRanking>
+    <flngPowerRanking>22.2545</flngPowerRanking>
     <fintWins>1</fintWins>
     <fintLosses>8</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
@@ -388,7 +388,7 @@
   <dtRanking>
     <fstrSchoolName>Des Moines North</fstrSchoolName>
     <fimgLogo>../img/dmnorth.png</fimgLogo>
-    <flngPowerRanking>9.16350</flngPowerRanking>
+    <flngPowerRanking>9.1635</flngPowerRanking>
     <fintWins>0</fintWins>
     <fintLosses>9</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
@@ -399,7 +399,7 @@
   <dtRanking>
     <fstrSchoolName>Des Moines Hoover</fstrSchoolName>
     <fimgLogo>../img/dmhoover.png</fimgLogo>
-    <flngPowerRanking>8.04300</flngPowerRanking>
+    <flngPowerRanking>8.0430</flngPowerRanking>
     <fintWins>0</fintWins>
     <fintLosses>9</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
@@ -410,7 +410,7 @@
   <dtRanking>
     <fstrSchoolName>Sioux City West</fstrSchoolName>
     <fimgLogo>../img/scwest.png</fimgLogo>
-    <flngPowerRanking>7.77800</flngPowerRanking>
+    <flngPowerRanking>7.7780</flngPowerRanking>
     <fintWins>0</fintWins>
     <fintLosses>9</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
