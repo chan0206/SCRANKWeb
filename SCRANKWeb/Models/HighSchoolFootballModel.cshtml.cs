@@ -35,6 +35,8 @@ namespace SCRANKWeb.Models
         public DataTable dtProjectedDistrictStandings { get; set; } = new();
         public DataTable dtProjections { get; set; } = new();
         public DataTable dtDistrictProjections { get; set; } = new();
+        public DataTable dtProbabilities { get; set; } = new();
+        public DataTable dtDistrictStandingProbabilities { get; set; } = new();
 
         public string strPathStart = "";
 
@@ -77,12 +79,28 @@ namespace SCRANKWeb.Models
             dtProjections.ReadXml(strPath);
         }
 
+        public void GetProbabilities(string pstrClass, int pintSeason, string pstrState)
+        {
+            SetPath(ref strPathStart);
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + pstrClass + "Probabilities.xml";
+            dtProbabilities = new DataTable("dtProbabilities");
+            dtProbabilities.ReadXml(strPath);
+        }
+
         public void GetProjectedDistrictStandings(int pintSeason, string pstrState)
         {
             SetPath(ref strPathStart);
             string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + "ProjectedDistrictStandings.xml";
             dtProjectedDistrictStandings = new DataTable("dtDistrictStandings");
             dtProjectedDistrictStandings.ReadXml(strPath);
+        }
+
+        public void GetDistrictStandingProbabilities(int pintSeason, string pstrState)
+        {
+            SetPath(ref strPathStart);
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + "DistrictProbabilities.xml";
+            dtDistrictStandingProbabilities = new DataTable("dtDistrictStandings");
+            dtDistrictStandingProbabilities.ReadXml(strPath);
         }
 
         public void GetClasses(int pintSeason, string pstrState)

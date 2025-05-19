@@ -52,9 +52,9 @@
     </style>
 </head>
 <body>
-    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Rankings</h1>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Projections</h1>
     <nav class="nav nav-pills navbar-right">
-        @foreach (DataRow season in @Model.dtSeasons.Rows)
+        @foreach (DataRow season in @Model.dtProjectionSeasons.Rows)
         {
 
             <a class="nav-link text-dark" style="font-size:1em;" asp-action="HighSchoolFootballProjectedDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@season["fintSeason"]</a>

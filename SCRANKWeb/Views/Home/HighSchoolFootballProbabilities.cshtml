@@ -1,0 +1,137 @@
+﻿@using System.Data
+@model HighSchoolFootballModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 10px 5px 1px;
+        }
+
+        td {
+          text-align: left;
+          padding: 5px 10px 5px 2px;
+        }
+        tr:nth-child(even) {background-color: #f2f2f2;}
+
+        .nav-link {
+                font-size: clamp(1px, 2.5vw, 1em) !important;
+            background-color: white;
+            color: black;
+                padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+            }
+
+
+        .navbar-right {
+          background-color: white;
+          white-space: nowrap;
+          display: flex;
+          flex-wrap: nowrap;
+          font-size: clamp(1px, 2.5vw, 1em);
+          width: 100%;
+
+        }
+
+    </style>
+    <meta name="format-detection" content="telephone=no">
+</head>
+<body>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Probabilities</h1>
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow season in @Model.dtProjectionSeasons.Rows)
+        {
+
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@season["fintSeason"]</a>
+        }
+    </nav>
+
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow classification in @Model.dtClasses.Rows)
+        {
+
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass=@classification["fstrClass"] asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@classification["fstrClass"]</a>
+
+
+        }
+    </nav>    
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Playoffs" asp-route-pstrState="@Model.strState">Playoff Probabilities</a>
+        
+        @if (@Model.strClass != "5A")
+        {
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballDistrictStandingProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Probabilities</a>
+        }
+    </nav>
+    <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
+        <thead>
+            <tr>
+                <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass Playoff and Postseason Probabilities: @Model.strRankingView </th>
+            </tr>
+            <tr>
+
+                <th>Rank</th>
+                <th>School</th>
+                <th>SCRANK Rating</th>
+                <th>
+                    <a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Playoffs" asp-route-pstrState="@Model.strState">Playoffs</a>
+                </th>
+                @if (Model.strClass == "2A" || Model.strClass == "1A" || Model.strClass == "A" || Model.strClass == "8P")
+                {
+                    <th><a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Second Round" asp-route-pstrState="@Model.strState">Second Round</a></th>
+                }
+                <th>
+                    <a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Quarters" asp-route-pstrState="@Model.strState">Quarters</a>
+                </th>
+                <th>
+                    <a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Semis" asp-route-pstrState="@Model.strState">Semis</a>
+                </th>
+                <th>
+                    <a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Finals" asp-route-pstrState="@Model.strState">Finals</a>
+                </th>
+                <th>
+                    <a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Champions" asp-route-pstrState="@Model.strState">Champions</a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int counter = 1;
+
+                @foreach (DataRow team in @Model.dtProbabilities.Select("fstrSchoolName Like '%'", "flng" + Model.strRankingView.Replace(" ", "") + " desc"))
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
+                        <td>@team["flngPowerRanking"]</td>
+                        <td>@team["flngPlayoffs"]</td>
+                        @if (Model.strClass == "2A" || Model.strClass == "1A" || Model.strClass == "A" || Model.strClass == "8P")
+                        {
+                            <td>@team["flngSecondRound"]</td>
+                        }
+                        <td>@team["flngQuarters"]</td>
+                        <td>@team["flngSemis"]</td>
+                        <td>@team["flngFinals"]</td>
+                        <td>@team["flngChampions"]</td>
+                    </tr>
+                    ++counter;
+                }
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

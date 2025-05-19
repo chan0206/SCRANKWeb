@@ -23,6 +23,11 @@ namespace SCRANKWeb.Controllers
             return View();
         }
 
+        public IActionResult Probabilities()
+        {
+            return View();
+        }
+
         public IActionResult Rankings()
         {
             
@@ -113,6 +118,21 @@ namespace SCRANKWeb.Controllers
             return View(rank);
         }
 
+        public IActionResult HighSchoolFootballProbabilities(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
+        {
+            rank.GetProjectionSeasons(pstrState);
+            rank.GetClasses(pintSeason, pstrState);
+            rank.setStateInfo(pstrState);
+            rank.intSeason = pintSeason;
+            rank.strClass = pstrClass;
+            rank.strRankingView = pstrRankingView;
+            rank.strState = pstrState;
+            rank.GetProbabilities(pstrClass, pintSeason, pstrState);
+
+
+            return View(rank);
+        }
+
         public IActionResult HighSchoolFootballProjectedDistrictStandings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
         {
             rank.GetSeasons(pstrState);
@@ -120,6 +140,21 @@ namespace SCRANKWeb.Controllers
             rank.setStateInfo(pstrState);
             rank.GetDistricts(pintSeason, pstrState, pstrClass);
             rank.GetProjectedDistrictStandings(pintSeason, pstrState);
+            rank.intSeason = pintSeason;
+            rank.strClass = pstrClass;
+            rank.strRankingView = pstrRankingView;
+            rank.strState = pstrState;
+
+            return View(rank);
+        }
+
+        public IActionResult HighSchoolFootballDistrictStandingProbabilities(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
+        {
+            rank.GetProjectionSeasons(pstrState);
+            rank.GetClasses(pintSeason, pstrState);
+            rank.setStateInfo(pstrState);
+            rank.GetDistricts(pintSeason, pstrState, pstrClass);
+            rank.GetDistrictStandingProbabilities(pintSeason, pstrState);
             rank.intSeason = pintSeason;
             rank.strClass = pstrClass;
             rank.strRankingView = pstrRankingView;
