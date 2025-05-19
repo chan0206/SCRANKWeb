@@ -79,13 +79,12 @@
     <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
         <thead>
             <tr>
-                <th colspan="9" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass Playoff and Postseason Probabilities: @Model.strRankingView </th>
+                <th colspan="8" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass Playoff and Postseason Probabilities: @Model.strRankingView </th>
             </tr>
             <tr>
 
                 <th>Rank</th>
                 <th>School</th>
-                <th>SCRANK Rating</th>
                 <th>
                     <a style="Color:white" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Playoffs" asp-route-pstrState="@Model.strState">Playoffs</a>
                 </th>
@@ -116,7 +115,6 @@
                     <tr>
                         <td>@counter</td>
                         <td><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
-                        <td>@team["flngPowerRanking"]</td>
                         <td>@team["flngPlayoffs"]</td>
                         @if (Model.strClass == "2A" || Model.strClass == "1A" || Model.strClass == "A" || Model.strClass == "8P")
                         {
