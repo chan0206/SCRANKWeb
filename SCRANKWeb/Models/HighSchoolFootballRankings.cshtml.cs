@@ -28,9 +28,12 @@ namespace SCRANKWeb.Models
 
         public DataTable dtRankings { get; set; } = new();
         public DataTable dtSeasons { get; set; } = new();
+        public DataTable dtProjectionSeasons { get; set; } = new();
         public DataTable dtClasses { get; set; } = new();
         public DataTable dtDistricts { get; set; } = new();
         public DataTable dtDistrictStandings { get; set; } = new();
+        public DataTable dtProjections { get; set; } = new();
+        public DataTable dtDistrictProjections { get; set; } = new();
 
         public string strPathStart = "";
 
@@ -65,6 +68,14 @@ namespace SCRANKWeb.Models
             dtRankings.ReadXml(strPath);                   
         }
 
+        public void GetProjections(string pstrClass, int pintSeason, string pstrState)
+        {
+            SetPath(ref strPathStart);
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + pstrClass + "Projections.xml";
+            dtProjections = new DataTable("dtProjections");
+            dtProjections.ReadXml(strPath);
+        }
+
         public void GetClasses(int pintSeason, string pstrState)
         {
             SetPath(ref strPathStart);
@@ -96,6 +107,16 @@ namespace SCRANKWeb.Models
             string strPath = strPathStart + pstrState + "Football/General/Seasons.xml";
             dtSeasons = new DataTable("dtSeasons");
             dtSeasons.ReadXml(strPath);
+        }
+
+        public void GetProjectionSeasons(string pstrState)
+        {
+            //SetPath(ref strPathStart);
+            //string strPath = strPathStart + pstrState + "Football/General/Seasons.xml";
+            dtProjectionSeasons = new DataTable("dtProjectionSeasons");
+            dtProjectionSeasons.Columns.Add("fintSeason", typeof(int));
+            dtProjectionSeasons.Rows.Add(2025);
+            //    dtSeasons.ReadXml(strPath);
         }
 
         public void setSeason(int pintSeason)

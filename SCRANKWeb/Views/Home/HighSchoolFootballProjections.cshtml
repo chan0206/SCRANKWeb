@@ -1,0 +1,110 @@
+﻿@using System.Data
+@model HighSchoolFootballRankingsModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 10px 5px 1px;
+        }
+
+        td {
+          text-align: left;
+          padding: 5px 10px 5px 2px;
+        }
+        tr:nth-child(even) {background-color: #f2f2f2;}
+
+        .nav-link {
+                font-size: clamp(1px, 2.5vw, 1em) !important;
+            background-color: white;
+            color: black;
+                padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+            }
+
+
+        .navbar-right {
+          background-color: white;
+          white-space: nowrap;
+          display: flex;
+          flex-wrap: nowrap;
+          font-size: clamp(1px, 2.5vw, 1em);
+          width: 100%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Projections</h1>
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow season in @Model.dtProjectionSeasons.Rows)
+        {
+
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@season["fintSeason"]</a>
+        }
+    </nav>
+
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow classification in @Model.dtClasses.Rows)
+        {
+
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass=@classification["fstrClass"] asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@classification["fstrClass"]</a>
+
+
+        }
+    </nav>    
+    <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
+        <thead>
+            <tr>
+                <th colspan="8" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
+            </tr>
+            <tr>
+
+                <th>Rank</th>
+                <th>School</th>
+                <th>SCRANK Rating</th>
+                <th>PW</th>
+                <th>PL</th>
+                <th>PDW</th>
+                <th>PDL</th>
+                <th>PRPI</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int counter = 1;
+
+                @foreach (DataRow team in @Model.dtProjections.Rows)
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
+                        <td>@team["flngPowerRanking"]</td>
+                        <td>@team["fintProjectedWins"]</td>
+                        <td>@team["fintProjectedLosses"]</td>
+                        <td>@team["fintProjectedDistrictWins"]</td>
+                        <td>@team["fintProjectedDistrictLosses"]</td>
+                        <td>@team["flngProjectedRPI"]</td>
+                    </tr>
+                    ++counter;
+                }
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>
