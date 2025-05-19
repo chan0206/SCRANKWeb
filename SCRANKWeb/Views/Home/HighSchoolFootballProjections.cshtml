@@ -1,5 +1,5 @@
 ﻿@using System.Data
-@model HighSchoolFootballRankingsModel
+@model HighSchoolFootballModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -67,10 +67,17 @@
 
         }
     </nav>    
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">Projected RPI</a>
+        @if (@Model.strClass != "5A")
+        {
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballProjectedDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Standings</a>
+        }
+    </nav>
     <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
         <thead>
             <tr>
-                <th colspan="8" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
+                <th colspan="8" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass Projected RPI Standings</th>
             </tr>
             <tr>
 

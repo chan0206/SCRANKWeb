@@ -1,6 +1,6 @@
 ﻿
 @using System.Data
-@model HighSchoolFootballRankingsModel
+@model HighSchoolFootballModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -69,16 +69,19 @@
     }
     </nav>
     <nav class="nav nav-pills navbar-right">
-        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">Power Rankings</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">SCRANK Power Rankings</a>
         <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">RPI</a>
-        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV" asp-route-pstrState="@Model.strState">SCRANK SOV</a>
-        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="DOM" asp-route-pstrState="@Model.strState">SCRANK Dominance Rating</a>
         @if (@Model.strClass != "5A")
         {
         <a class="nav-link text-dark" asp-action="HighSchoolFootballDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">District Standings</a>
         }
     </nav>
-        <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
+    <nav class="nav nav-pills navbar-right">        
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV" asp-route-pstrState="@Model.strState">SCRANK SOV</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="DOM" asp-route-pstrState="@Model.strState">SCRANK Dominance Rating</a>
+        
+    </nav>
+        <table style="font-size:clamp(1px, 1.9vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
             <thead>
                     <tr>
                         <th colspan="10" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
@@ -87,14 +90,14 @@
                 
                     <th>Rank</th>
                     <th>School</th>
-                    <th>SCRANK Rating</th>            
+                    <th>SCRANK</th>            
                     <th>W</th>
                     <th>L</th>
                     <th>DW</th>
                     <th>DL</th>
                     <th>RPI</th>
                     <th>SOV</th>
-                    <th>Dominance Rating</th>
+                    <th>DOM</th>
                 </tr>
             </thead>
         <tbody>

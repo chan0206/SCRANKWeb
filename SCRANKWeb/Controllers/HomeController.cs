@@ -34,7 +34,7 @@ namespace SCRANKWeb.Controllers
             return View();
         }
         
-        public IActionResult HighSchoolFootballRankings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballRankingsModel rank)
+        public IActionResult HighSchoolFootballRankings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
         {
             rank.GetSeasons(pstrState);
             rank.GetClasses(pintSeason,pstrState);
@@ -62,7 +62,7 @@ namespace SCRANKWeb.Controllers
             return View(rank);
         }
 
-        public IActionResult HighSchoolFootballDistrictStandings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballRankingsModel rank)
+        public IActionResult HighSchoolFootballDistrictStandings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
         {
             rank.GetSeasons(pstrState);
             rank.GetClasses(pintSeason, pstrState);
@@ -77,7 +77,7 @@ namespace SCRANKWeb.Controllers
             return View(rank);
         }
 
-        public IActionResult CollegeBasketballRankings(string pintSeason, string pstrRankingView, CollegeBasketballRankingsModel rank)
+        public IActionResult CollegeBasketballRankings(string pintSeason, string pstrRankingView, CollegeBasketballModel rank)
         {
             rank.GetSeasons();
             rank.intSeason = pintSeason;
@@ -98,7 +98,7 @@ namespace SCRANKWeb.Controllers
             return View(rank);
         }
 
-        public IActionResult HighSchoolFootballProjections(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballRankingsModel rank)
+        public IActionResult HighSchoolFootballProjections(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
         {
             rank.GetProjectionSeasons(pstrState);
             rank.GetClasses(pintSeason, pstrState);
@@ -109,6 +109,21 @@ namespace SCRANKWeb.Controllers
             rank.strState = pstrState;
             rank.GetProjections(pstrClass, pintSeason, pstrState);
                     
+
+            return View(rank);
+        }
+
+        public IActionResult HighSchoolFootballProjectedDistrictStandings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
+        {
+            rank.GetSeasons(pstrState);
+            rank.GetClasses(pintSeason, pstrState);
+            rank.setStateInfo(pstrState);
+            rank.GetDistricts(pintSeason, pstrState, pstrClass);
+            rank.GetProjectedDistrictStandings(pintSeason, pstrState);
+            rank.intSeason = pintSeason;
+            rank.strClass = pstrClass;
+            rank.strRankingView = pstrRankingView;
+            rank.strState = pstrState;
 
             return View(rank);
         }

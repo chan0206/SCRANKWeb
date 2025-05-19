@@ -1,0 +1,137 @@
+﻿@using System.Data
+@model HighSchoolFootballModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 10px 5px 1px;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px 10px 5px 2px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .nav-link {
+            font-size: clamp(1px, 2.5vw, 1em) !important;
+            background-color: white;
+            color: black;
+            padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+        }
+
+
+
+        .navbar-right {
+            background-color: white;
+            white-space: nowrap;
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: clamp(1px, 2.5vw, 1em);
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Rankings</h1>
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow season in @Model.dtSeasons.Rows)
+        {
+
+            <a class="nav-link text-dark" style="font-size:1em;" asp-action="HighSchoolFootballProjectedDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@season["fintSeason"]</a>
+        }
+    </nav>
+
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow classification in @Model.dtClasses.Rows)
+        {
+            @if (@classification["fstrClass"].ToString() == "5A")
+            {
+                <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass=@classification["fstrClass"] asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">@classification["fstrClass"]</a>
+            }
+            else
+            {
+                <a class="nav-link text-dark" asp-action="HighSchoolFootballProjectedDistrictStandings" asp-route-pstrClass=@classification["fstrClass"] asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState">@classification["fstrClass"]</a>
+            }
+
+        }
+    </nav>
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">Projected RPI</a>
+        @if (@Model.strClass != "5A")
+        {
+            <a class="nav-link text-dark" asp-action="HighSchoolFootballProjectedDistrictStandings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="District" asp-route-pstrState="@Model.strState">Projected District Standings</a>
+        }
+    </nav>
+
+    <div class="container-fluid">
+        
+            <p style="font-size:clamp(1px, 3.5vw, 2.2em);white-space: nowrap; font-weight:bold; color:black">@Model.intSeason Class @Model.strClass Projected District Standings</p>
+        
+        <div class="row row-cols-auto">
+           
+           
+            @foreach (DataRow district in @Model.dtDistricts.Rows)
+            {
+                <div class="col-auto">
+                    <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Projected District @district["fintDistrict"] Standings</th>
+                                <th>PDW</th>
+                                <th>PDL</th>
+                                <th>PW</th>
+                                <th>PL</th>
+                                <th>PPD</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @{
+                                int counter = 1;
+
+                                @foreach (DataRow team in @Model.dtProjectedDistrictStandings.Select("fintDistrict = " + @district["fintDistrict"] + " AND fstrClass = '" + @Model.strClass + "'"))
+                                {
+                                    <tr>
+                                        <td>@counter</td>
+                                        <td width="280px"><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
+                                        <td>@team["fintProjectedDistrictWins"]</td>
+                                        <td>@team["fintProjectedDistrictLosses"]</td>
+                                        <td>@team["fintProjectedWins"]</td>
+                                        <td>@team["fintProjectedLosses"]</td>
+                                        <td>@team["flngProjectedDistricPointDifferential"]</td>
+                                    </tr>
+                                    ++counter;
+                                }
+                            }
+                        </tbody>
+                    </table><br>
+                </div>
+
+
+            }
+        </div>
+    </div>
+</body>
+</html>
+
+

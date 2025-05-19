@@ -23,7 +23,7 @@ using System.Diagnostics;
 
 namespace SCRANKWeb.Models
 {
-    public class HighSchoolFootballRankingsModel
+    public class HighSchoolFootballModel
     {
 
         public DataTable dtRankings { get; set; } = new();
@@ -32,6 +32,7 @@ namespace SCRANKWeb.Models
         public DataTable dtClasses { get; set; } = new();
         public DataTable dtDistricts { get; set; } = new();
         public DataTable dtDistrictStandings { get; set; } = new();
+        public DataTable dtProjectedDistrictStandings { get; set; } = new();
         public DataTable dtProjections { get; set; } = new();
         public DataTable dtDistrictProjections { get; set; } = new();
 
@@ -74,6 +75,14 @@ namespace SCRANKWeb.Models
             string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + pstrClass + "Projections.xml";
             dtProjections = new DataTable("dtProjections");
             dtProjections.ReadXml(strPath);
+        }
+
+        public void GetProjectedDistrictStandings(int pintSeason, string pstrState)
+        {
+            SetPath(ref strPathStart);
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + "ProjectedDistrictStandings.xml";
+            dtProjectedDistrictStandings = new DataTable("dtDistrictStandings");
+            dtProjectedDistrictStandings.ReadXml(strPath);
         }
 
         public void GetClasses(int pintSeason, string pstrState)

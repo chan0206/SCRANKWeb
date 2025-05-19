@@ -24,7 +24,7 @@ using System.Diagnostics;
 
 namespace SCRANKWeb.Models
 {
-    public class CollegeBasketballRankingsModel
+    public class CollegeBasketballModel
     {
 
         public DataTable dtRankings { get; set; } = new();
