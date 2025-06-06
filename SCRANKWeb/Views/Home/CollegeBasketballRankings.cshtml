@@ -69,9 +69,12 @@
 
     <nav class="nav nav-pills navbar-right">
         <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power">SCRANK Power Rankings</a>
-        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Dominance">SCRANK Dominance Rating</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballConferenceStandings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Conference">Conference Standings</a>
+    </nav>
+
+    <nav class="nav nav-pills navbar-right">
         <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV">SCRANK SOV</a>
-        <a class="nav-link text-dark" asp-action="CollegeBasketballConferenceStandings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV">Conference Standings</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="DOM">SCRANK Dominance Rating</a>
     </nav>
 
     <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
