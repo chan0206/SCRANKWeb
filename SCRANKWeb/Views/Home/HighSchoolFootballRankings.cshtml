@@ -7,6 +7,13 @@
 <html>
     <head>
         <style>
+        a {
+            text-decoration: none;
+        }
+
+            a:hover {
+                font-weight: bolder;
+            }
             table {
               border-collapse: collapse;
             }
@@ -36,6 +43,9 @@
                     padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
                 }
 
+        nav-pills:nth-child(even) {
+            background-color: blue;
+        }
         
             .navbar-right {
               background-color: white;
@@ -53,6 +63,11 @@
 <body>
         <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Rankings</h1>
     <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">Projections</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="Champions" asp-route-pstrState="@Model.strState">Probabilities</a>
+    </nav>
+        
+        <nav class="nav nav-pills navbar-right">
     @foreach (DataRow season in @Model.dtSeasons.Rows)
     {
 
@@ -94,9 +109,12 @@
                     <th>SCRANK</th>            
                     <th>W</th>
                     <th>L</th>
-                    <th>DW</th>
-                    <th>DL</th>
-                    <th>RPI</th>
+                    @if (@Model.strClass != "5A")
+                    {
+                        <th>DW</th>
+                        <th>DL</th>
+                    }
+                <th>RPI</th>
                     <th>SOV</th>
                     <th>DOM</th>
                 </tr>
@@ -109,15 +127,20 @@
                 {
                        <tr>
                         <td>@counter</td>
-                            <td><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
-                        <td>@team["flngPowerRanking"]</td>
+                        <td width="280px">
+                            <a class="jobs" style="text-decoration:none; color:black" asp-action="HighSchoolFootballTeam" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState" asp-route-pstrTeam="@team["fstrSchoolName"]"><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</a>
+                        </td>
+                        <td>@Math.Round(Convert.ToDecimal(@team["flngPowerRanking"]), 2)</td>
                         <td>@team["fintWins"]</td>
                         <td>@team["fintLosses"]</td>
-                        <td>@team["fintDistrictWins"]</td>
-                        <td>@team["fintDistrictLosses"]</td>
+                        @if (@Model.strClass != "5A")
+                        {
+                            <td>@team["fintDistrictWins"]</td>
+                            <td>@team["fintDistrictLosses"]</td>
+                        }
                         <td>@team["flngRegRPI"]</td>
-                        <td>@team["flngAdjustedStrengthOfVictory"]</td>
-                        <td>@team["flngDominanceRating"]</td>
+                        <td>@Math.Round(Convert.ToDecimal(@team["flngAdjustedStrengthOfVictory"]), 3)</td>
+                        <td>@Math.Round(Convert.ToDecimal(@team["flngDominanceRating"]),2)</td>
                     </tr>
                     ++counter;
                 }

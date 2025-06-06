@@ -23,320 +23,320 @@
     </xs:element>
   </xs:schema>
   <dtProbabilities>
+    <fstrSchoolName>Bishop Garrigan</fstrSchoolName>
+    <fimgLogo>../img/garrigan.png</fimgLogo>
+    <flngPowerRanking>76.3590</flngPowerRanking>
+    <flngPlayoffs>100.00</flngPlayoffs>
+    <flngSecondRound>88.56</flngSecondRound>
+    <flngQuarters>64.04</flngQuarters>
+    <flngSemis>37.18</flngSemis>
+    <flngFinals>18.74</flngFinals>
+    <flngChampions>8.92</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
     <fstrSchoolName>Don Bosco</fstrSchoolName>
     <fimgLogo>../img/donbosco.png</fimgLogo>
     <flngPowerRanking>80.3295</flngPowerRanking>
     <flngPlayoffs>100.00</flngPlayoffs>
-    <flngSecondRound>86.97</flngSecondRound>
-    <flngQuarters>68.82</flngQuarters>
-    <flngSemis>44.31</flngSemis>
-    <flngFinals>26.66</flngFinals>
-    <flngChampions>14.87</flngChampions>
+    <flngSecondRound>86.91</flngSecondRound>
+    <flngQuarters>68.90</flngQuarters>
+    <flngSemis>44.56</flngSemis>
+    <flngFinals>26.33</flngFinals>
+    <flngChampions>14.26</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Lenox</fstrSchoolName>
     <fimgLogo>../img/lenox.png</fimgLogo>
     <flngPowerRanking>79.1080</flngPowerRanking>
     <flngPlayoffs>100.00</flngPlayoffs>
-    <flngSecondRound>88.84</flngSecondRound>
-    <flngQuarters>67.79</flngQuarters>
-    <flngSemis>41.55</flngSemis>
-    <flngFinals>22.99</flngFinals>
-    <flngChampions>11.84</flngChampions>
+    <flngSecondRound>88.51</flngSecondRound>
+    <flngQuarters>67.83</flngQuarters>
+    <flngSemis>41.73</flngSemis>
+    <flngFinals>23.29</flngFinals>
+    <flngChampions>11.83</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Remsen St. Mary's</fstrSchoolName>
     <fimgLogo>../img/stmaryremsen.png</fimgLogo>
     <flngPowerRanking>85.2395</flngPowerRanking>
     <flngPlayoffs>100.00</flngPlayoffs>
-    <flngSecondRound>96.68</flngSecondRound>
-    <flngQuarters>88.06</flngQuarters>
-    <flngSemis>67.04</flngSemis>
-    <flngFinals>47.74</flngFinals>
-    <flngChampions>29.95</flngChampions>
+    <flngSecondRound>96.29</flngSecondRound>
+    <flngQuarters>87.05</flngQuarters>
+    <flngSemis>65.68</flngSemis>
+    <flngFinals>46.70</flngFinals>
+    <flngChampions>28.70</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Bishop Garrigan</fstrSchoolName>
-    <fimgLogo>../img/garrigan.png</fimgLogo>
-    <flngPowerRanking>76.3590</flngPowerRanking>
+    <fstrSchoolName>Bedford</fstrSchoolName>
+    <fimgLogo>../img/bedford.png</fimgLogo>
+    <flngPowerRanking>71.1415</flngPowerRanking>
     <flngPlayoffs>99.99</flngPlayoffs>
-    <flngSecondRound>89.24</flngSecondRound>
-    <flngQuarters>64.75</flngQuarters>
-    <flngSemis>37.10</flngSemis>
-    <flngFinals>18.56</flngFinals>
-    <flngChampions>8.51</flngChampions>
+    <flngSecondRound>78.58</flngSecondRound>
+    <flngQuarters>39.58</flngQuarters>
+    <flngSemis>17.18</flngSemis>
+    <flngFinals>7.21</flngFinals>
+    <flngChampions>2.98</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Janesville</fstrSchoolName>
     <fimgLogo>../img/janesville.png</fimgLogo>
     <flngPowerRanking>67.7500</flngPowerRanking>
     <flngPlayoffs>99.99</flngPlayoffs>
-    <flngSecondRound>76.09</flngSecondRound>
-    <flngQuarters>33.78</flngQuarters>
-    <flngSemis>12.52</flngSemis>
-    <flngFinals>4.25</flngFinals>
-    <flngChampions>1.48</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Bedford</fstrSchoolName>
-    <fimgLogo>../img/bedford.png</fimgLogo>
-    <flngPowerRanking>71.1415</flngPowerRanking>
-    <flngPlayoffs>99.98</flngPlayoffs>
-    <flngSecondRound>78.98</flngSecondRound>
-    <flngQuarters>40.44</flngQuarters>
-    <flngSemis>17.50</flngSemis>
-    <flngFinals>7.07</flngFinals>
-    <flngChampions>2.85</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Audubon</fstrSchoolName>
-    <fimgLogo>../img/audubon.png</fimgLogo>
-    <flngPowerRanking>73.3950</flngPowerRanking>
-    <flngPlayoffs>99.90</flngPlayoffs>
-    <flngSecondRound>87.80</flngSecondRound>
-    <flngQuarters>54.88</flngQuarters>
-    <flngSemis>27.02</flngSemis>
-    <flngFinals>12.35</flngFinals>
-    <flngChampions>5.41</flngChampions>
+    <flngSecondRound>77.71</flngSecondRound>
+    <flngQuarters>34.18</flngQuarters>
+    <flngSemis>13.39</flngSemis>
+    <flngFinals>4.75</flngFinals>
+    <flngChampions>1.84</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Gladbrook-Reinbeck</fstrSchoolName>
     <fimgLogo>../img/gladbrookreinbeck.png</fimgLogo>
     <flngPowerRanking>74.7670</flngPowerRanking>
     <flngPlayoffs>99.90</flngPlayoffs>
-    <flngSecondRound>92.31</flngSecondRound>
-    <flngQuarters>62.96</flngQuarters>
-    <flngSemis>34.31</flngSemis>
-    <flngFinals>16.60</flngFinals>
-    <flngChampions>7.39</flngChampions>
+    <flngSecondRound>92.93</flngSecondRound>
+    <flngQuarters>63.73</flngQuarters>
+    <flngSemis>33.79</flngSemis>
+    <flngFinals>16.25</flngFinals>
+    <flngChampions>7.71</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Audubon</fstrSchoolName>
+    <fimgLogo>../img/audubon.png</fimgLogo>
+    <flngPowerRanking>73.3950</flngPowerRanking>
+    <flngPlayoffs>99.86</flngPlayoffs>
+    <flngSecondRound>87.99</flngSecondRound>
+    <flngQuarters>54.02</flngQuarters>
+    <flngSemis>26.90</flngSemis>
+    <flngFinals>11.99</flngFinals>
+    <flngChampions>5.32</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Edgewood-Colesburg</fstrSchoolName>
     <fimgLogo>../img/edgewoodcolesburg.png</fimgLogo>
     <flngPowerRanking>75.3510</flngPowerRanking>
-    <flngPlayoffs>99.74</flngPlayoffs>
-    <flngSecondRound>92.29</flngSecondRound>
-    <flngQuarters>66.47</flngQuarters>
-    <flngSemis>37.56</flngSemis>
-    <flngFinals>18.05</flngFinals>
-    <flngChampions>7.76</flngChampions>
+    <flngPlayoffs>99.81</flngPlayoffs>
+    <flngSecondRound>92.78</flngSecondRound>
+    <flngQuarters>66.76</flngQuarters>
+    <flngSemis>37.73</flngSemis>
+    <flngFinals>17.95</flngFinals>
+    <flngChampions>8.39</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Riceville</fstrSchoolName>
     <fimgLogo>../img/riceville.png</fimgLogo>
     <flngPowerRanking>63.9430</flngPowerRanking>
-    <flngPlayoffs>99.59</flngPlayoffs>
-    <flngSecondRound>62.85</flngSecondRound>
-    <flngQuarters>23.12</flngQuarters>
-    <flngSemis>7.21</flngSemis>
-    <flngFinals>2.03</flngFinals>
-    <flngChampions>0.64</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Woodbine</fstrSchoolName>
-    <fimgLogo>../img/woodbine.png</fimgLogo>
-    <flngPowerRanking>72.5335</flngPowerRanking>
-    <flngPlayoffs>99.27</flngPlayoffs>
-    <flngSecondRound>83.67</flngSecondRound>
-    <flngQuarters>47.90</flngQuarters>
-    <flngSemis>21.40</flngSemis>
-    <flngFinals>8.77</flngFinals>
-    <flngChampions>3.90</flngChampions>
+    <flngPlayoffs>99.76</flngPlayoffs>
+    <flngSecondRound>62.54</flngSecondRound>
+    <flngQuarters>23.00</flngQuarters>
+    <flngSemis>7.48</flngSemis>
+    <flngFinals>2.04</flngFinals>
+    <flngChampions>0.72</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Montezuma</fstrSchoolName>
     <fimgLogo>../img/montezuma.png</fimgLogo>
     <flngPowerRanking>67.4085</flngPowerRanking>
-    <flngPlayoffs>99.17</flngPlayoffs>
-    <flngSecondRound>71.78</flngSecondRound>
-    <flngQuarters>33.95</flngQuarters>
-    <flngSemis>11.38</flngSemis>
-    <flngFinals>3.89</flngFinals>
-    <flngChampions>1.41</flngChampions>
+    <flngPlayoffs>99.18</flngPlayoffs>
+    <flngSecondRound>71.37</flngSecondRound>
+    <flngQuarters>33.01</flngQuarters>
+    <flngSemis>11.37</flngSemis>
+    <flngFinals>4.00</flngFinals>
+    <flngChampions>1.57</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Woodbine</fstrSchoolName>
+    <fimgLogo>../img/woodbine.png</fimgLogo>
+    <flngPowerRanking>72.5335</flngPowerRanking>
+    <flngPlayoffs>98.95</flngPlayoffs>
+    <flngSecondRound>82.29</flngSecondRound>
+    <flngQuarters>47.59</flngQuarters>
+    <flngSemis>21.02</flngSemis>
+    <flngFinals>9.12</flngFinals>
+    <flngChampions>3.96</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Belle Plaine</fstrSchoolName>
     <fimgLogo>../img/belleplaine.png</fimgLogo>
     <flngPowerRanking>65.6205</flngPowerRanking>
-    <flngPlayoffs>96.66</flngPlayoffs>
-    <flngSecondRound>59.10</flngSecondRound>
-    <flngQuarters>23.94</flngQuarters>
-    <flngSemis>7.50</flngSemis>
-    <flngFinals>2.23</flngFinals>
-    <flngChampions>0.85</flngChampions>
+    <flngPlayoffs>97.39</flngPlayoffs>
+    <flngSecondRound>60.05</flngSecondRound>
+    <flngQuarters>25.29</flngQuarters>
+    <flngSemis>7.69</flngSemis>
+    <flngFinals>2.69</flngFinals>
+    <flngChampions>0.94</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>GTRA</fstrSchoolName>
     <fimgLogo>../img/gtra.png</fimgLogo>
     <flngPowerRanking>64.6500</flngPowerRanking>
-    <flngPlayoffs>96.43</flngPlayoffs>
-    <flngSecondRound>57.46</flngSecondRound>
-    <flngQuarters>19.18</flngQuarters>
-    <flngSemis>6.87</flngSemis>
-    <flngFinals>1.91</flngFinals>
-    <flngChampions>0.77</flngChampions>
+    <flngPlayoffs>97.39</flngPlayoffs>
+    <flngSecondRound>58.55</flngSecondRound>
+    <flngQuarters>20.21</flngQuarters>
+    <flngSemis>7.45</flngSemis>
+    <flngFinals>1.99</flngFinals>
+    <flngChampions>0.65</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Iowa Valley</fstrSchoolName>
     <fimgLogo>../img/iowavalley.png</fimgLogo>
     <flngPowerRanking>66.0585</flngPowerRanking>
-    <flngPlayoffs>96.37</flngPlayoffs>
-    <flngSecondRound>59.05</flngSecondRound>
-    <flngQuarters>23.97</flngQuarters>
-    <flngSemis>7.84</flngSemis>
-    <flngFinals>2.50</flngFinals>
-    <flngChampions>0.96</flngChampions>
+    <flngPlayoffs>95.48</flngPlayoffs>
+    <flngSecondRound>58.24</flngSecondRound>
+    <flngQuarters>23.61</flngQuarters>
+    <flngSemis>8.26</flngSemis>
+    <flngFinals>2.68</flngFinals>
+    <flngChampions>0.97</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Southeast Warren</fstrSchoolName>
     <fimgLogo>../img/southeastwarren.png</fimgLogo>
     <flngPowerRanking>57.7875</flngPowerRanking>
-    <flngPlayoffs>94.33</flngPlayoffs>
-    <flngSecondRound>41.57</flngSecondRound>
-    <flngQuarters>10.56</flngQuarters>
-    <flngSemis>2.34</flngSemis>
-    <flngFinals>0.37</flngFinals>
-    <flngChampions>0.12</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>WACO</fstrSchoolName>
-    <fimgLogo>../img/waco.png</fimgLogo>
-    <flngPowerRanking>61.2980</flngPowerRanking>
-    <flngPlayoffs>91.36</flngPlayoffs>
-    <flngSecondRound>42.67</flngSecondRound>
-    <flngQuarters>12.62</flngQuarters>
-    <flngSemis>3.47</flngSemis>
-    <flngFinals>0.98</flngFinals>
-    <flngChampions>0.30</flngChampions>
+    <flngPlayoffs>94.50</flngPlayoffs>
+    <flngSecondRound>41.93</flngSecondRound>
+    <flngQuarters>10.39</flngQuarters>
+    <flngSemis>2.37</flngSemis>
+    <flngFinals>0.55</flngFinals>
+    <flngChampions>0.13</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Fremont-Mills</fstrSchoolName>
     <fimgLogo>../img/fremontmills.png</fimgLogo>
     <flngPowerRanking>62.8180</flngPowerRanking>
-    <flngPlayoffs>90.05</flngPlayoffs>
-    <flngSecondRound>48.50</flngSecondRound>
-    <flngQuarters>16.34</flngQuarters>
-    <flngSemis>4.84</flngSemis>
-    <flngFinals>1.24</flngFinals>
-    <flngChampions>0.46</flngChampions>
+    <flngPlayoffs>92.02</flngPlayoffs>
+    <flngSecondRound>51.30</flngSecondRound>
+    <flngQuarters>16.67</flngQuarters>
+    <flngSemis>4.60</flngSemis>
+    <flngFinals>1.36</flngFinals>
+    <flngChampions>0.50</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>WACO</fstrSchoolName>
+    <fimgLogo>../img/waco.png</fimgLogo>
+    <flngPowerRanking>61.2980</flngPowerRanking>
+    <flngPlayoffs>91.18</flngPlayoffs>
+    <flngSecondRound>42.67</flngSecondRound>
+    <flngQuarters>12.99</flngQuarters>
+    <flngSemis>3.32</flngSemis>
+    <flngFinals>0.76</flngFinals>
+    <flngChampions>0.25</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>CAM</fstrSchoolName>
     <fimgLogo>../img/cam.png</fimgLogo>
     <flngPowerRanking>58.0875</flngPowerRanking>
-    <flngPlayoffs>88.19</flngPlayoffs>
-    <flngSecondRound>38.06</flngSecondRound>
-    <flngQuarters>8.87</flngQuarters>
-    <flngSemis>1.94</flngSemis>
-    <flngFinals>0.48</flngFinals>
-    <flngChampions>0.16</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Ar-We-Va</fstrSchoolName>
-    <fimgLogo>../img/arweva.png</fimgLogo>
-    <flngPowerRanking>56.0825</flngPowerRanking>
-    <flngPlayoffs>84.39</flngPlayoffs>
-    <flngSecondRound>31.67</flngSecondRound>
-    <flngQuarters>5.88</flngQuarters>
-    <flngSemis>1.15</flngSemis>
-    <flngFinals>0.22</flngFinals>
-    <flngChampions>0.04</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Central City</fstrSchoolName>
-    <fimgLogo>../img/centralcity.png</fimgLogo>
-    <flngPowerRanking>59.1675</flngPowerRanking>
-    <flngPlayoffs>80.65</flngPlayoffs>
-    <flngSecondRound>36.93</flngSecondRound>
-    <flngQuarters>9.10</flngQuarters>
-    <flngSemis>2.38</flngSemis>
-    <flngFinals>0.58</flngFinals>
-    <flngChampions>0.20</flngChampions>
+    <flngPlayoffs>89.71</flngPlayoffs>
+    <flngSecondRound>39.44</flngSecondRound>
+    <flngQuarters>8.97</flngQuarters>
+    <flngSemis>1.96</flngSemis>
+    <flngFinals>0.44</flngFinals>
+    <flngChampions>0.12</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>St. Edmond</fstrSchoolName>
     <fimgLogo>../img/st.edmond.png</fimgLogo>
     <flngPowerRanking>54.7745</flngPowerRanking>
-    <flngPlayoffs>80.43</flngPlayoffs>
-    <flngSecondRound>26.92</flngSecondRound>
-    <flngQuarters>3.31</flngQuarters>
-    <flngSemis>0.84</flngSemis>
-    <flngFinals>0.21</flngFinals>
-    <flngChampions>0.06</flngChampions>
+    <flngPlayoffs>82.64</flngPlayoffs>
+    <flngSecondRound>27.92</flngSecondRound>
+    <flngQuarters>3.61</flngQuarters>
+    <flngSemis>0.85</flngSemis>
+    <flngFinals>0.16</flngFinals>
+    <flngChampions>0.03</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Boyer Valley</fstrSchoolName>
-    <fimgLogo>../img/boyervalley.png</fimgLogo>
-    <flngPowerRanking>55.8775</flngPowerRanking>
-    <flngPlayoffs>76.13</flngPlayoffs>
-    <flngSecondRound>28.30</flngSecondRound>
-    <flngQuarters>4.90</flngQuarters>
-    <flngSemis>1.08</flngSemis>
-    <flngFinals>0.23</flngFinals>
-    <flngChampions>0.07</flngChampions>
+    <fstrSchoolName>Central City</fstrSchoolName>
+    <fimgLogo>../img/centralcity.png</fimgLogo>
+    <flngPowerRanking>59.1675</flngPowerRanking>
+    <flngPlayoffs>80.26</flngPlayoffs>
+    <flngSecondRound>35.68</flngSecondRound>
+    <flngQuarters>9.14</flngQuarters>
+    <flngSemis>2.22</flngSemis>
+    <flngFinals>0.49</flngFinals>
+    <flngChampions>0.09</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Clarksville</fstrSchoolName>
-    <fimgLogo>../img/clarksville.png</fimgLogo>
-    <flngPowerRanking>50.7980</flngPowerRanking>
-    <flngPlayoffs>73.56</flngPlayoffs>
-    <flngSecondRound>17.33</flngSecondRound>
-    <flngQuarters>1.42</flngQuarters>
-    <flngSemis>0.31</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
+    <fstrSchoolName>Ar-We-Va</fstrSchoolName>
+    <fimgLogo>../img/arweva.png</fimgLogo>
+    <flngPowerRanking>56.0825</flngPowerRanking>
+    <flngPlayoffs>79.91</flngPlayoffs>
+    <flngSecondRound>29.82</flngSecondRound>
+    <flngQuarters>5.67</flngQuarters>
+    <flngSemis>1.29</flngSemis>
+    <flngFinals>0.27</flngFinals>
+    <flngChampions>0.09</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>West Bend-Mallard</fstrSchoolName>
     <fimgLogo>../img/westbendmallard.png</fimgLogo>
     <flngPowerRanking>47.1210</flngPowerRanking>
-    <flngPlayoffs>72.91</flngPlayoffs>
-    <flngSecondRound>12.47</flngSecondRound>
-    <flngQuarters>0.48</flngQuarters>
-    <flngSemis>0.04</flngSemis>
+    <flngPlayoffs>73.43</flngPlayoffs>
+    <flngSecondRound>12.13</flngSecondRound>
+    <flngQuarters>0.38</flngQuarters>
+    <flngSemis>0.03</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Clarksville</fstrSchoolName>
+    <fimgLogo>../img/clarksville.png</fimgLogo>
+    <flngPowerRanking>50.7980</flngPowerRanking>
+    <flngPlayoffs>72.67</flngPlayoffs>
+    <flngSecondRound>16.35</flngSecondRound>
+    <flngQuarters>1.59</flngQuarters>
+    <flngSemis>0.18</flngSemis>
     <flngFinals>0.02</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Wayne</fstrSchoolName>
-    <fimgLogo>../img/wayne.png</fimgLogo>
-    <flngPowerRanking>46.3025</flngPowerRanking>
-    <flngPlayoffs>71.27</flngPlayoffs>
-    <flngSecondRound>9.88</flngSecondRound>
-    <flngQuarters>0.72</flngQuarters>
-    <flngSemis>0.02</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
+    <fstrSchoolName>Boyer Valley</fstrSchoolName>
+    <fimgLogo>../img/boyervalley.png</fimgLogo>
+    <flngPowerRanking>55.8775</flngPowerRanking>
+    <flngPlayoffs>71.16</flngPlayoffs>
+    <flngSecondRound>27.77</flngSecondRound>
+    <flngQuarters>4.84</flngQuarters>
+    <flngSemis>1.07</flngSemis>
+    <flngFinals>0.18</flngFinals>
+    <flngChampions>0.02</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Baxter</fstrSchoolName>
     <fimgLogo>../img/baxter.png</fimgLogo>
     <flngPowerRanking>45.5910</flngPowerRanking>
-    <flngPlayoffs>63.48</flngPlayoffs>
-    <flngSecondRound>6.97</flngSecondRound>
-    <flngQuarters>0.44</flngQuarters>
-    <flngSemis>0.03</flngSemis>
-    <flngFinals>0.01</flngFinals>
+    <flngPlayoffs>69.25</flngPlayoffs>
+    <flngSecondRound>8.11</flngSecondRound>
+    <flngQuarters>0.55</flngQuarters>
+    <flngSemis>0.08</flngSemis>
+    <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Colo-Nesco</fstrSchoolName>
     <fimgLogo>../img/colonesco.png</fimgLogo>
     <flngPowerRanking>47.5485</flngPowerRanking>
-    <flngPlayoffs>62.48</flngPlayoffs>
-    <flngSecondRound>10.48</flngSecondRound>
-    <flngQuarters>0.57</flngQuarters>
-    <flngSemis>0.04</flngSemis>
+    <flngPlayoffs>67.96</flngPlayoffs>
+    <flngSecondRound>11.45</flngSecondRound>
+    <flngQuarters>0.81</flngQuarters>
+    <flngSemis>0.08</flngSemis>
     <flngFinals>0.01</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Wayne</fstrSchoolName>
+    <fimgLogo>../img/wayne.png</fimgLogo>
+    <flngPowerRanking>46.3025</flngPowerRanking>
+    <flngPlayoffs>65.64</flngPlayoffs>
+    <flngSecondRound>8.35</flngSecondRound>
+    <flngQuarters>0.66</flngQuarters>
+    <flngSemis>0.02</flngSemis>
+    <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Lamoni</fstrSchoolName>
     <fimgLogo>../img/lamoni.png</fimgLogo>
     <flngPowerRanking>40.6970</flngPowerRanking>
-    <flngPlayoffs>60.81</flngPlayoffs>
-    <flngSecondRound>1.11</flngSecondRound>
-    <flngQuarters>0.04</flngQuarters>
+    <flngPlayoffs>58.39</flngPlayoffs>
+    <flngSecondRound>1.25</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
@@ -345,21 +345,10 @@
     <fstrSchoolName>Collins-Maxwell</fstrSchoolName>
     <fimgLogo>../img/collinsmaxwell.png</fimgLogo>
     <flngPowerRanking>46.7845</flngPowerRanking>
-    <flngPlayoffs>56.48</flngPlayoffs>
-    <flngSecondRound>8.48</flngSecondRound>
-    <flngQuarters>0.61</flngQuarters>
+    <flngPlayoffs>57.77</flngPlayoffs>
+    <flngSecondRound>8.94</flngSecondRound>
+    <flngQuarters>0.64</flngQuarters>
     <flngSemis>0.02</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>North Tama</fstrSchoolName>
-    <fimgLogo>../img/northtama.png</fimgLogo>
-    <flngPowerRanking>47.0260</flngPowerRanking>
-    <flngPlayoffs>55.41</flngPlayoffs>
-    <flngSecondRound>8.52</flngSecondRound>
-    <flngQuarters>0.63</flngQuarters>
-    <flngSemis>0.04</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
@@ -367,10 +356,10 @@
     <fstrSchoolName>Winfield-Mt Union</fstrSchoolName>
     <fimgLogo>../img/winfieldmtunion.png</fimgLogo>
     <flngPowerRanking>48.2285</flngPowerRanking>
-    <flngPlayoffs>54.37</flngPlayoffs>
-    <flngSecondRound>9.43</flngSecondRound>
-    <flngQuarters>0.71</flngQuarters>
-    <flngSemis>0.07</flngSemis>
+    <flngPlayoffs>56.38</flngPlayoffs>
+    <flngSecondRound>9.56</flngSecondRound>
+    <flngQuarters>0.74</flngQuarters>
+    <flngSemis>0.10</flngSemis>
     <flngFinals>0.01</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
@@ -378,31 +367,53 @@
     <fstrSchoolName>Springville</fstrSchoolName>
     <fimgLogo>../img/springville.png</fimgLogo>
     <flngPowerRanking>51.4400</flngPowerRanking>
-    <flngPlayoffs>48.07</flngPlayoffs>
-    <flngSecondRound>13.40</flngSecondRound>
-    <flngQuarters>1.51</flngQuarters>
-    <flngSemis>0.12</flngSemis>
-    <flngFinals>0.02</flngFinals>
+    <flngPlayoffs>54.08</flngPlayoffs>
+    <flngSecondRound>14.62</flngSecondRound>
+    <flngQuarters>1.49</flngQuarters>
+    <flngSemis>0.25</flngSemis>
+    <flngFinals>0.01</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>North Tama</fstrSchoolName>
+    <fimgLogo>../img/northtama.png</fimgLogo>
+    <flngPowerRanking>47.0260</flngPowerRanking>
+    <flngPlayoffs>50.10</flngPlayoffs>
+    <flngSecondRound>7.56</flngSecondRound>
+    <flngQuarters>0.68</flngQuarters>
+    <flngSemis>0.03</flngSemis>
+    <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Kee</fstrSchoolName>
     <fimgLogo>../img/keelansing.png</fimgLogo>
     <flngPowerRanking>50.3150</flngPowerRanking>
-    <flngPlayoffs>45.66</flngPlayoffs>
-    <flngSecondRound>11.49</flngSecondRound>
-    <flngQuarters>0.89</flngQuarters>
-    <flngSemis>0.13</flngSemis>
-    <flngFinals>0.02</flngFinals>
-    <flngChampions>0.00</flngChampions>
+    <flngPlayoffs>40.36</flngPlayoffs>
+    <flngSecondRound>10.07</flngSecondRound>
+    <flngQuarters>0.96</flngQuarters>
+    <flngSemis>0.12</flngSemis>
+    <flngFinals>0.01</flngFinals>
+    <flngChampions>0.01</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
     <fstrSchoolName>Turkey Valley</fstrSchoolName>
     <fimgLogo>../img/turkeyvalley.png</fimgLogo>
     <flngPowerRanking>35.7445</flngPowerRanking>
-    <flngPlayoffs>39.26</flngPlayoffs>
-    <flngSecondRound>0.48</flngSecondRound>
-    <flngQuarters>0.01</flngQuarters>
+    <flngPlayoffs>36.08</flngPlayoffs>
+    <flngSecondRound>0.29</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Murray</fstrSchoolName>
+    <fimgLogo>../img/murray.png</fimgLogo>
+    <flngPowerRanking>35.1365</flngPowerRanking>
+    <flngPlayoffs>34.45</flngPlayoffs>
+    <flngSecondRound>0.28</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
@@ -411,8 +422,8 @@
     <fstrSchoolName>Dunkerton</fstrSchoolName>
     <fimgLogo>../img/dunkerton.png</fimgLogo>
     <flngPowerRanking>33.7165</flngPowerRanking>
-    <flngPlayoffs>35.45</flngPlayoffs>
-    <flngSecondRound>0.33</flngSecondRound>
+    <flngPlayoffs>34.22</flngPlayoffs>
+    <flngSecondRound>0.21</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -422,20 +433,9 @@
     <fstrSchoolName>Glidden-Ralston</fstrSchoolName>
     <fimgLogo>../img/gliddenralston.png</fimgLogo>
     <flngPowerRanking>44.1275</flngPowerRanking>
-    <flngPlayoffs>33.04</flngPlayoffs>
-    <flngSecondRound>2.76</flngSecondRound>
-    <flngQuarters>0.07</flngQuarters>
-    <flngSemis>0.01</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Murray</fstrSchoolName>
-    <fimgLogo>../img/murray.png</fimgLogo>
-    <flngPowerRanking>35.1365</flngPowerRanking>
-    <flngPlayoffs>31.90</flngPlayoffs>
-    <flngSecondRound>0.34</flngSecondRound>
-    <flngQuarters>0.01</flngQuarters>
+    <flngPlayoffs>33.52</flngPlayoffs>
+    <flngSecondRound>2.55</flngSecondRound>
+    <flngQuarters>0.10</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
@@ -444,10 +444,10 @@
     <fstrSchoolName>Easton Valley</fstrSchoolName>
     <fimgLogo>../img/eastonvalley.png</fimgLogo>
     <flngPowerRanking>45.9880</flngPowerRanking>
-    <flngPlayoffs>29.80</flngPlayoffs>
-    <flngSecondRound>3.86</flngSecondRound>
-    <flngQuarters>0.18</flngQuarters>
-    <flngSemis>0.01</flngSemis>
+    <flngPlayoffs>30.93</flngPlayoffs>
+    <flngSecondRound>4.15</flngSecondRound>
+    <flngQuarters>0.22</flngQuarters>
+    <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
@@ -455,8 +455,8 @@
     <fstrSchoolName>Tripoli</fstrSchoolName>
     <fimgLogo>../img/tripoli.png</fimgLogo>
     <flngPowerRanking>32.0625</flngPowerRanking>
-    <flngPlayoffs>24.89</flngPlayoffs>
-    <flngSecondRound>0.20</flngSecondRound>
+    <flngPlayoffs>28.89</flngPlayoffs>
+    <flngSecondRound>0.28</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -466,9 +466,9 @@
     <fstrSchoolName>East Mills</fstrSchoolName>
     <fimgLogo>../img/eastmills.png</fimgLogo>
     <flngPowerRanking>42.4885</flngPowerRanking>
-    <flngPlayoffs>24.25</flngPlayoffs>
-    <flngSecondRound>1.76</flngSecondRound>
-    <flngQuarters>0.07</flngQuarters>
+    <flngPlayoffs>24.49</flngPlayoffs>
+    <flngSecondRound>1.52</flngSecondRound>
+    <flngQuarters>0.04</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
@@ -477,31 +477,9 @@
     <fstrSchoolName>Kingsley-Pierson</fstrSchoolName>
     <fimgLogo>../img/kingsleypierson.png</fimgLogo>
     <flngPowerRanking>41.6970</flngPowerRanking>
-    <flngPlayoffs>24.17</flngPlayoffs>
-    <flngSecondRound>0.96</flngSecondRound>
+    <flngPlayoffs>20.77</flngPlayoffs>
+    <flngSecondRound>0.63</flngSecondRound>
     <flngQuarters>0.01</flngQuarters>
-    <flngSemis>0.01</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Northwood-Kensett</fstrSchoolName>
-    <fimgLogo>../img/northwoodkensett.png</fimgLogo>
-    <flngPowerRanking>33.9990</flngPowerRanking>
-    <flngPlayoffs>19.52</flngPlayoffs>
-    <flngSecondRound>0.21</flngSecondRound>
-    <flngQuarters>0.00</flngQuarters>
-    <flngSemis>0.00</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>East Union</fstrSchoolName>
-    <fimgLogo>../img/eastunion.png</fimgLogo>
-    <flngPowerRanking>30.9260</flngPowerRanking>
-    <flngPlayoffs>17.79</flngPlayoffs>
-    <flngSecondRound>0.14</flngSecondRound>
-    <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
@@ -510,30 +488,30 @@
     <fstrSchoolName>Sidney</fstrSchoolName>
     <fimgLogo>../img/sidney.png</fimgLogo>
     <flngPowerRanking>40.5465</flngPowerRanking>
-    <flngPlayoffs>17.23</flngPlayoffs>
-    <flngSecondRound>0.60</flngSecondRound>
-    <flngQuarters>0.02</flngQuarters>
+    <flngPlayoffs>20.04</flngPlayoffs>
+    <flngSecondRound>0.73</flngSecondRound>
+    <flngQuarters>0.04</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Newell-Fonda</fstrSchoolName>
-    <fimgLogo>../img/newellfonda.png</fimgLogo>
-    <flngPowerRanking>36.9890</flngPowerRanking>
-    <flngPlayoffs>12.25</flngPlayoffs>
-    <flngSecondRound>0.27</flngSecondRound>
-    <flngQuarters>0.01</flngQuarters>
+    <fstrSchoolName>East Union</fstrSchoolName>
+    <fimgLogo>../img/eastunion.png</fimgLogo>
+    <flngPowerRanking>30.9260</flngPowerRanking>
+    <flngPlayoffs>17.89</flngPlayoffs>
+    <flngSecondRound>0.17</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Calamus-Wheatland</fstrSchoolName>
-    <fimgLogo>../img/calamuswheatland.png</fimgLogo>
-    <flngPowerRanking>37.9875</flngPowerRanking>
-    <flngPlayoffs>9.13</flngPlayoffs>
-    <flngSecondRound>0.27</flngSecondRound>
+    <fstrSchoolName>Northwood-Kensett</fstrSchoolName>
+    <fimgLogo>../img/northwoodkensett.png</fimgLogo>
+    <flngPowerRanking>33.9990</flngPowerRanking>
+    <flngPlayoffs>17.66</flngPlayoffs>
+    <flngSecondRound>0.20</flngSecondRound>
     <flngQuarters>0.01</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -543,19 +521,30 @@
     <fstrSchoolName>North Union</fstrSchoolName>
     <fimgLogo>../img/northunion.png</fimgLogo>
     <flngPowerRanking>29.7100</flngPowerRanking>
-    <flngPlayoffs>8.62</flngPlayoffs>
-    <flngSecondRound>0.07</flngSecondRound>
+    <flngPlayoffs>11.78</flngPlayoffs>
+    <flngSecondRound>0.12</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>North Iowa</fstrSchoolName>
-    <fimgLogo>../img/northiowa.png</fimgLogo>
-    <flngPowerRanking>27.0330</flngPowerRanking>
-    <flngPlayoffs>6.89</flngPlayoffs>
-    <flngSecondRound>0.07</flngSecondRound>
+    <fstrSchoolName>Newell-Fonda</fstrSchoolName>
+    <fimgLogo>../img/newellfonda.png</fimgLogo>
+    <flngPowerRanking>36.9890</flngPowerRanking>
+    <flngPlayoffs>11.43</flngPlayoffs>
+    <flngSecondRound>0.13</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Calamus-Wheatland</fstrSchoolName>
+    <fimgLogo>../img/calamuswheatland.png</fimgLogo>
+    <flngPowerRanking>37.9875</flngPowerRanking>
+    <flngPlayoffs>8.00</flngPlayoffs>
+    <flngSecondRound>0.11</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -565,19 +554,19 @@
     <fstrSchoolName>Exira-EHK</fstrSchoolName>
     <fimgLogo>../img/exiraehk.png</fimgLogo>
     <flngPowerRanking>32.9165</flngPowerRanking>
-    <flngPlayoffs>5.98</flngPlayoffs>
-    <flngSecondRound>0.08</flngSecondRound>
+    <flngPlayoffs>6.69</flngPlayoffs>
+    <flngSecondRound>0.06</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Moravia</fstrSchoolName>
-    <fimgLogo>../img/moravia.png</fimgLogo>
-    <flngPowerRanking>26.4280</flngPowerRanking>
-    <flngPlayoffs>5.70</flngPlayoffs>
-    <flngSecondRound>0.04</flngSecondRound>
+    <fstrSchoolName>North Iowa</fstrSchoolName>
+    <fimgLogo>../img/northiowa.png</fimgLogo>
+    <flngPowerRanking>27.0330</flngPowerRanking>
+    <flngPlayoffs>6.19</flngPlayoffs>
+    <flngSecondRound>0.10</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -587,8 +576,8 @@
     <fstrSchoolName>Waterloo Christian</fstrSchoolName>
     <fimgLogo>../img/waterloochristian.png</fimgLogo>
     <flngPowerRanking>18.9680</flngPowerRanking>
-    <flngPlayoffs>5.42</flngPlayoffs>
-    <flngSecondRound>0.09</flngSecondRound>
+    <flngPlayoffs>5.32</flngPlayoffs>
+    <flngSecondRound>0.05</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -598,7 +587,7 @@
     <fstrSchoolName>Griswold</fstrSchoolName>
     <fimgLogo>../img/griswold.png</fimgLogo>
     <flngPowerRanking>31.2830</flngPowerRanking>
-    <flngPlayoffs>3.29</flngPlayoffs>
+    <flngPlayoffs>5.19</flngPlayoffs>
     <flngSecondRound>0.07</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
@@ -606,11 +595,11 @@
     <flngChampions>0.00</flngChampions>
   </dtProbabilities>
   <dtProbabilities>
-    <fstrSchoolName>Central Elkader</fstrSchoolName>
-    <fimgLogo>../img/centralelkader.png</fimgLogo>
-    <flngPowerRanking>31.4240</flngPowerRanking>
-    <flngPlayoffs>2.88</flngPlayoffs>
-    <flngSecondRound>0.07</flngSecondRound>
+    <fstrSchoolName>Moravia</fstrSchoolName>
+    <fimgLogo>../img/moravia.png</fimgLogo>
+    <flngPowerRanking>26.4280</flngPowerRanking>
+    <flngPlayoffs>4.62</flngPlayoffs>
+    <flngSecondRound>0.06</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -620,7 +609,18 @@
     <fstrSchoolName>Harris-Lake Park</fstrSchoolName>
     <fimgLogo>../img/harrislakepark.png</fimgLogo>
     <flngPowerRanking>27.4275</flngPowerRanking>
-    <flngPlayoffs>1.74</flngPlayoffs>
+    <flngPlayoffs>1.77</flngPlayoffs>
+    <flngSecondRound>0.03</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Central Elkader</fstrSchoolName>
+    <fimgLogo>../img/centralelkader.png</fimgLogo>
+    <flngPowerRanking>31.4240</flngPowerRanking>
+    <flngPlayoffs>1.73</flngPlayoffs>
     <flngSecondRound>0.02</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
@@ -631,7 +631,7 @@
     <fstrSchoolName>Coon Rapids-Bayard</fstrSchoolName>
     <fimgLogo>../img/coonrapidsbayard.png</fimgLogo>
     <flngPowerRanking>27.4510</flngPowerRanking>
-    <flngPlayoffs>1.59</flngPlayoffs>
+    <flngPlayoffs>1.21</flngPlayoffs>
     <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
@@ -642,19 +642,8 @@
     <fstrSchoolName>West Central</fstrSchoolName>
     <fimgLogo>../img/westcentralmaynard.png</fimgLogo>
     <flngPowerRanking>10.0780</flngPowerRanking>
-    <flngPlayoffs>0.81</flngPlayoffs>
+    <flngPlayoffs>0.67</flngPlayoffs>
     <flngSecondRound>0.01</flngSecondRound>
-    <flngQuarters>0.00</flngQuarters>
-    <flngSemis>0.00</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Melcher-Dallas</fstrSchoolName>
-    <fimgLogo>../img/melcherdallas.png</fimgLogo>
-    <flngPowerRanking>16.6610</flngPowerRanking>
-    <flngPlayoffs>0.41</flngPlayoffs>
-    <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -664,7 +653,18 @@
     <fstrSchoolName>Lone Tree</fstrSchoolName>
     <fimgLogo>../img/lonetree.png</fimgLogo>
     <flngPowerRanking>26.3575</flngPowerRanking>
-    <flngPlayoffs>0.38</flngPlayoffs>
+    <flngPlayoffs>0.42</flngPlayoffs>
+    <flngSecondRound>0.00</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Melcher-Dallas</fstrSchoolName>
+    <fimgLogo>../img/melcherdallas.png</fimgLogo>
+    <flngPowerRanking>16.6610</flngPowerRanking>
+    <flngPlayoffs>0.36</flngPlayoffs>
     <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
@@ -675,8 +675,8 @@
     <fstrSchoolName>Rockford</fstrSchoolName>
     <fimgLogo>../img/rockford.png</fimgLogo>
     <flngPowerRanking>11.1295</flngPowerRanking>
-    <flngPlayoffs>0.19</flngPlayoffs>
-    <flngSecondRound>0.01</flngSecondRound>
+    <flngPlayoffs>0.17</flngPlayoffs>
+    <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
     <flngFinals>0.00</flngFinals>
@@ -686,29 +686,7 @@
     <fstrSchoolName>HLV</fstrSchoolName>
     <fimgLogo>../img/hlv.png</fimgLogo>
     <flngPowerRanking>20.9040</flngPowerRanking>
-    <flngPlayoffs>0.16</flngPlayoffs>
-    <flngSecondRound>0.00</flngSecondRound>
-    <flngQuarters>0.00</flngQuarters>
-    <flngSemis>0.00</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>GMG</fstrSchoolName>
-    <fimgLogo>../img/gmggarwin.png</fimgLogo>
-    <flngPowerRanking>17.1935</flngPowerRanking>
-    <flngPlayoffs>0.11</flngPlayoffs>
-    <flngSecondRound>0.00</flngSecondRound>
-    <flngQuarters>0.00</flngQuarters>
-    <flngSemis>0.00</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Mormon Trail</fstrSchoolName>
-    <fimgLogo>../img/mormontrail.png</fimgLogo>
-    <flngPowerRanking>7.1540</flngPowerRanking>
-    <flngPlayoffs>0.05</flngPlayoffs>
+    <flngPlayoffs>0.15</flngPlayoffs>
     <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
@@ -719,18 +697,7 @@
     <fstrSchoolName>English Valleys</fstrSchoolName>
     <fimgLogo>../img/englishvalleys.png</fimgLogo>
     <flngPowerRanking>19.0625</flngPowerRanking>
-    <flngPlayoffs>0.03</flngPlayoffs>
-    <flngSecondRound>0.00</flngSecondRound>
-    <flngQuarters>0.00</flngQuarters>
-    <flngSemis>0.00</flngSemis>
-    <flngFinals>0.00</flngFinals>
-    <flngChampions>0.00</flngChampions>
-  </dtProbabilities>
-  <dtProbabilities>
-    <fstrSchoolName>Siouxland Christian</fstrSchoolName>
-    <fimgLogo>../img/siouxlandchristian.png</fimgLogo>
-    <flngPowerRanking>15.0600</flngPowerRanking>
-    <flngPlayoffs>0.03</flngPlayoffs>
+    <flngPlayoffs>0.06</flngPlayoffs>
     <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>
@@ -741,7 +708,40 @@
     <fstrSchoolName>Stanton</fstrSchoolName>
     <fimgLogo>../img/stanton.png</fimgLogo>
     <flngPowerRanking>13.6715</flngPowerRanking>
-    <flngPlayoffs>0.02</flngPlayoffs>
+    <flngPlayoffs>0.06</flngPlayoffs>
+    <flngSecondRound>0.00</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Siouxland Christian</fstrSchoolName>
+    <fimgLogo>../img/siouxlandchristian.png</fimgLogo>
+    <flngPowerRanking>15.0600</flngPowerRanking>
+    <flngPlayoffs>0.05</flngPlayoffs>
+    <flngSecondRound>0.01</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>GMG</fstrSchoolName>
+    <fimgLogo>../img/gmggarwin.png</fimgLogo>
+    <flngPowerRanking>17.1935</flngPowerRanking>
+    <flngPlayoffs>0.04</flngPlayoffs>
+    <flngSecondRound>0.00</flngSecondRound>
+    <flngQuarters>0.00</flngQuarters>
+    <flngSemis>0.00</flngSemis>
+    <flngFinals>0.00</flngFinals>
+    <flngChampions>0.00</flngChampions>
+  </dtProbabilities>
+  <dtProbabilities>
+    <fstrSchoolName>Mormon Trail</fstrSchoolName>
+    <fimgLogo>../img/mormontrail.png</fimgLogo>
+    <flngPowerRanking>7.1540</flngPowerRanking>
+    <flngPlayoffs>0.04</flngPlayoffs>
     <flngSecondRound>0.00</flngSecondRound>
     <flngQuarters>0.00</flngQuarters>
     <flngSemis>0.00</flngSemis>

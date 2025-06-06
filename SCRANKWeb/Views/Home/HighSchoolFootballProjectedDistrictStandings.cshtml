@@ -6,6 +6,13 @@
 <html>
 <head>
     <style>
+        a {
+            text-decoration: none;
+        }
+
+            a:hover {
+                font-weight: bolder;
+            }
         table {
             border-collapse: collapse;
         }
@@ -53,6 +60,12 @@
 </head>
 <body>
     <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src=@Model.strStateLogo style="height: 1.5em"> @Model.strStateLong High School Football Projections</h1>
+    <nav class="nav nav-pills navbar-right">
+
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">Rankings</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="Champions" asp-route-pstrState="@Model.strState">Probabilities</a>
+    </nav>
+
     <nav class="nav nav-pills navbar-right">
         @foreach (DataRow season in @Model.dtProjectionSeasons.Rows)
         {
@@ -113,12 +126,14 @@
                                 {
                                     <tr>
                                         <td>@counter</td>
-                                        <td width="280px"><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</td>
+                                        <td width="285px">
+                                            <a class="jobs" style="text-decoration:none; color:black" asp-action="HighSchoolFootballTeam" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrState="@Model.strState" asp-route-pstrTeam="@team["fstrSchoolName"]"><img src="@team["fimgLogo"]" style="height:2em" id="imageBox"> @team["fstrSchoolName"]</a>
+                                        </td>
                                         <td>@team["fintProjectedDistrictWins"]</td>
                                         <td>@team["fintProjectedDistrictLosses"]</td>
                                         <td>@team["fintProjectedWins"]</td>
                                         <td>@team["fintProjectedLosses"]</td>
-                                        <td>@team["flngProjectedDistricPointDifferential"]</td>
+                                        <td>@team["flngProjectedDistrictPointDifferential"]</td>
                                     </tr>
                                     ++counter;
                                 }

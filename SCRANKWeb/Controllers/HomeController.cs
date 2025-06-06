@@ -67,6 +67,22 @@ namespace SCRANKWeb.Controllers
             return View(rank);
         }
 
+        public IActionResult HighSchoolFootballTeam(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, string pstrTeam, HighSchoolFootballModel rank)
+        {
+            rank.GetSeasons(pstrState);
+            rank.GetClasses(pintSeason, pstrState);
+            rank.setStateInfo(pstrState);
+            rank.GetTeamViewInfo(pintSeason, pstrState);
+            rank.intSeason = pintSeason;
+            rank.strClass = pstrClass;
+            rank.strState = pstrState;
+            rank.strTeam = pstrTeam;
+            rank.strRankingView = pstrRankingView;
+
+
+            return View(rank);
+        }
+
         public IActionResult HighSchoolFootballDistrictStandings(string pstrClass, int pintSeason, string pstrRankingView, string pstrState, HighSchoolFootballModel rank)
         {
             rank.GetSeasons(pstrState);
@@ -82,7 +98,7 @@ namespace SCRANKWeb.Controllers
             return View(rank);
         }
 
-        public IActionResult CollegeBasketballRankings(string pintSeason, string pstrRankingView, CollegeBasketballModel rank)
+        public IActionResult CollegeBasketballRankings(Int64 pintSeason, string pstrRankingView, CollegeBasketballModel rank)
         {
             rank.GetSeasons();
             rank.intSeason = pintSeason;
@@ -99,6 +115,31 @@ namespace SCRANKWeb.Controllers
                     rank.GetRankings(pintSeason, "SOV");
                     break;
             }
+
+            return View(rank);
+        }
+
+        public IActionResult CollegeBasketballConferenceStandings(Int64 pintSeason, string pstrRankingView, CollegeBasketballModel rank)
+        {
+            rank.GetSeasons();
+            rank.GetConferences(pintSeason);
+            rank.GetConferenceStandings(pintSeason);
+            rank.intSeason = pintSeason;
+            rank.strRankingView = pstrRankingView;
+
+            return View(rank);
+        }
+
+        public IActionResult CollegeBasketballTeam(string pstrConference, int pintSeason, string pstrRankingView, string pstrState, string pstrTeam, CollegeBasketballModel rank)
+        {
+            rank.GetSeasons();
+            //rank.GetClasses(pintSeason, pstrState);
+            rank.GetTeamViewInfo(pintSeason, pstrState);
+            rank.intSeason = pintSeason;
+            rank.strConference = pstrConference;
+            rank.strTeam = pstrTeam;
+            rank.strRankingView = pstrRankingView;
+
 
             return View(rank);
         }

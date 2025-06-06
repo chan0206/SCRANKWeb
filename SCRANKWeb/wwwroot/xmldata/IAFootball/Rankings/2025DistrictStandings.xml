@@ -14,7 +14,8 @@
                 <xs:element name="fintLosses" type="xs:int" minOccurs="0" />
                 <xs:element name="fintDistrictWins" type="xs:int" minOccurs="0" />
                 <xs:element name="fintDistrictLosses" type="xs:int" minOccurs="0" />
-                <xs:element name="flngDistricPointDifferential" type="xs:decimal" minOccurs="0" />
+                <xs:element name="fintDistrictPosition" type="xs:int" minOccurs="0" />
+                <xs:element name="flngDistrictPointDifferential" type="xs:decimal" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -31,7 +32,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -42,29 +44,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/lawtonbronson.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Lawton-Bronson</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/mvaocou.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>MVAOCOU</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -75,7 +56,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/mvaocou.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>MVAOCOU</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -86,62 +80,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/southhamilton.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>South Hamilton</fstrSchoolName>
+    <fimgLogo>../img/lawtonbronson.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Lawton-Bronson</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/pocahontas.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Pocahontas Area</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/southcentralcalhoun.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>South Central Calhoun</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/manson.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Manson-NW Webster</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/eastsaccounty.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>East Sac County</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -152,18 +104,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/eaglegrove.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Eagle Grove</fstrSchoolName>
+    <fimgLogo>../img/manson.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Manson-NW Webster</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/southhamilton.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>South Hamilton</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/southcentralcalhoun.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>South Central Calhoun</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/eastsaccounty.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>East Sac County</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/pocahontas.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Pocahontas Area</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -174,40 +176,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/centralsprings.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Central Springs</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/clariongoldfielddows.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Clarion-Goldfield-Dows</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/garnerhayfieldventura.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Garner Hayfield Ventura</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -218,7 +188,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/centralsprings.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Central Springs</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/garnerhayfieldventura.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Garner Hayfield Ventura</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/clariongoldfielddows.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Clarion-Goldfield-Dows</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/eaglegrove.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Eagle Grove</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -229,40 +248,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/jesup.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Jesup</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/aplingtonparkersburg.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Aplington-Parkersburg</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/union.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Union Community</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -273,7 +260,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/jesup.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Jesup</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/union.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Union Community</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/aplingtonparkersburg.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Aplington-Parkersburg</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -284,62 +308,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/mflmarmac.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>MFL MarMac</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/beckman.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Beckman Catholic</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/cascadewesterndubuque.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Cascade</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/northeastgooselake.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Northeast</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/camanche.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Camanche</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -350,29 +320,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/louisamuscatine.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Louisa-Muscatine</fstrSchoolName>
+    <fimgLogo>../img/beckman.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Beckman Catholic</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/sigourney.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Sigourney Keota</fstrSchoolName>
+    <fimgLogo>../img/mflmarmac.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>MFL MarMac</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/northeastgooselake.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Northeast</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/cascadewesterndubuque.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Cascade</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/camanche.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Camanche</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -383,18 +392,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/cardinal.png</fimgLogo>
+    <fimgLogo>../img/sigourney.png</fimgLogo>
     <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Cardinal</fstrSchoolName>
+    <fstrSchoolName>Sigourney Keota</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -405,7 +416,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -416,40 +428,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/westmarshall.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>West Marshall</fstrSchoolName>
+    <fimgLogo>../img/louisamuscatine.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Louisa-Muscatine</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/i35.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Interstate 35</fstrSchoolName>
+    <fimgLogo>../img/cardinal.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Cardinal</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/westcentralvalleystuart.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>West Central Valley</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -460,7 +464,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/westmarshall.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>West Marshall</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/westcentralvalleystuart.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>West Central Valley</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/i35.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Interstate 35</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -471,7 +512,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -482,51 +524,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/redoak.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Red Oak</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/shenandoah.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Shenandoah</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/treynor.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Treynor</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>1A</fstrClass>
-    <fimgLogo>../img/underwood.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Underwood</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -537,7 +536,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/treynor.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Treynor</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/underwood.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Underwood</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/shenandoah.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Shenandoah</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>1A</fstrClass>
+    <fimgLogo>../img/redoak.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Red Oak</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -548,51 +596,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/unitychristian.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Unity Christian</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/westernchristian.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Western Christian</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/sheldon.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Sheldon</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/centrallyonrockrapids.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Central Lyon/George-Little Rock</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -603,7 +608,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/centrallyonrockrapids.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Central Lyon/George-Little Rock</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/westernchristian.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Western Christian</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/unitychristian.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Unity Christian</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/sheldon.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Sheldon</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -614,29 +668,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/esthervillelincolncentral.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Estherville Lincoln Central</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/southeastvalley.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Southeast Valley</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -647,18 +680,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/okoboji.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Okoboji</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -669,7 +692,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -680,29 +704,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/newhampton.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>New Hampton</fstrSchoolName>
+    <fimgLogo>../img/okoboji.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Okoboji</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/osage.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Osage</fstrSchoolName>
+    <fimgLogo>../img/southeastvalley.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Southeast Valley</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/esthervillelincolncentral.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Estherville Lincoln Central</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -713,18 +752,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/forestcity.png</fimgLogo>
+    <fimgLogo>../img/osage.png</fimgLogo>
     <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Forest City</fstrSchoolName>
+    <fstrSchoolName>Osage</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -735,7 +776,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -746,40 +788,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/rolandstory.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Roland-Story</fstrSchoolName>
+    <fimgLogo>../img/forestcity.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Forest City</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/vintonshellsburg.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Vinton-Shellsburg</fstrSchoolName>
+    <fimgLogo>../img/newhampton.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>New Hampton</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/denver.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Denver</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -790,18 +824,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/oelwein.png</fimgLogo>
+    <fimgLogo>../img/rolandstory.png</fimgLogo>
     <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Oelwein</fstrSchoolName>
+    <fstrSchoolName>Roland-Story</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -812,29 +848,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/tipton.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Tipton</fstrSchoolName>
+    <fimgLogo>../img/denver.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Denver</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/monticello.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Monticello</fstrSchoolName>
+    <fimgLogo>../img/oelwein.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Oelwein</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/vintonshellsburg.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Vinton-Shellsburg</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -845,7 +896,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -856,18 +908,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/westbranch.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>West Branch</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -878,7 +920,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/westbranch.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>West Branch</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/tipton.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Tipton</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/monticello.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Monticello</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -889,7 +968,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -900,40 +980,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/westliberty.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>West Liberty</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/centrallee.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Central Lee</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/mediapolis.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Mediapolis</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -944,7 +992,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/mediapolis.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Mediapolis</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/westliberty.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>West Liberty</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/centrallee.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Central Lee</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -955,40 +1040,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/centerville.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Centerville</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/daviscounty.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Davis County</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/southtama.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>South Tama</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -999,7 +1052,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/daviscounty.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Davis County</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/centerville.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Centerville</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1010,51 +1088,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/woodwardgranger.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Woodward-Granger</fstrSchoolName>
+    <fimgLogo>../img/southtama.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>South Tama</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/clarke.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Clarke Community</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/clarinda.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Clarinda</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>2A</fstrClass>
-    <fimgLogo>../img/chariton.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Chariton</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1065,7 +1112,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/woodwardgranger.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Woodward-Granger</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/clarinda.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Clarinda</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/chariton.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Chariton</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1076,51 +1160,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/webstercity.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Webster City</fstrSchoolName>
+    <fstrClass>2A</fstrClass>
+    <fimgLogo>../img/clarke.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Clarke Community</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/siouxcenter.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Sioux Center</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/mocfloydvalley.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>MOC-Floyd Valley</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/heelan.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Bishop Heelan</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1131,7 +1184,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1142,7 +1196,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/heelan.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Bishop Heelan</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/mocfloydvalley.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>MOC-Floyd Valley</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/webstercity.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Webster City</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/siouxcenter.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Sioux Center</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1153,29 +1256,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/charlescity.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Charles City</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/clearlake.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Clear Lake</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1186,7 +1268,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/clearlake.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Clear Lake</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1197,7 +1292,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/charlescity.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Charles City</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1208,62 +1316,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/maquoketa.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Maquoketa</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/mountvernon.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Mount Vernon</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/centerpointurbana.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Center Point-Urbana</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/centraldewitt.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Central DeWitt</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/assumption.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Assumption</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1274,62 +1328,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/fairfield.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Fairfield</fstrSchoolName>
+    <fimgLogo>../img/mountvernon.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Mount Vernon</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/fortmadison.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Fort Madison</fstrSchoolName>
+    <fimgLogo>../img/assumption.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Assumption</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/keokuk.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Keokuk</fstrSchoolName>
+    <fimgLogo>../img/centerpointurbana.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Center Point-Urbana</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/mountpleasant.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Mount Pleasant</fstrSchoolName>
+    <fimgLogo>../img/centraldewitt.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Central DeWitt</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/washington.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Washington</fstrSchoolName>
+    <fimgLogo>../img/maquoketa.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Maquoketa</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1340,7 +1400,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/washington.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Washington</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/keokuk.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Keokuk</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/mountpleasant.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Mount Pleasant</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/fairfield.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Fairfield</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/fortmadison.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Fort Madison</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1351,7 +1472,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1362,29 +1484,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/knoxville.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Knoxville</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/saydel.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Saydel</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1395,7 +1496,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1406,62 +1508,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/greenecounty.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Greene County</fstrSchoolName>
+    <fimgLogo>../img/knoxville.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Knoxville</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/atlantic.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Atlantic</fstrSchoolName>
+    <fimgLogo>../img/saydel.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Saydel</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/carroll.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Carroll</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/creston.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Creston</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>3A</fstrClass>
-    <fimgLogo>../img/perry.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Perry</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1472,7 +1544,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/carroll.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Carroll</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/atlantic.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Atlantic</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/creston.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Creston</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/greenecounty.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Greene County</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>3A</fstrClass>
+    <fimgLogo>../img/perry.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Perry</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1483,7 +1616,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1494,40 +1628,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/scwest.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Sioux City West</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/spencer.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Spencer</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/stormlake.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Storm Lake</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1538,18 +1640,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/xavier.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Xavier</fstrSchoolName>
+    <fimgLogo>../img/spencer.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Spencer</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/stormlake.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Storm Lake</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/scwest.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Sioux City West</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1560,18 +1688,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/waterlooeast.png</fimgLogo>
+    <fimgLogo>../img/xavier.png</fimgLogo>
     <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Waterloo East</fstrSchoolName>
+    <fstrSchoolName>Xavier</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1582,7 +1712,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1593,7 +1724,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1604,51 +1736,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/davenportnorth.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Davenport North</fstrSchoolName>
+    <fimgLogo>../img/waterlooeast.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Waterloo East</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/davenportwest.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Davenport West</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/epworth.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Western Dubuque</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/clinton.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Clinton</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1659,7 +1760,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/epworth.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Western Dubuque</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/davenportnorth.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Davenport North</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1670,40 +1796,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/clearcreekamana.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Clear Creek Amana</fstrSchoolName>
+    <fimgLogo>../img/clinton.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Clinton</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/newton.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Newton</fstrSchoolName>
+    <fimgLogo>../img/davenportwest.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Davenport West</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/oskaloosa.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Oskaloosa</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1714,18 +1832,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/marion.png</fimgLogo>
+    <fimgLogo>../img/newton.png</fimgLogo>
     <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Marion</fstrSchoolName>
+    <fstrSchoolName>Newton</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1736,7 +1856,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/clearcreekamana.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Clear Creek Amana</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/marion.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Marion</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/oskaloosa.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Oskaloosa</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1747,40 +1904,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/bondurantfarrar.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Bondurant-Farrar</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/carlisle.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Carlisle</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/ballard.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Ballard</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1791,7 +1916,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/ballard.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Ballard</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/bondurantfarrar.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Bondurant-Farrar</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/carlisle.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Carlisle</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1802,40 +1964,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/denisonschleswig.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Denison-Schleswig</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/glenwood.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Glenwood</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/cbjefferson.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Council Bluffs Jefferson</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1846,18 +1976,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>4A</fstrClass>
-    <fimgLogo>../img/boone.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Boone</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1868,51 +1988,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/kingsleypierson.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Kingsley-Pierson</fstrSchoolName>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/boone.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Boone</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/gtra.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>GTRA</fstrSchoolName>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/glenwood.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Glenwood</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/harrislakepark.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Harris-Lake Park</fstrSchoolName>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/denisonschleswig.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Denison-Schleswig</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/newellfonda.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Newell-Fonda</fstrSchoolName>
+    <fstrClass>4A</fstrClass>
+    <fimgLogo>../img/cbjefferson.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Council Bluffs Jefferson</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1923,18 +2048,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/siouxlandchristian.png</fimgLogo>
+    <fimgLogo>../img/gtra.png</fimgLogo>
     <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Siouxland Christian</fstrSchoolName>
+    <fstrSchoolName>GTRA</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1945,51 +2072,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/riceville.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Riceville</fstrSchoolName>
+    <fimgLogo>../img/kingsleypierson.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Kingsley-Pierson</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/rockford.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Rockford</fstrSchoolName>
+    <fimgLogo>../img/newellfonda.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Newell-Fonda</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/northiowa.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>North Iowa</fstrSchoolName>
+    <fimgLogo>../img/harrislakepark.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Harris-Lake Park</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/northwoodkensett.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Northwood-Kensett</fstrSchoolName>
+    <fimgLogo>../img/siouxlandchristian.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Siouxland Christian</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2000,18 +2132,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/northunion.png</fimgLogo>
+    <fimgLogo>../img/riceville.png</fimgLogo>
     <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>North Union</fstrSchoolName>
+    <fstrSchoolName>Riceville</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2022,29 +2156,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/westcentralmaynard.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>West Central</fstrSchoolName>
+    <fimgLogo>../img/northwoodkensett.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Northwood-Kensett</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/waterloochristian.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Waterloo Christian</fstrSchoolName>
+    <fimgLogo>../img/northunion.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>North Union</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/northiowa.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>North Iowa</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/rockford.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Rockford</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2055,40 +2216,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/dunkerton.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Dunkerton</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/tripoli.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Tripoli</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/turkeyvalley.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Turkey Valley</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2099,62 +2228,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/keelansing.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Kee</fstrSchoolName>
+    <fimgLogo>../img/turkeyvalley.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Turkey Valley</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/springville.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Springville</fstrSchoolName>
+    <fimgLogo>../img/dunkerton.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Dunkerton</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/eastonvalley.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Easton Valley</fstrSchoolName>
+    <fimgLogo>../img/tripoli.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Tripoli</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/centralcity.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Central City</fstrSchoolName>
+    <fimgLogo>../img/waterloochristian.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Waterloo Christian</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/centralelkader.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Central Elkader</fstrSchoolName>
+    <fimgLogo>../img/westcentralmaynard.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>West Central</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2165,7 +2300,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/centralcity.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Central City</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/springville.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Springville</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/keelansing.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Kee</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/eastonvalley.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Easton Valley</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2176,40 +2360,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/belleplaine.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Belle Plaine</fstrSchoolName>
+    <fimgLogo>../img/centralelkader.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Central Elkader</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/englishvalleys.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>English Valleys</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/hlv.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>HLV</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2220,18 +2384,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/lonetree.png</fimgLogo>
+    <fimgLogo>../img/belleplaine.png</fimgLogo>
     <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Lone Tree</fstrSchoolName>
+    <fstrSchoolName>Belle Plaine</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2242,7 +2408,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2253,18 +2420,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/meskwaki.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Meskwaki Settlement</fstrSchoolName>
+    <fimgLogo>../img/lonetree.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Lone Tree</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/hlv.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>HLV</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/englishvalleys.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>English Valleys</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2275,18 +2468,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/gmggarwin.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>GMG</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2297,18 +2480,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/collinsmaxwell.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Collins-Maxwell</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2319,7 +2492,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2330,40 +2504,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/baxter.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Baxter</fstrSchoolName>
+    <fimgLogo>../img/collinsmaxwell.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Collins-Maxwell</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/wayne.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Wayne</fstrSchoolName>
+    <fimgLogo>../img/gmggarwin.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>GMG</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/melcherdallas.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Melcher-Dallas</fstrSchoolName>
+    <fimgLogo>../img/meskwaki.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Meskwaki Settlement</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2374,18 +2552,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/moravia.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Moravia</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2396,7 +2564,56 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/wayne.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Wayne</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/baxter.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Baxter</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/moravia.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Moravia</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/melcherdallas.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Melcher-Dallas</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2407,40 +2624,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/mormontrail.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Mormon Trail</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/murray.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Murray</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/lamoni.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Lamoni</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2451,7 +2636,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2462,7 +2648,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/lamoni.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Lamoni</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/murray.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Murray</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2473,7 +2684,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/mormontrail.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Mormon Trail</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2484,73 +2708,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/coonrapidsbayard.png</fimgLogo>
-    <fintDistrict>9</fintDistrict>
-    <fstrSchoolName>Coon Rapids-Bayard</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/griswold.png</fimgLogo>
-    <fintDistrict>9</fintDistrict>
-    <fstrSchoolName>Griswold</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/gliddenralston.png</fimgLogo>
-    <fintDistrict>9</fintDistrict>
-    <fstrSchoolName>Glidden-Ralston</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/exiraehk.png</fimgLogo>
-    <fintDistrict>9</fintDistrict>
-    <fstrSchoolName>Exira-EHK</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/cam.png</fimgLogo>
-    <fintDistrict>9</fintDistrict>
-    <fstrSchoolName>CAM</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/arweva.png</fimgLogo>
-    <fintDistrict>9</fintDistrict>
-    <fstrSchoolName>Ar-We-Va</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2561,62 +2720,80 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/boyervalley.png</fimgLogo>
-    <fintDistrict>10</fintDistrict>
-    <fstrSchoolName>Boyer Valley</fstrSchoolName>
+    <fimgLogo>../img/cam.png</fimgLogo>
+    <fintDistrict>9</fintDistrict>
+    <fstrSchoolName>CAM</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/fremontmills.png</fimgLogo>
-    <fintDistrict>10</fintDistrict>
-    <fstrSchoolName>Fremont-Mills</fstrSchoolName>
+    <fimgLogo>../img/arweva.png</fimgLogo>
+    <fintDistrict>9</fintDistrict>
+    <fstrSchoolName>Ar-We-Va</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/eastmills.png</fimgLogo>
-    <fintDistrict>10</fintDistrict>
-    <fstrSchoolName>East Mills</fstrSchoolName>
+    <fimgLogo>../img/gliddenralston.png</fimgLogo>
+    <fintDistrict>9</fintDistrict>
+    <fstrSchoolName>Glidden-Ralston</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/stanton.png</fimgLogo>
-    <fintDistrict>10</fintDistrict>
-    <fstrSchoolName>Stanton</fstrSchoolName>
+    <fimgLogo>../img/exiraehk.png</fimgLogo>
+    <fintDistrict>9</fintDistrict>
+    <fstrSchoolName>Exira-EHK</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
-    <fimgLogo>../img/sidney.png</fimgLogo>
-    <fintDistrict>10</fintDistrict>
-    <fstrSchoolName>Sidney</fstrSchoolName>
+    <fimgLogo>../img/griswold.png</fimgLogo>
+    <fintDistrict>9</fintDistrict>
+    <fstrSchoolName>Griswold</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/coonrapidsbayard.png</fimgLogo>
+    <fintDistrict>9</fintDistrict>
+    <fstrSchoolName>Coon Rapids-Bayard</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2627,40 +2804,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/mmcru.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>MMCRU</fstrSchoolName>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/fremontmills.png</fimgLogo>
+    <fintDistrict>10</fintDistrict>
+    <fstrSchoolName>Fremont-Mills</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/southobrien.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>South O'Brien</fstrSchoolName>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/boyervalley.png</fimgLogo>
+    <fintDistrict>10</fintDistrict>
+    <fstrSchoolName>Boyer Valley</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/sibleyocheyedan.png</fimgLogo>
-    <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Sibley-Ocheyedan</fstrSchoolName>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/eastmills.png</fimgLogo>
+    <fintDistrict>10</fintDistrict>
+    <fstrSchoolName>East Mills</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/sidney.png</fimgLogo>
+    <fintDistrict>10</fintDistrict>
+    <fstrSchoolName>Sidney</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>8P</fstrClass>
+    <fimgLogo>../img/stanton.png</fimgLogo>
+    <fintDistrict>10</fintDistrict>
+    <fstrSchoolName>Stanton</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2671,29 +2876,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/hartleymelvinsanborn.png</fimgLogo>
+    <fimgLogo>../img/mmcru.png</fimgLogo>
     <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>Hartley-Melvin-Sanborn</fstrSchoolName>
+    <fstrSchoolName>MMCRU</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/westsioux.png</fimgLogo>
+    <fimgLogo>../img/sibleyocheyedan.png</fimgLogo>
     <fintDistrict>1</fintDistrict>
-    <fstrSchoolName>West Sioux</fstrSchoolName>
+    <fstrSchoolName>Sibley-Ocheyedan</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2704,73 +2912,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/bcluw.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>BCLUW</fstrSchoolName>
+    <fimgLogo>../img/westsioux.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>West Sioux</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/agwsr.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>AGWSR</fstrSchoolName>
+    <fimgLogo>../img/hartleymelvinsanborn.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>Hartley-Melvin-Sanborn</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/belmondklemme.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Belmond-Klemme</fstrSchoolName>
+    <fimgLogo>../img/southobrien.png</fimgLogo>
+    <fintDistrict>1</fintDistrict>
+    <fstrSchoolName>South O'Brien</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/lakemills.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Lake Mills</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/newman.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>Newman Catholic</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/westfork.png</fimgLogo>
-    <fintDistrict>2</fintDistrict>
-    <fstrSchoolName>West Fork</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2781,40 +2960,80 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/northbutler.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>North Butler</fstrSchoolName>
+    <fimgLogo>../img/newman.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Newman Catholic</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/starmont.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Starmont</fstrSchoolName>
+    <fimgLogo>../img/lakemills.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Lake Mills</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/southwinneshiek.png</fimgLogo>
-    <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>South Winneshiek</fstrSchoolName>
+    <fimgLogo>../img/belmondklemme.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>Belmond-Klemme</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/westfork.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>West Fork</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/bcluw.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>BCLUW</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/agwsr.png</fimgLogo>
+    <fintDistrict>2</fintDistrict>
+    <fstrSchoolName>AGWSR</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2825,7 +3044,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2836,18 +3056,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/postville.png</fimgLogo>
+    <fimgLogo>../img/starmont.png</fimgLogo>
     <fintDistrict>3</fintDistrict>
-    <fstrSchoolName>Postville</fstrSchoolName>
+    <fstrSchoolName>Starmont</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/northbutler.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>North Butler</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/southwinneshiek.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>South Winneshiek</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2858,40 +3104,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/eastbuchanan.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>East Buchanan</fstrSchoolName>
+    <fimgLogo>../img/postville.png</fimgLogo>
+    <fintDistrict>3</fintDistrict>
+    <fstrSchoolName>Postville</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/northcedarstanwood.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>North Cedar</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/northlinn.png</fimgLogo>
-    <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>North Linn</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2902,7 +3128,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2913,18 +3140,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/midlandwyoming.png</fimgLogo>
+    <fimgLogo>../img/northlinn.png</fimgLogo>
     <fintDistrict>4</fintDistrict>
-    <fstrSchoolName>Midland</fstrSchoolName>
+    <fstrSchoolName>North Linn</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2935,51 +3164,44 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/newlondon.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>New London</fstrSchoolName>
+    <fimgLogo>../img/eastbuchanan.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>East Buchanan</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/vanburen.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Van Buren County</fstrSchoolName>
+    <fimgLogo>../img/midlandwyoming.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>Midland</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/wapello.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Wapello</fstrSchoolName>
+    <fimgLogo>../img/northcedarstanwood.png</fimgLogo>
+    <fintDistrict>4</fintDistrict>
+    <fstrSchoolName>North Cedar</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/highlandriverside.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Highland</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2990,18 +3212,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/columbusjunction.png</fimgLogo>
-    <fintDistrict>5</fintDistrict>
-    <fstrSchoolName>Columbus</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3012,40 +3224,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/earlham.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Earlham</fstrSchoolName>
+    <fimgLogo>../img/columbusjunction.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Columbus</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/martensdale.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Martensdale-St Marys</fstrSchoolName>
+    <fimgLogo>../img/highlandriverside.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Highland</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/lynnvillesully.png</fimgLogo>
-    <fintDistrict>6</fintDistrict>
-    <fstrSchoolName>Lynnville-Sully</fstrSchoolName>
+    <fimgLogo>../img/newlondon.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>New London</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/vanburen.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Van Buren County</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/wapello.png</fimgLogo>
+    <fintDistrict>5</fintDistrict>
+    <fstrSchoolName>Wapello</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3056,7 +3296,32 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/earlham.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Earlham</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/lynnvillesully.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Lynnville-Sully</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3067,7 +3332,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3078,7 +3344,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3089,62 +3356,20 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
-    <fimgLogo>../img/ahstw.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>AHSTW</fstrSchoolName>
+    <fimgLogo>../img/martensdale.png</fimgLogo>
+    <fintDistrict>6</fintDistrict>
+    <fstrSchoolName>Martensdale-St Marys</fstrSchoolName>
     <fintWins>0</fintWins>
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/riversideoakland.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Riverside</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/mountayr.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Mount Ayr</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/southwestvalley.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Southwest Valley</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/centraldecatur.png</fimgLogo>
-    <fintDistrict>7</fintDistrict>
-    <fstrSchoolName>Central Decatur</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3155,7 +3380,68 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/mountayr.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Mount Ayr</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/ahstw.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>AHSTW</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/riversideoakland.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Riverside</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/southwestvalley.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Southwest Valley</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/centraldecatur.png</fimgLogo>
+    <fintDistrict>7</fintDistrict>
+    <fstrSchoolName>Central Decatur</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3166,73 +3452,8 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/akronwestfield.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Akron-Westfield</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/st.albert.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>St. Albert</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/ikmmanning.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>IKM-Manning</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/loganmagnolia.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Logan-Magnolia</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/westmonona.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>West Monona</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
-  </dtDistrictStandings>
-  <dtDistrictStandings>
-    <fstrClass>A</fstrClass>
-    <fimgLogo>../img/westwoodsloan.png</fimgLogo>
-    <fintDistrict>8</fintDistrict>
-    <fstrSchoolName>Westwood</fstrSchoolName>
-    <fintWins>0</fintWins>
-    <fintLosses>0</fintLosses>
-    <fintDistrictWins>0</fintDistrictWins>
-    <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3243,6 +3464,79 @@
     <fintLosses>0</fintLosses>
     <fintDistrictWins>0</fintDistrictWins>
     <fintDistrictLosses>0</fintDistrictLosses>
-    <flngDistricPointDifferential>0.0</flngDistricPointDifferential>
+    <fintDistrictPosition>1</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/loganmagnolia.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Logan-Magnolia</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>2</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/ikmmanning.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>IKM-Manning</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>3</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/st.albert.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>St. Albert</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>4</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/westwoodsloan.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Westwood</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>5</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/akronwestfield.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>Akron-Westfield</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>6</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
+  </dtDistrictStandings>
+  <dtDistrictStandings>
+    <fstrClass>A</fstrClass>
+    <fimgLogo>../img/westmonona.png</fimgLogo>
+    <fintDistrict>8</fintDistrict>
+    <fstrSchoolName>West Monona</fstrSchoolName>
+    <fintWins>0</fintWins>
+    <fintLosses>0</fintLosses>
+    <fintDistrictWins>0</fintDistrictWins>
+    <fintDistrictLosses>0</fintDistrictLosses>
+    <fintDistrictPosition>7</fintDistrictPosition>
+    <flngDistrictPointDifferential>0.0</flngDistrictPointDifferential>
   </dtDistrictStandings>
 </NewDataSet>

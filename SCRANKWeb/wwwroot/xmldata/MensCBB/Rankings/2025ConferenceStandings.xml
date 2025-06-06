@@ -1,0 +1,4394 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dtConferenceStandings" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dtConferenceStandings">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="fstrSchoolName" type="xs:string" minOccurs="0" />
+                <xs:element name="fstrConference" type="xs:string" minOccurs="0" />
+                <xs:element name="fintTier" type="xs:int" minOccurs="0" />
+                <xs:element name="fintWins" type="xs:int" minOccurs="0" />
+                <xs:element name="fintLosses" type="xs:int" minOccurs="0" />
+                <xs:element name="fintConferenceWins" type="xs:int" minOccurs="0" />
+                <xs:element name="fintConferenceLosses" type="xs:int" minOccurs="0" />
+                <xs:element name="flngPowerRanking" type="xs:decimal" minOccurs="0" />
+                <xs:element name="flngDominanceRating" type="xs:decimal" minOccurs="0" />
+                <xs:element name="flngAdjustedStrengthOfVictory" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dtConferenceStandings>
+    <fstrSchoolName>Bryant</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>23</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>35.52</flngPowerRanking>
+    <flngDominanceRating>12.8264</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2939</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Vermont</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>32.19</flngPowerRanking>
+    <flngDominanceRating>-47.6720</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3141</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Maine</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>31.19</flngPowerRanking>
+    <flngDominanceRating>-18.6918</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2733</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Albany (NY)</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>28.07</flngPowerRanking>
+    <flngDominanceRating>-30.2041</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2873</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Binghamton</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>25.01</flngPowerRanking>
+    <flngDominanceRating>-58.6546</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2844</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Massachusetts-Lowell</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>30.01</flngPowerRanking>
+    <flngDominanceRating>-27.6664</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3070</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>New Hampshire</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>8</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>16.44</flngPowerRanking>
+    <flngDominanceRating>-157.9927</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2700</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Maryland-Baltimore County</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>25.01</flngPowerRanking>
+    <flngDominanceRating>-62.7734</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2893</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>NJIT</fstrSchoolName>
+    <fstrConference>America East</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>17.26</flngPowerRanking>
+    <flngDominanceRating>-117.7442</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2765</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Memphis</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>29</fintWins>
+    <fintLosses>5</fintLosses>
+    <fintConferenceWins>16</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>47.46</flngPowerRanking>
+    <flngDominanceRating>107.9879</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5134</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Texas</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>41.61</flngPowerRanking>
+    <flngDominanceRating>65.0635</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4059</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UAB</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>38.13</flngPowerRanking>
+    <flngDominanceRating>30.3284</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3849</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tulane</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>35.88</flngPowerRanking>
+    <flngDominanceRating>3.1395</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3563</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Florida Atlantic</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>34.39</flngPowerRanking>
+    <flngDominanceRating>-20.1036</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3851</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>East Carolina</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>33.19</flngPowerRanking>
+    <flngDominanceRating>-20.5814</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3693</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Temple</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>32.59</flngPowerRanking>
+    <flngDominanceRating>-14.9166</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4197</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wichita State</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>34.64</flngPowerRanking>
+    <flngDominanceRating>-11.5575</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4118</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UTSA</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>27.26</flngPowerRanking>
+    <flngDominanceRating>-58.6392</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3845</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Florida</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>26.10</flngPowerRanking>
+    <flngDominanceRating>-75.8336</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3120</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tulsa</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>24.26</flngPowerRanking>
+    <flngDominanceRating>-107.4682</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3190</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Rice</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>26.35</flngPowerRanking>
+    <flngDominanceRating>-26.7831</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3067</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Charlotte</fstrSchoolName>
+    <fstrConference>American Athletic</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>22.75</flngPowerRanking>
+    <flngDominanceRating>-95.2176</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3148</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Lipscomb</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>38.73</flngPowerRanking>
+    <flngDominanceRating>61.1102</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2896</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Alabama</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>35.59</flngPowerRanking>
+    <flngDominanceRating>17.6438</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2646</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Florida Gulf Coast</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>30.28</flngPowerRanking>
+    <flngDominanceRating>-11.5442</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2633</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Eastern Kentucky</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>30.42</flngPowerRanking>
+    <flngDominanceRating>-29.6031</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2874</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Jacksonville</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>28.53</flngPowerRanking>
+    <flngDominanceRating>-51.5150</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2809</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Queens (NC)</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>28.15</flngPowerRanking>
+    <flngDominanceRating>-65.4315</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2405</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Florida</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>23.93</flngPowerRanking>
+    <flngDominanceRating>-99.9383</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2844</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Austin Peay</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>23.66</flngPowerRanking>
+    <flngDominanceRating>-103.6187</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3011</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Stetson</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>8</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>14.71</flngPowerRanking>
+    <flngDominanceRating>-168.3673</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1659</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>West Georgia</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>16.36</flngPowerRanking>
+    <flngDominanceRating>-144.3170</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2504</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Central Arkansas</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>9</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>16.22</flngPowerRanking>
+    <flngDominanceRating>-165.8661</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1956</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Bellarmine</fstrSchoolName>
+    <fstrConference>ASUN</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>5</fintWins>
+    <fintLosses>26</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>17.76</flngPowerRanking>
+    <flngDominanceRating>-131.2509</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3208</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Virginia Commonwealth</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>28</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>48.84</flngPowerRanking>
+    <flngDominanceRating>180.7030</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4443</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>George Mason</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>42.20</flngPowerRanking>
+    <flngDominanceRating>49.6818</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4356</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Dayton</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>40.20</flngPowerRanking>
+    <flngDominanceRating>43.3301</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4553</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Loyola (IL)</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>38.48</flngPowerRanking>
+    <flngDominanceRating>16.7779</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3946</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Saint Joseph's</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>41.32</flngPowerRanking>
+    <flngDominanceRating>79.9494</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4277</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Saint Louis</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>35.00</flngPowerRanking>
+    <flngDominanceRating>3.6029</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4245</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>St. Bonaventure</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>36.47</flngPowerRanking>
+    <flngDominanceRating>11.4941</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3670</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>George Washington</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>35.75</flngPowerRanking>
+    <flngDominanceRating>31.2074</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3634</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Duquesne</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>32.14</flngPowerRanking>
+    <flngDominanceRating>8.3272</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4968</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Rhode Island</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>33.11</flngPowerRanking>
+    <flngDominanceRating>2.6908</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3998</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Massachusetts</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>25.26</flngPowerRanking>
+    <flngDominanceRating>-79.1374</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3763</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Davidson</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>29.57</flngPowerRanking>
+    <flngDominanceRating>-55.8050</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3136</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>La Salle</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>26.24</flngPowerRanking>
+    <flngDominanceRating>-91.3263</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4188</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Richmond</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>21.77</flngPowerRanking>
+    <flngDominanceRating>-139.8952</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3807</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Fordham</fstrSchoolName>
+    <fstrConference>Atlantic 10</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>21</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>22.58</flngPowerRanking>
+    <flngDominanceRating>-121.5555</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3470</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Duke</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>31</fintWins>
+    <fintLosses>3</fintLosses>
+    <fintConferenceWins>19</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>58.06</flngPowerRanking>
+    <flngDominanceRating>338.7360</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5254</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Clemson</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>27</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>18</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>49.68</flngPowerRanking>
+    <flngDominanceRating>150.1471</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4938</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Louisville</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>27</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>18</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>48.81</flngPowerRanking>
+    <flngDominanceRating>125.2168</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4985</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern Methodist</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>23</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>42.31</flngPowerRanking>
+    <flngDominanceRating>66.1478</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4081</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Carolina</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>42.11</flngPowerRanking>
+    <flngDominanceRating>41.5622</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4625</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wake Forest</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>36.93</flngPowerRanking>
+    <flngDominanceRating>-23.3064</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4230</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Stanford</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>35.73</flngPowerRanking>
+    <flngDominanceRating>-30.7770</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4318</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Georgia Tech</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>33.92</flngPowerRanking>
+    <flngDominanceRating>-57.3965</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4010</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Pittsburgh</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>35.20</flngPowerRanking>
+    <flngDominanceRating>4.4711</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4236</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Florida State</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>33.30</flngPowerRanking>
+    <flngDominanceRating>-38.9828</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4170</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Notre Dame</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>31.57</flngPowerRanking>
+    <flngDominanceRating>-47.7954</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4121</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Virginia</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>30.64</flngPowerRanking>
+    <flngDominanceRating>-102.1060</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4110</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Virginia Tech</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>25.96</flngPowerRanking>
+    <flngDominanceRating>-121.9039</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3462</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Syracuse</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>27.76</flngPowerRanking>
+    <flngDominanceRating>-108.3464</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4017</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>California</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>27.54</flngPowerRanking>
+    <flngDominanceRating>-75.5024</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3471</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>NC State</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>27.54</flngPowerRanking>
+    <flngDominanceRating>-69.5212</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3614</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Boston College</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>23.95</flngPowerRanking>
+    <flngDominanceRating>-133.1718</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3559</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Miami (FL)</fstrSchoolName>
+    <fstrConference>Atlantic Coast</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>17</fintConferenceLosses>
+    <flngPowerRanking>19.81</flngPowerRanking>
+    <flngDominanceRating>-191.0308</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3202</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Houston</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>30</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintConferenceWins>19</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>55.74</flngPowerRanking>
+    <flngDominanceRating>246.9970</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5225</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas Tech</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>48.21</flngPowerRanking>
+    <flngDominanceRating>168.9567</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4793</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Brigham Young</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>45.16</flngPowerRanking>
+    <flngDominanceRating>83.9452</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4529</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Arizona</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>43.69</flngPowerRanking>
+    <flngDominanceRating>104.1978</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5072</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Iowa State</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>46.48</flngPowerRanking>
+    <flngDominanceRating>152.2237</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4743</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Kansas</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>42.83</flngPowerRanking>
+    <flngDominanceRating>84.2570</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5290</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Baylor</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>38.95</flngPowerRanking>
+    <flngDominanceRating>28.4336</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4822</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>West Virginia</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>38.44</flngPowerRanking>
+    <flngDominanceRating>10.2775</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4955</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Kansas State</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>33.52</flngPowerRanking>
+    <flngDominanceRating>-39.9584</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4456</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>TCU</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>32.20</flngPowerRanking>
+    <flngDominanceRating>-68.0233</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4818</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Utah</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>31.65</flngPowerRanking>
+    <flngDominanceRating>-59.6656</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3818</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cincinnati</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>37.18</flngPowerRanking>
+    <flngDominanceRating>9.9156</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4396</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UCF</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>32.01</flngPowerRanking>
+    <flngDominanceRating>-48.3741</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4627</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Oklahoma State</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>27.76</flngPowerRanking>
+    <flngDominanceRating>-116.1984</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3897</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Arizona State</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>27.39</flngPowerRanking>
+    <flngDominanceRating>-93.5328</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4802</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Colorado</fstrSchoolName>
+    <fstrConference>Big 12</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>17</fintConferenceLosses>
+    <flngPowerRanking>29.51</flngPowerRanking>
+    <flngDominanceRating>-89.5804</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4413</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>St. John's (NY)</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>30</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintConferenceWins>18</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>52.47</flngPowerRanking>
+    <flngDominanceRating>201.0398</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5016</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Creighton</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>42.86</flngPowerRanking>
+    <flngDominanceRating>42.8822</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4732</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Connecticut</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>23</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>44.59</flngPowerRanking>
+    <flngDominanceRating>71.0003</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4530</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Marquette</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>23</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>42.78</flngPowerRanking>
+    <flngDominanceRating>83.5205</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4836</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Xavier</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>42.74</flngPowerRanking>
+    <flngDominanceRating>59.0931</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4281</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Villanova</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>39.68</flngPowerRanking>
+    <flngDominanceRating>39.8683</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4172</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Georgetown</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>33.42</flngPowerRanking>
+    <flngDominanceRating>-11.7466</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3871</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Butler</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>31.02</flngPowerRanking>
+    <flngDominanceRating>-59.3125</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4003</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Providence</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>27.33</flngPowerRanking>
+    <flngDominanceRating>-60.5298</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3974</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>DePaul</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>26.85</flngPowerRanking>
+    <flngDominanceRating>-120.6233</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3349</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Seton Hall</fstrSchoolName>
+    <fstrConference>Big East</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>18</fintConferenceLosses>
+    <flngPowerRanking>19.18</flngPowerRanking>
+    <flngDominanceRating>-186.2940</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4477</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northern Colorado</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>37.88</flngPowerRanking>
+    <flngDominanceRating>30.5147</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3149</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Montana</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>36.37</flngPowerRanking>
+    <flngDominanceRating>-38.7896</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3467</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Portland State</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>33.12</flngPowerRanking>
+    <flngDominanceRating>-2.5926</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3322</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Idaho State</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>31.21</flngPowerRanking>
+    <flngDominanceRating>-22.0676</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3070</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Montana State</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>30.14</flngPowerRanking>
+    <flngDominanceRating>-38.6399</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3197</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northern Arizona</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>29.61</flngPowerRanking>
+    <flngDominanceRating>-32.8966</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2788</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Idaho</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>25.54</flngPowerRanking>
+    <flngDominanceRating>-87.2300</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3260</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Eastern Washington</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>22.00</flngPowerRanking>
+    <flngDominanceRating>-102.0107</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2912</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Weber State</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>24.07</flngPowerRanking>
+    <flngDominanceRating>-110.9266</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2926</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Sacramento State</fstrSchoolName>
+    <fstrConference>Big Sky</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>18.54</flngPowerRanking>
+    <flngDominanceRating>-123.1698</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3006</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>High Point</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>29</fintWins>
+    <fintLosses>5</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>42.07</flngPowerRanking>
+    <flngDominanceRating>98.4447</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3328</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Winthrop</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>23</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>33.80</flngPowerRanking>
+    <flngDominanceRating>-6.6844</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3023</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UNC Asheville</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>31.04</flngPowerRanking>
+    <flngDominanceRating>-52.7618</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2872</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Radford</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>31.08</flngPowerRanking>
+    <flngDominanceRating>-34.3083</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2855</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Longwood</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>29.25</flngPowerRanking>
+    <flngDominanceRating>-21.1138</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3154</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Presbyterian</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>29.14</flngPowerRanking>
+    <flngDominanceRating>-26.7228</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3253</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Charleston Southern</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>18.95</flngPowerRanking>
+    <flngDominanceRating>-128.5817</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2634</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Gardner-Webb</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>21.90</flngPowerRanking>
+    <flngDominanceRating>-89.0449</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3017</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Carolina Upstate</fstrSchoolName>
+    <fstrConference>Big South</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>26</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>14.72</flngPowerRanking>
+    <flngDominanceRating>-147.4037</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2281</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Michigan State</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>27</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>17</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>50.04</flngPowerRanking>
+    <flngDominanceRating>169.1230</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5359</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Maryland</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>49.28</flngPowerRanking>
+    <flngDominanceRating>181.3932</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4796</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Michigan</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>45.88</flngPowerRanking>
+    <flngDominanceRating>102.4440</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5540</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wisconsin</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>46.46</flngPowerRanking>
+    <flngDominanceRating>133.9854</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4858</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UCLA</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>44.14</flngPowerRanking>
+    <flngDominanceRating>75.7889</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4862</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Purdue</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>43.58</flngPowerRanking>
+    <flngDominanceRating>93.7114</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5418</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Oregon</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>44.12</flngPowerRanking>
+    <flngDominanceRating>62.7834</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5311</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Illinois</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>42.10</flngPowerRanking>
+    <flngDominanceRating>52.7168</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5075</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Indiana</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>36.31</flngPowerRanking>
+    <flngDominanceRating>-8.7904</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4874</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Ohio State</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>37.69</flngPowerRanking>
+    <flngDominanceRating>18.1446</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4670</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Rutgers</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>31.95</flngPowerRanking>
+    <flngDominanceRating>-46.3844</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4444</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northwestern</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>36.24</flngPowerRanking>
+    <flngDominanceRating>16.9290</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4632</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Nebraska</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>35.44</flngPowerRanking>
+    <flngDominanceRating>-8.4509</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4808</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Iowa</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>33.13</flngPowerRanking>
+    <flngDominanceRating>-47.6575</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3991</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern California</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>32.76</flngPowerRanking>
+    <flngDominanceRating>-27.1754</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4675</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Minnesota</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>30.51</flngPowerRanking>
+    <flngDominanceRating>-72.3345</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4783</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Penn State</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>35.01</flngPowerRanking>
+    <flngDominanceRating>16.2873</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4082</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Washington</fstrSchoolName>
+    <fstrConference>Big Ten</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>26.14</flngPowerRanking>
+    <flngDominanceRating>-120.0947</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4395</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UC San Diego</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>30</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintConferenceWins>18</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>47.22</flngPowerRanking>
+    <flngDominanceRating>163.0358</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3774</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UC Irvine</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>28</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>17</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>42.37</flngPowerRanking>
+    <flngDominanceRating>95.4865</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3811</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cal State Northridge</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>36.24</flngPowerRanking>
+    <flngDominanceRating>17.1186</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2944</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UC Riverside</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>32.56</flngPowerRanking>
+    <flngDominanceRating>-41.6760</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3870</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UC Santa Barbara</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>33.63</flngPowerRanking>
+    <flngDominanceRating>-9.9392</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2805</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UC Davis</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>24.83</flngPowerRanking>
+    <flngDominanceRating>-90.0822</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3366</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cal Poly</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>27.75</flngPowerRanking>
+    <flngDominanceRating>-80.3638</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3087</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cal State Bakersfield</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>26.04</flngPowerRanking>
+    <flngDominanceRating>-86.2758</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3013</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Hawaii</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>25.43</flngPowerRanking>
+    <flngDominanceRating>-74.2169</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3004</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Long Beach State</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>17</fintConferenceLosses>
+    <flngPowerRanking>16.65</flngPowerRanking>
+    <flngDominanceRating>-155.8445</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2704</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cal State Fullerton</fstrSchoolName>
+    <fstrConference>Big West</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>26</fintLosses>
+    <fintConferenceWins>1</fintConferenceWins>
+    <fintConferenceLosses>19</fintConferenceLosses>
+    <flngPowerRanking>12.01</flngPowerRanking>
+    <flngDominanceRating>-251.4493</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2831</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Towson</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>16</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>35.90</flngPowerRanking>
+    <flngDominanceRating>8.5119</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3602</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UNC Wilmington</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>27</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>41.19</flngPowerRanking>
+    <flngDominanceRating>76.0082</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3776</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>College of Charleston</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>36.04</flngPowerRanking>
+    <flngDominanceRating>12.1894</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3619</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>William &amp; Mary</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>29.40</flngPowerRanking>
+    <flngDominanceRating>-33.9740</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3544</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Campbell</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>29.21</flngPowerRanking>
+    <flngDominanceRating>-42.0044</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2944</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Monmouth</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>25.62</flngPowerRanking>
+    <flngDominanceRating>-99.8599</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3276</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Drexel</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>32.17</flngPowerRanking>
+    <flngDominanceRating>4.9923</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3066</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northeastern</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>30.42</flngPowerRanking>
+    <flngDominanceRating>-9.6479</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3245</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Elon</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>31.12</flngPowerRanking>
+    <flngDominanceRating>-3.2724</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3774</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Hampton</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>29.74</flngPowerRanking>
+    <flngDominanceRating>-47.0120</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3145</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Hofstra</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>29.07</flngPowerRanking>
+    <flngDominanceRating>-43.9592</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3631</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Delaware</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>27.98</flngPowerRanking>
+    <flngDominanceRating>-50.6795</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3656</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Stony Brook</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>8</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>19.58</flngPowerRanking>
+    <flngDominanceRating>-143.8440</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3295</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Carolina A&amp;T</fstrSchoolName>
+    <fstrConference>Coastal</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>18.22</flngPowerRanking>
+    <flngDominanceRating>-132.8718</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2729</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Liberty</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>28</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>43.68</flngPowerRanking>
+    <flngDominanceRating>99.5424</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3822</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Jacksonville State</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>35.69</flngPowerRanking>
+    <flngDominanceRating>8.1026</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4023</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Middle Tennessee</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>35.60</flngPowerRanking>
+    <flngDominanceRating>2.0463</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3900</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Kennesaw State</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>33.08</flngPowerRanking>
+    <flngDominanceRating>-10.5864</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4186</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>New Mexico State</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>32.02</flngPowerRanking>
+    <flngDominanceRating>-10.1289</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3932</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Louisiana Tech</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>34.57</flngPowerRanking>
+    <flngDominanceRating>7.3108</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3781</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Western Kentucky</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>28.99</flngPowerRanking>
+    <flngDominanceRating>-52.7142</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3898</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UTEP</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>29.23</flngPowerRanking>
+    <flngDominanceRating>-39.6638</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3745</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Sam Houston</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>26.34</flngPowerRanking>
+    <flngDominanceRating>-79.1575</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3632</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Florida International</fstrSchoolName>
+    <fstrConference>Conference USA</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>23</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>22.12</flngPowerRanking>
+    <flngDominanceRating>-84.2612</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3044</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Robert Morris</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>39.06</flngPowerRanking>
+    <flngDominanceRating>38.7269</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3346</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Milwaukee</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>36.01</flngPowerRanking>
+    <flngDominanceRating>33.0076</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3551</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cleveland State</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>34.02</flngPowerRanking>
+    <flngDominanceRating>-13.0857</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3256</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Youngstown State</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>33.65</flngPowerRanking>
+    <flngDominanceRating>-6.9677</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3163</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Purdue Fort Wayne</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>32.89</flngPowerRanking>
+    <flngDominanceRating>-8.0085</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3199</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northern Kentucky</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>28.61</flngPowerRanking>
+    <flngDominanceRating>-61.8944</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3057</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Oakland</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>27.62</flngPowerRanking>
+    <flngDominanceRating>-78.6041</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3220</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wright State</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>28.57</flngPowerRanking>
+    <flngDominanceRating>-47.1218</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3389</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>IU Indy</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>21.47</flngPowerRanking>
+    <flngDominanceRating>-123.4258</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2291</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Detroit Mercy</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>8</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>18.64</flngPowerRanking>
+    <flngDominanceRating>-148.6138</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3614</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Green Bay</fstrSchoolName>
+    <fstrConference>Horizon</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>4</fintWins>
+    <fintLosses>28</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>18</fintConferenceLosses>
+    <flngPowerRanking>15.38</flngPowerRanking>
+    <flngDominanceRating>-160.1953</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2621</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Yale</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>43.22</flngPowerRanking>
+    <flngDominanceRating>102.7794</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3871</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Cornell</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>35.99</flngPowerRanking>
+    <flngDominanceRating>32.6712</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3618</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Dartmouth</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>32.90</flngPowerRanking>
+    <flngDominanceRating>6.0407</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3566</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Princeton</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>31.98</flngPowerRanking>
+    <flngDominanceRating>-20.3922</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3839</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Harvard</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>26.60</flngPowerRanking>
+    <flngDominanceRating>-55.9572</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3659</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Brown</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>29.22</flngPowerRanking>
+    <flngDominanceRating>-47.3798</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3242</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Pennsylvania</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>8</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>19.88</flngPowerRanking>
+    <flngDominanceRating>-125.5026</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2904</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Columbia</fstrSchoolName>
+    <fstrConference>Ivy League</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>1</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>24.98</flngPowerRanking>
+    <flngDominanceRating>-52.0110</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3068</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Quinnipiac</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>32.70</flngPowerRanking>
+    <flngDominanceRating>-2.5272</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3485</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Merrimack</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>32.07</flngPowerRanking>
+    <flngDominanceRating>-8.0682</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3324</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Marist</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>31.89</flngPowerRanking>
+    <flngDominanceRating>3.0488</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3028</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Mount St. Mary's</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>32.31</flngPowerRanking>
+    <flngDominanceRating>-33.3210</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3331</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Manhattan</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>31.67</flngPowerRanking>
+    <flngDominanceRating>-9.0877</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3183</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Iona</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>29.11</flngPowerRanking>
+    <flngDominanceRating>-40.8540</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3326</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Sacred Heart</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>28.24</flngPowerRanking>
+    <flngDominanceRating>-37.1294</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3079</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Siena</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>29.10</flngPowerRanking>
+    <flngDominanceRating>-17.9680</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3646</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Rider</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>24.72</flngPowerRanking>
+    <flngDominanceRating>-80.9451</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3098</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Fairfield</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>23.30</flngPowerRanking>
+    <flngDominanceRating>-91.6742</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3637</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Saint Peter's</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>27.03</flngPowerRanking>
+    <flngDominanceRating>-34.0090</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2881</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Niagara</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>23.22</flngPowerRanking>
+    <flngDominanceRating>-75.4682</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2719</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Canisius</fstrSchoolName>
+    <fstrConference>Metro Atlantic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>3</fintWins>
+    <fintLosses>28</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>17</fintConferenceLosses>
+    <flngPowerRanking>14.34</flngPowerRanking>
+    <flngDominanceRating>-204.6160</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3134</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Akron</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>28</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>17</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>42.05</flngPowerRanking>
+    <flngDominanceRating>77.5356</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3726</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Miami (OH)</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>37.44</flngPowerRanking>
+    <flngDominanceRating>11.1984</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3341</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Kent State</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>36.07</flngPowerRanking>
+    <flngDominanceRating>10.3530</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3552</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Ohio</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>31.75</flngPowerRanking>
+    <flngDominanceRating>-2.8492</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3776</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Toledo</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>27.60</flngPowerRanking>
+    <flngDominanceRating>-97.2094</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3341</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Eastern Michigan</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>27.00</flngPowerRanking>
+    <flngDominanceRating>-65.9346</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3254</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Western Michigan</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>24.06</flngPowerRanking>
+    <flngDominanceRating>-86.4360</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3282</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Bowling Green State</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>26.86</flngPowerRanking>
+    <flngDominanceRating>-69.2927</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2803</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Central Michigan</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>28.92</flngPowerRanking>
+    <flngDominanceRating>-51.7608</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3576</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Ball State</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>27.31</flngPowerRanking>
+    <flngDominanceRating>-24.1878</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2861</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Buffalo</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>9</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>17.51</flngPowerRanking>
+    <flngDominanceRating>-163.4468</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2818</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northern Illinois</fstrSchoolName>
+    <fstrConference>Mid-American</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>17.58</flngPowerRanking>
+    <flngDominanceRating>-151.5537</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3280</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Norfolk State</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>35.24</flngPowerRanking>
+    <flngDominanceRating>1.2113</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2854</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Carolina State</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>33.09</flngPowerRanking>
+    <flngDominanceRating>3.4770</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2235</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Delaware State</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>27.89</flngPowerRanking>
+    <flngDominanceRating>-57.8504</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2228</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Morgan State</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>23.70</flngPowerRanking>
+    <flngDominanceRating>-103.3371</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2459</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Howard</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>22.90</flngPowerRanking>
+    <flngDominanceRating>-88.0356</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2747</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Carolina Central</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>26.20</flngPowerRanking>
+    <flngDominanceRating>-67.7073</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3031</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Coppin State</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>13.44</flngPowerRanking>
+    <flngDominanceRating>-199.2742</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2410</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Maryland-Eastern Shore</fstrSchoolName>
+    <fstrConference>Mid-Eastern</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>12.50</flngPowerRanking>
+    <flngDominanceRating>-225.2364</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2032</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Drake</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>30</fintWins>
+    <fintLosses>3</fintLosses>
+    <fintConferenceWins>17</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>44.97</flngPowerRanking>
+    <flngDominanceRating>105.3526</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3824</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Bradley</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>39.90</flngPowerRanking>
+    <flngDominanceRating>48.8963</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3719</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northern Iowa</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>37.23</flngPowerRanking>
+    <flngDominanceRating>34.6482</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3863</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Belmont</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>34.20</flngPowerRanking>
+    <flngDominanceRating>3.4696</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3460</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Illinois State</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>34.08</flngPowerRanking>
+    <flngDominanceRating>8.7422</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3668</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Illinois-Chicago</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>30.63</flngPowerRanking>
+    <flngDominanceRating>-25.4486</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3819</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Murray State</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>31.11</flngPowerRanking>
+    <flngDominanceRating>-12.2986</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3811</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Indiana State</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>26.58</flngPowerRanking>
+    <flngDominanceRating>-68.8394</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3055</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern Illinois</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>25.98</flngPowerRanking>
+    <flngDominanceRating>-74.4823</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3408</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Evansville</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>21</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>23.13</flngPowerRanking>
+    <flngDominanceRating>-105.4248</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3313</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Valparaiso</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>28.02</flngPowerRanking>
+    <flngDominanceRating>-55.3337</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3307</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Missouri State</fstrSchoolName>
+    <fstrConference>Missouri Valley</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>9</fintWins>
+    <fintLosses>23</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>18</fintConferenceLosses>
+    <flngPowerRanking>22.70</flngPowerRanking>
+    <flngDominanceRating>-65.2162</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3598</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>New Mexico</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>17</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>44.42</flngPowerRanking>
+    <flngDominanceRating>100.1259</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4399</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Colorado State</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>16</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>44.19</flngPowerRanking>
+    <flngDominanceRating>83.7301</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4174</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Utah State</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>42.71</flngPowerRanking>
+    <flngDominanceRating>66.8478</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4189</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Boise State</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>42.13</flngPowerRanking>
+    <flngDominanceRating>71.8776</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4270</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>San Diego State</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>41.34</flngPowerRanking>
+    <flngDominanceRating>46.9486</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4405</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Nevada-Las Vegas</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>32.99</flngPowerRanking>
+    <flngDominanceRating>-38.0980</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3578</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Nevada</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>34.49</flngPowerRanking>
+    <flngDominanceRating>7.4282</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3437</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>San Jose State</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>26.58</flngPowerRanking>
+    <flngDominanceRating>-102.9798</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3151</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wyoming</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>21.22</flngPowerRanking>
+    <flngDominanceRating>-137.7580</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2678</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Fresno State</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>26</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>18</fintConferenceLosses>
+    <flngPowerRanking>14.09</flngPowerRanking>
+    <flngDominanceRating>-191.7066</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1720</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Air Force</fstrSchoolName>
+    <fstrConference>Mountain West</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>4</fintWins>
+    <fintLosses>28</fintLosses>
+    <fintConferenceWins>1</fintConferenceWins>
+    <fintConferenceLosses>19</fintConferenceLosses>
+    <flngPowerRanking>13.95</flngPowerRanking>
+    <flngDominanceRating>-222.8139</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2921</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Central Connecticut State</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>2</fintConferenceLosses>
+    <flngPowerRanking>38.23</flngPowerRanking>
+    <flngDominanceRating>45.9969</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2822</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Long Island University</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>28.07</flngPowerRanking>
+    <flngDominanceRating>-48.3030</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2494</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Mercyhurst</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>24.92</flngPowerRanking>
+    <flngDominanceRating>-82.6964</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2354</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Saint Francis (PA)</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>25.02</flngPowerRanking>
+    <flngDominanceRating>-125.5678</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2603</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>FDU</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>24.11</flngPowerRanking>
+    <flngDominanceRating>-77.1939</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2429</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Stonehill</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>24.17</flngPowerRanking>
+    <flngDominanceRating>-71.3132</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2375</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wagner</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>24.85</flngPowerRanking>
+    <flngDominanceRating>-69.0981</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2395</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Le Moyne</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>9</fintWins>
+    <fintLosses>23</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>18.62</flngPowerRanking>
+    <flngDominanceRating>-126.3184</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2928</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Chicago State</fstrSchoolName>
+    <fstrConference>Northeast</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>4</fintWins>
+    <fintLosses>28</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>12.40</flngPowerRanking>
+    <flngDominanceRating>-246.9669</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2794</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southeast Missouri State</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>33.33</flngPowerRanking>
+    <flngDominanceRating>4.5643</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2837</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>SIU Edwardsville</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>33.43</flngPowerRanking>
+    <flngDominanceRating>7.4607</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2916</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tennessee State</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>30.65</flngPowerRanking>
+    <flngDominanceRating>-3.4055</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2800</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Little Rock</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>28.96</flngPowerRanking>
+    <flngDominanceRating>-31.8731</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2723</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Lindenwood</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>24.99</flngPowerRanking>
+    <flngDominanceRating>-86.7306</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2966</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tennessee Tech</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>24.58</flngPowerRanking>
+    <flngDominanceRating>-44.9464</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2604</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Morehead State</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>23.16</flngPowerRanking>
+    <flngDominanceRating>-81.4937</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3050</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tennessee-Martin</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>25.14</flngPowerRanking>
+    <flngDominanceRating>-59.2831</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2872</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Eastern Illinois</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>23.49</flngPowerRanking>
+    <flngDominanceRating>-81.7944</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2992</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Western Illinois</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>23.36</flngPowerRanking>
+    <flngDominanceRating>-65.0100</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3046</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern Indiana</fstrSchoolName>
+    <fstrConference>Ohio Valley</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>22.56</flngPowerRanking>
+    <flngDominanceRating>-54.9415</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2891</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>American</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>30.82</flngPowerRanking>
+    <flngDominanceRating>-34.2776</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2936</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Bucknell</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>29.80</flngPowerRanking>
+    <flngDominanceRating>-32.2490</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2712</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Navy</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>27.88</flngPowerRanking>
+    <flngDominanceRating>-16.9990</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3072</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Colgate</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>26.91</flngPowerRanking>
+    <flngDominanceRating>-25.8275</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3216</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Boston University</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>26.72</flngPowerRanking>
+    <flngDominanceRating>-33.7095</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2982</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Army</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>24.65</flngPowerRanking>
+    <flngDominanceRating>-78.0678</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2837</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Lafayette</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>25.67</flngPowerRanking>
+    <flngDominanceRating>-32.5140</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2794</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Lehigh</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>24.68</flngPowerRanking>
+    <flngDominanceRating>-65.0343</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3160</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Loyola (MD)</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>23.11</flngPowerRanking>
+    <flngDominanceRating>-57.5576</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2607</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Holy Cross</fstrSchoolName>
+    <fstrConference>Patriot</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>23.74</flngPowerRanking>
+    <flngDominanceRating>-68.9480</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3062</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Auburn</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>28</fintWins>
+    <fintLosses>5</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>53.24</flngPowerRanking>
+    <flngDominanceRating>232.4488</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5881</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Florida</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>30</fintWins>
+    <fintLosses>4</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>54.88</flngPowerRanking>
+    <flngDominanceRating>262.6436</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5371</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Alabama</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>47.82</flngPowerRanking>
+    <flngDominanceRating>163.0486</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5893</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tennessee</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>27</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>50.06</flngPowerRanking>
+    <flngDominanceRating>167.4776</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5397</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas A&amp;M</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>42.96</flngPowerRanking>
+    <flngDominanceRating>66.0921</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5358</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Kentucky</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>43.75</flngPowerRanking>
+    <flngDominanceRating>76.6819</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5642</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Missouri</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>42.26</flngPowerRanking>
+    <flngDominanceRating>93.3561</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4714</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Mississippi</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>41.06</flngPowerRanking>
+    <flngDominanceRating>43.6403</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.5116</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Arkansas</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>39.43</flngPowerRanking>
+    <flngDominanceRating>16.0965</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4468</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Georgia</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>39.41</flngPowerRanking>
+    <flngDominanceRating>18.1859</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4672</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Mississippi State</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>38.98</flngPowerRanking>
+    <flngDominanceRating>30.7876</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4762</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Vanderbilt</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>36.14</flngPowerRanking>
+    <flngDominanceRating>-25.1613</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4274</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Oklahoma</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>36.34</flngPowerRanking>
+    <flngDominanceRating>-13.3291</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4545</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>36.18</flngPowerRanking>
+    <flngDominanceRating>-19.4536</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4275</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Louisiana State</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>26.83</flngPowerRanking>
+    <flngDominanceRating>-112.0318</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3479</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Carolina</fstrSchoolName>
+    <fstrConference>Southeastern</fstrConference>
+    <fintTier>1</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>26.97</flngPowerRanking>
+    <flngDominanceRating>-83.2706</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4426</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Chattanooga</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>38.17</flngPowerRanking>
+    <flngDominanceRating>24.0512</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3593</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UNC Greensboro</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>35.09</flngPowerRanking>
+    <flngDominanceRating>1.5192</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3588</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Samford</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>34.63</flngPowerRanking>
+    <flngDominanceRating>3.2554</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3373</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>East Tennessee State</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>33.57</flngPowerRanking>
+    <flngDominanceRating>18.3376</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3408</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Furman</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>37.00</flngPowerRanking>
+    <flngDominanceRating>10.1017</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3742</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Wofford</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>32.62</flngPowerRanking>
+    <flngDominanceRating>-27.8030</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3744</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>VMI</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>24.59</flngPowerRanking>
+    <flngDominanceRating>-113.3884</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2672</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Mercer</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>24.56</flngPowerRanking>
+    <flngDominanceRating>-76.2567</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2537</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Western Carolina</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>8</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>15.46</flngPowerRanking>
+    <flngDominanceRating>-195.6619</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2300</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>The Citadel</fstrSchoolName>
+    <fstrConference>Southern</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>5</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>0</fintConferenceWins>
+    <fintConferenceLosses>18</fintConferenceLosses>
+    <flngPowerRanking>12.34</flngPowerRanking>
+    <flngDominanceRating>-164.6648</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1600</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>McNeese State</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>27</fintWins>
+    <fintLosses>6</fintLosses>
+    <fintConferenceWins>19</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>40.87</flngPowerRanking>
+    <flngDominanceRating>91.4410</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3179</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Lamar</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>31.29</flngPowerRanking>
+    <flngDominanceRating>-33.1158</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2988</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Nicholls State</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>30.96</flngPowerRanking>
+    <flngDominanceRating>-36.0650</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2829</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas A&amp;M-Corpus Christi</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>30.63</flngPowerRanking>
+    <flngDominanceRating>-40.0144</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2517</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southeastern Louisiana</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>18</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>29.05</flngPowerRanking>
+    <flngDominanceRating>-23.8352</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2623</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Northwestern State</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>25.97</flngPowerRanking>
+    <flngDominanceRating>-71.5405</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2881</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Incarnate Word</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>28.00</flngPowerRanking>
+    <flngDominanceRating>-50.4602</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2118</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Houston Christian</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>20.95</flngPowerRanking>
+    <flngDominanceRating>-101.4550</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2429</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas-Rio Grande Valley</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>25.74</flngPowerRanking>
+    <flngDominanceRating>-61.6055</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2383</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Stephen F. Austin</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>24.00</flngPowerRanking>
+    <flngDominanceRating>-70.8630</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2779</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>East Texas A&amp;M</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>5</fintWins>
+    <fintLosses>26</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>17</fintConferenceLosses>
+    <flngPowerRanking>15.97</flngPowerRanking>
+    <flngDominanceRating>-158.0480</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2858</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>New Orleans</fstrSchoolName>
+    <fstrConference>Southland</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>4</fintWins>
+    <fintLosses>27</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>18</fintConferenceLosses>
+    <flngPowerRanking>13.36</flngPowerRanking>
+    <flngDominanceRating>-206.8300</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3305</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>31.13</flngPowerRanking>
+    <flngDominanceRating>-37.9385</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2413</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Jackson State</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>23.43</flngPowerRanking>
+    <flngDominanceRating>-158.8357</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2129</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Bethune-Cookman</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>25.46</flngPowerRanking>
+    <flngDominanceRating>-86.4712</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2585</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Alabama State</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>28.94</flngPowerRanking>
+    <flngDominanceRating>-54.3664</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2495</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas Southern</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>23.89</flngPowerRanking>
+    <flngDominanceRating>-97.2815</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1859</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Alcorn State</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>21</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>18.62</flngPowerRanking>
+    <flngDominanceRating>-169.4284</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1862</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Florida A&amp;M</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>17</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>20.99</flngPowerRanking>
+    <flngDominanceRating>-170.9339</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2045</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Grambling</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>22.83</flngPowerRanking>
+    <flngDominanceRating>-91.9088</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2163</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Alabama A&amp;M</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>15.97</flngPowerRanking>
+    <flngDominanceRating>-154.7476</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1428</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Prairie View</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>5</fintWins>
+    <fintLosses>27</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>12.48</flngPowerRanking>
+    <flngDominanceRating>-171.3708</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1209</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Arkansas-Pine Bluff</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>12.28</flngPowerRanking>
+    <flngDominanceRating>-214.7922</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1600</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Mississippi Valley State</fstrSchoolName>
+    <fstrConference>Southwest Athletic</fstrConference>
+    <fintTier>4</fintTier>
+    <fintWins>3</fintWins>
+    <fintLosses>28</fintLosses>
+    <fintConferenceWins>1</fintConferenceWins>
+    <fintConferenceLosses>17</fintConferenceLosses>
+    <flngPowerRanking>4.42</flngPowerRanking>
+    <flngDominanceRating>-380.0501</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.1239</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Omaha</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>22</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>34.29</flngPowerRanking>
+    <flngDominanceRating>-5.8431</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3427</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>St. Thomas</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>37.86</flngPowerRanking>
+    <flngDominanceRating>45.4896</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3425</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Dakota State</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>11</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>34.95</flngPowerRanking>
+    <flngDominanceRating>19.4382</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3349</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Dakota State</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>35.91</flngPowerRanking>
+    <flngDominanceRating>39.0781</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3476</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Dakota</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>29.74</flngPowerRanking>
+    <flngDominanceRating>-52.5840</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3154</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>North Dakota</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>21</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>24.44</flngPowerRanking>
+    <flngDominanceRating>-93.2920</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3897</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Denver</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>21</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>21.93</flngPowerRanking>
+    <flngDominanceRating>-105.5581</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2980</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Kansas City</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>27.98</flngPowerRanking>
+    <flngDominanceRating>-60.1998</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3307</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Oral Roberts</fstrSchoolName>
+    <fstrConference>Summit</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>23</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>19.99</flngPowerRanking>
+    <flngDominanceRating>-138.8467</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3829</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Arkansas State</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>38.63</flngPowerRanking>
+    <flngDominanceRating>71.9162</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3712</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Troy</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>23</fintWins>
+    <fintLosses>10</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>37.51</flngPowerRanking>
+    <flngDominanceRating>27.0276</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3360</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>South Alabama</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>21</fintWins>
+    <fintLosses>11</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>36.81</flngPowerRanking>
+    <flngDominanceRating>50.2028</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3588</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>James Madison</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>34.89</flngPowerRanking>
+    <flngDominanceRating>-6.0496</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3794</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Marshall</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>13</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>33.82</flngPowerRanking>
+    <flngDominanceRating>3.0384</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3437</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Appalachian State</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>32.02</flngPowerRanking>
+    <flngDominanceRating>-18.3482</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3330</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Texas State</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>30.53</flngPowerRanking>
+    <flngDominanceRating>-13.9777</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3550</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Georgia Southern</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>26.37</flngPowerRanking>
+    <flngDominanceRating>-68.4400</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2735</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Georgia State</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>25.28</flngPowerRanking>
+    <flngDominanceRating>-116.2903</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3216</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Old Dominion</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>15</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>23.72</flngPowerRanking>
+    <flngDominanceRating>-102.2233</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3125</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Louisiana</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>21</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>21.20</flngPowerRanking>
+    <flngDominanceRating>-146.5209</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2996</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern Mississippi</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>11</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>5</fintConferenceWins>
+    <fintConferenceLosses>13</fintConferenceLosses>
+    <flngPowerRanking>21.20</flngPowerRanking>
+    <flngDominanceRating>-110.5572</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3450</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Coastal Carolina</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>10</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>19.84</flngPowerRanking>
+    <flngDominanceRating>-98.6003</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2388</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Louisiana-Monroe</fstrSchoolName>
+    <fstrConference>Sunbelt</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>25</fintLosses>
+    <fintConferenceWins>3</fintConferenceWins>
+    <fintConferenceLosses>15</fintConferenceLosses>
+    <flngPowerRanking>18.92</flngPowerRanking>
+    <flngDominanceRating>-137.1658</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3398</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Saint Mary's (CA)</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>28</fintWins>
+    <fintLosses>5</fintLosses>
+    <fintConferenceWins>17</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>48.17</flngPowerRanking>
+    <flngDominanceRating>157.8569</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4613</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Gonzaga</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>14</fintConferenceWins>
+    <fintConferenceLosses>4</fintConferenceLosses>
+    <flngPowerRanking>49.34</flngPowerRanking>
+    <flngDominanceRating>225.3478</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4519</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>San Francisco</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>24</fintWins>
+    <fintLosses>9</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>5</fintConferenceLosses>
+    <flngPowerRanking>40.02</flngPowerRanking>
+    <flngDominanceRating>31.3438</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4048</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Santa Clara</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>12</fintConferenceWins>
+    <fintConferenceLosses>6</fintConferenceLosses>
+    <flngPowerRanking>40.45</flngPowerRanking>
+    <flngDominanceRating>89.8844</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.4216</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Oregon State</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>20</fintWins>
+    <fintLosses>12</fintLosses>
+    <fintConferenceWins>10</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>37.03</flngPowerRanking>
+    <flngDominanceRating>20.5221</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3405</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Washington State</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>19</fintWins>
+    <fintLosses>14</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>31.72</flngPowerRanking>
+    <flngDominanceRating>-39.2566</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3847</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Loyola Marymount</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>29.51</flngPowerRanking>
+    <flngDominanceRating>-70.6486</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3446</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Portland</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>11</fintConferenceLosses>
+    <flngPowerRanking>21.71</flngPowerRanking>
+    <flngDominanceRating>-176.8941</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2987</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Pepperdine</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>22</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>23.36</flngPowerRanking>
+    <flngDominanceRating>-146.8098</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3218</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Pacific</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>9</fintWins>
+    <fintLosses>24</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>19.78</flngPowerRanking>
+    <flngDominanceRating>-154.9064</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3302</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>San Diego</fstrSchoolName>
+    <fstrConference>West Coast</fstrConference>
+    <fintTier>2</fintTier>
+    <fintWins>6</fintWins>
+    <fintLosses>27</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>16</fintConferenceLosses>
+    <flngPowerRanking>16.38</flngPowerRanking>
+    <flngDominanceRating>-176.1168</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2901</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Utah Valley</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>25</fintWins>
+    <fintLosses>8</fintLosses>
+    <fintConferenceWins>15</fintConferenceWins>
+    <fintConferenceLosses>1</fintConferenceLosses>
+    <flngPowerRanking>38.91</flngPowerRanking>
+    <flngDominanceRating>36.1957</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3162</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Grand Canyon</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>26</fintWins>
+    <fintLosses>7</fintLosses>
+    <fintConferenceWins>13</fintConferenceWins>
+    <fintConferenceLosses>3</fintConferenceLosses>
+    <flngPowerRanking>41.36</flngPowerRanking>
+    <flngDominanceRating>86.1373</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3448</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>California Baptist</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>17</fintWins>
+    <fintLosses>15</fintLosses>
+    <fintConferenceWins>9</fintConferenceWins>
+    <fintConferenceLosses>7</fintConferenceLosses>
+    <flngPowerRanking>30.91</flngPowerRanking>
+    <flngDominanceRating>-6.5008</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3040</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Seattle</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>14</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>30.88</flngPowerRanking>
+    <flngDominanceRating>-13.8144</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3525</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Abilene Christian</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>16</fintWins>
+    <fintLosses>16</fintLosses>
+    <fintConferenceWins>8</fintConferenceWins>
+    <fintConferenceLosses>8</fintConferenceLosses>
+    <flngPowerRanking>27.79</flngPowerRanking>
+    <flngDominanceRating>-76.4026</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3295</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Tarleton State</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>20</fintLosses>
+    <fintConferenceWins>7</fintConferenceWins>
+    <fintConferenceLosses>9</fintConferenceLosses>
+    <flngPowerRanking>20.17</flngPowerRanking>
+    <flngDominanceRating>-158.4134</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3130</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>UT Arlington</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>13</fintWins>
+    <fintLosses>18</fintLosses>
+    <fintConferenceWins>6</fintConferenceWins>
+    <fintConferenceLosses>10</fintConferenceLosses>
+    <flngPowerRanking>25.69</flngPowerRanking>
+    <flngDominanceRating>-58.6398</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2816</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Southern Utah</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>12</fintWins>
+    <fintLosses>19</fintLosses>
+    <fintConferenceWins>4</fintConferenceWins>
+    <fintConferenceLosses>12</fintConferenceLosses>
+    <flngPowerRanking>21.27</flngPowerRanking>
+    <flngDominanceRating>-127.9653</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.2858</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+  <dtConferenceStandings>
+    <fstrSchoolName>Utah Tech</fstrSchoolName>
+    <fstrConference>Western Athletic</fstrConference>
+    <fintTier>3</fintTier>
+    <fintWins>7</fintWins>
+    <fintLosses>26</fintLosses>
+    <fintConferenceWins>2</fintConferenceWins>
+    <fintConferenceLosses>14</fintConferenceLosses>
+    <flngPowerRanking>18.10</flngPowerRanking>
+    <flngDominanceRating>-138.7552</flngDominanceRating>
+    <flngAdjustedStrengthOfVictory>0.3203</flngAdjustedStrengthOfVictory>
+  </dtConferenceStandings>
+</NewDataSet>

@@ -14,7 +14,7 @@
                 <xs:element name="fintProjectedLosses" type="xs:int" minOccurs="0" />
                 <xs:element name="fintProjectedDistrictWins" type="xs:int" minOccurs="0" />
                 <xs:element name="fintProjectedDistrictLosses" type="xs:int" minOccurs="0" />
-                <xs:element name="flngProjectedDistricPointDifferential" type="xs:decimal" minOccurs="0" />
+                <xs:element name="flngProjectedDistrictPointDifferential" type="xs:decimal" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -31,7 +31,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -42,7 +42,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -53,7 +53,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>1.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>1.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -64,7 +64,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-1.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-1.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -75,7 +75,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -86,7 +86,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -97,7 +97,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -108,7 +108,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>11.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>11.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -119,7 +119,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -130,7 +130,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -141,7 +141,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -152,7 +152,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -163,7 +163,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -174,7 +174,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -185,7 +185,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -196,7 +196,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -207,7 +207,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-6.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-6.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -218,7 +218,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-15.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-15.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -229,7 +229,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>14.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>14.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -240,7 +240,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -251,7 +251,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -262,7 +262,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -273,7 +273,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -284,7 +284,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-11.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-11.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -295,7 +295,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -306,7 +306,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -317,7 +317,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -328,7 +328,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -339,7 +339,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -350,7 +350,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -361,7 +361,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -372,7 +372,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -383,7 +383,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -394,7 +394,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -405,7 +405,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -416,7 +416,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -427,7 +427,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -438,7 +438,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -449,7 +449,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -460,7 +460,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -471,7 +471,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-6.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-6.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -482,7 +482,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-15.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-15.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -493,7 +493,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -504,7 +504,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>8.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>8.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -515,7 +515,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -526,7 +526,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -537,7 +537,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>1A</fstrClass>
@@ -548,7 +548,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -559,7 +559,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -570,7 +570,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -581,7 +581,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -592,7 +592,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -603,7 +603,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-11.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-11.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -614,7 +614,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -625,7 +625,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>14.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>14.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -636,7 +636,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -647,7 +647,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -658,7 +658,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -669,7 +669,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -680,7 +680,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -691,7 +691,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -702,7 +702,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -713,7 +713,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -724,7 +724,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -735,7 +735,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -746,7 +746,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -757,7 +757,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -768,7 +768,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>11.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>11.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -779,7 +779,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -790,7 +790,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -801,7 +801,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -812,7 +812,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -823,7 +823,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -834,7 +834,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>9.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>9.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -845,7 +845,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -856,7 +856,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -867,7 +867,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-8.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-8.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -878,7 +878,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -889,7 +889,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -900,7 +900,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>8.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>8.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -911,7 +911,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -922,7 +922,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -933,7 +933,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -944,7 +944,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-15.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-15.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -955,7 +955,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -966,7 +966,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -977,7 +977,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -988,7 +988,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -999,7 +999,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1010,7 +1010,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1021,7 +1021,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>14.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>14.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1032,7 +1032,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1043,7 +1043,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1054,7 +1054,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-5.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-5.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1065,7 +1065,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>2A</fstrClass>
@@ -1076,7 +1076,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1087,7 +1087,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1098,7 +1098,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1109,7 +1109,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1120,7 +1120,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1131,7 +1131,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1142,7 +1142,7 @@
     <fintProjectedLosses>9</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1153,7 +1153,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1164,7 +1164,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1175,7 +1175,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1186,7 +1186,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1197,7 +1197,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1208,7 +1208,7 @@
     <fintProjectedLosses>9</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1219,7 +1219,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>14.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>14.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1230,7 +1230,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1241,7 +1241,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1252,7 +1252,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1263,7 +1263,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-11.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-11.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1274,7 +1274,7 @@
     <fintProjectedLosses>9</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1285,7 +1285,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1296,7 +1296,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>9.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>9.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1307,7 +1307,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-1.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-1.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1318,7 +1318,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1329,7 +1329,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-6.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-6.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1340,7 +1340,7 @@
     <fintProjectedLosses>9</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1351,7 +1351,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1362,7 +1362,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1373,7 +1373,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1384,7 +1384,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1395,7 +1395,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-11.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-11.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1406,7 +1406,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-15.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-15.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1417,7 +1417,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1428,7 +1428,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>8.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>8.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1439,7 +1439,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1450,7 +1450,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1461,7 +1461,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>3A</fstrClass>
@@ -1472,7 +1472,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1483,7 +1483,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1494,7 +1494,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1505,7 +1505,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1516,7 +1516,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>1.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>1.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1527,7 +1527,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1538,7 +1538,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1549,7 +1549,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>14.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>14.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1560,7 +1560,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1571,7 +1571,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1582,7 +1582,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1593,7 +1593,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1604,7 +1604,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1615,7 +1615,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1626,7 +1626,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1637,7 +1637,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1648,7 +1648,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-5.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-5.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1659,7 +1659,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1670,7 +1670,7 @@
     <fintProjectedLosses>9</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1681,7 +1681,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1692,7 +1692,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1703,7 +1703,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1714,7 +1714,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>1.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>1.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1725,7 +1725,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1736,7 +1736,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1747,7 +1747,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1758,7 +1758,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>11.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>11.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1769,7 +1769,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1780,7 +1780,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1791,7 +1791,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1802,7 +1802,7 @@
     <fintProjectedLosses>9</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1813,7 +1813,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1824,7 +1824,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>13.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>13.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1835,7 +1835,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>1.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>1.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1846,7 +1846,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-1.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-1.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1857,7 +1857,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>4A</fstrClass>
@@ -1868,7 +1868,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1879,7 +1879,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1890,7 +1890,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>9.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>9.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1901,7 +1901,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>6.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>6.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1912,7 +1912,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-1.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-1.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1923,7 +1923,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1934,7 +1934,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1945,7 +1945,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1956,7 +1956,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1967,7 +1967,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1978,7 +1978,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -1989,7 +1989,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2000,7 +2000,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2011,7 +2011,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-6.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-6.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2022,7 +2022,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2033,7 +2033,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2044,7 +2044,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2055,7 +2055,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2066,7 +2066,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2077,7 +2077,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2088,7 +2088,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2099,7 +2099,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2110,7 +2110,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2121,7 +2121,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>8.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>8.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2132,7 +2132,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2143,7 +2143,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>1.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>1.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2154,7 +2154,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2165,7 +2165,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2176,7 +2176,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2187,7 +2187,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2198,7 +2198,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>11.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>11.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2209,7 +2209,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2220,7 +2220,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2231,7 +2231,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2242,7 +2242,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2253,7 +2253,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2264,7 +2264,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2275,7 +2275,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2286,7 +2286,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2297,7 +2297,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>1.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>1.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2308,7 +2308,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2319,7 +2319,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2330,7 +2330,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2341,7 +2341,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2352,7 +2352,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>11.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>11.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2363,7 +2363,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2374,7 +2374,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2385,7 +2385,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-6.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-6.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2396,7 +2396,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2407,7 +2407,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2418,7 +2418,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2429,7 +2429,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>12.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>12.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2440,7 +2440,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2451,7 +2451,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2462,7 +2462,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2473,7 +2473,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2484,7 +2484,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2495,7 +2495,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2506,7 +2506,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>9.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>9.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2517,7 +2517,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2528,7 +2528,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2539,7 +2539,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2550,7 +2550,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-10.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-10.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2561,7 +2561,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2572,7 +2572,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>16.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>16.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2583,7 +2583,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>9.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>9.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2594,7 +2594,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2605,7 +2605,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-5.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-5.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2616,7 +2616,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>8P</fstrClass>
@@ -2627,7 +2627,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2638,7 +2638,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2649,7 +2649,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2660,7 +2660,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2671,7 +2671,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2682,7 +2682,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2693,7 +2693,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2704,7 +2704,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-15.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-15.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2715,7 +2715,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2726,7 +2726,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2737,7 +2737,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2748,7 +2748,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2759,7 +2759,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2770,7 +2770,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2781,7 +2781,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-9.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-9.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2792,7 +2792,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2803,7 +2803,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2814,7 +2814,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2825,7 +2825,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2836,7 +2836,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2847,7 +2847,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2858,7 +2858,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-15.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-15.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2869,7 +2869,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2880,7 +2880,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>10.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>10.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2891,7 +2891,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2902,7 +2902,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-2.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-2.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2913,7 +2913,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2924,7 +2924,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-11.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-11.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2935,7 +2935,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.6</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.6</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2946,7 +2946,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2957,7 +2957,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>6.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>6.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2968,7 +2968,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>3.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>3.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2979,7 +2979,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -2990,7 +2990,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-4.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-4.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3001,7 +3001,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-13.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-13.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3012,7 +3012,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3023,7 +3023,7 @@
     <fintProjectedLosses>0</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3034,7 +3034,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3045,7 +3045,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>4.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>4.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3056,7 +3056,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>3</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>3</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-0.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-0.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3067,7 +3067,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>0.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>0.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3078,7 +3078,7 @@
     <fintProjectedLosses>5</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-12.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-12.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3089,7 +3089,7 @@
     <fintProjectedLosses>7</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3100,7 +3100,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>15.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>15.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3111,7 +3111,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>7.1</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>7.1</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3122,7 +3122,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>6.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>6.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3133,7 +3133,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>5.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>5.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3144,7 +3144,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-7.8</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-7.8</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3155,7 +3155,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>1</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>5</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-11.3</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-11.3</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3166,7 +3166,7 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-14.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-14.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3177,7 +3177,7 @@
     <fintProjectedLosses>1</fintProjectedLosses>
     <fintProjectedDistrictWins>6</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>0</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>17.0</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>17.0</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3188,7 +3188,7 @@
     <fintProjectedLosses>2</fintProjectedLosses>
     <fintProjectedDistrictWins>5</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>1</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>6.2</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>6.2</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3199,7 +3199,7 @@
     <fintProjectedLosses>3</fintProjectedLosses>
     <fintProjectedDistrictWins>4</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>2</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>2.4</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>2.4</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3210,7 +3210,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-1.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-1.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3221,7 +3221,7 @@
     <fintProjectedLosses>4</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.5</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.5</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3232,7 +3232,7 @@
     <fintProjectedLosses>6</fintProjectedLosses>
     <fintProjectedDistrictWins>2</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>4</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-3.7</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-3.7</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
   <dtDistrictStandings>
     <fstrClass>A</fstrClass>
@@ -3243,6 +3243,6 @@
     <fintProjectedLosses>8</fintProjectedLosses>
     <fintProjectedDistrictWins>0</fintProjectedDistrictWins>
     <fintProjectedDistrictLosses>6</fintProjectedDistrictLosses>
-    <flngProjectedDistricPointDifferential>-16.9</flngProjectedDistricPointDifferential>
+    <flngProjectedDistrictPointDifferential>-16.9</flngProjectedDistrictPointDifferential>
   </dtDistrictStandings>
 </NewDataSet>

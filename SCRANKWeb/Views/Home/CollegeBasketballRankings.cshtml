@@ -6,6 +6,13 @@
 <html>
 <head>
     <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bolder;
+        }
         table {
             border-collapse: collapse;
         }
@@ -64,6 +71,7 @@
         <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power">SCRANK Power Rankings</a>
         <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Dominance">SCRANK Dominance Rating</a>
         <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV">SCRANK SOV</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballConferenceStandings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV">Conference Standings</a>
     </nav>
 
     <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
@@ -92,7 +100,9 @@
                 {
                     <tr>
                         <td>@counter</td>
-                        <td>@team["fstrSchoolName"]</td>
+                        <td width="280px">
+                            <a class="jobs" style="text-decoration:none; color:black" asp-action="CollegeBasketballTeam" asp-route-pstrClass="@Model.strConference" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrTeam="@team["fstrSchoolName"]">@team["fstrSchoolName"]</a>
+                        </td>
                         <td>@team["flngPowerRanking"]</td>
                         <td>@team["fintWins"]</td>
                         <td>@team["fintLosses"]</td>

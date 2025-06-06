@@ -1,0 +1,232 @@
+﻿@using System.Data
+@model CollegeBasketballModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <style>
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+            font-weight: bolder;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+            z-index:2;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 8px 5px 1px;
+            z-index:2;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px 8px 5px 2px;
+        }
+
+
+        sup {
+            z-index:0;
+        }
+
+        .nav-link {
+            font-size: clamp(1px, 2.5vw, 1em) !important;
+            background-color: white;
+            color: black;
+        }
+
+
+        .navbar-right {
+            background-color: white;
+            white-space: nowrap;
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: clamp(1px, 2.5vw, 1em);
+            width: 100%;
+        }
+    </style>
+    <meta name="format-detection" content="telephone=no">
+</head>
+<body>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src="../img/basketballhoop.png" style="height: 1.5em"> College Basketball Rankings</h1>
+
+   @*  <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">Rankings</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">Projections</a>
+        <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="Champions" asp-route-pstrState="@Model.strState">Probabilities</a>
+    </nav> *@
+
+    <nav class="nav nav-pills navbar-right">
+        @foreach (DataRow season in @Model.dtSeasons.Rows)
+        {
+
+            <a class="nav-link text-dark" asp-action="CollegeBasketballTeam" asp-route-pintSeason="@season["fintSeason"]" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrTeam="@Model.strTeam">@season["fintSeason"]</a>
+        }
+    </nav>
+    @{
+        DataRow drFirstRow = @Model.dtTeamViewInfo.Select("fstrSchoolName = '" + @Model.strTeam.ToString().Replace("'", "''") + "'" , "fdtmGameDate")[0];
+
+
+        <p style="font-size:clamp(1px, 5vw, 2.5em);white-space:nowrap; width:100% ;max-width:1200px">@Model.strTeam @drFirstRow["fstrMascot"]</p>
+
+
+        <table style="font-size:clamp(1px, 1.9vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
+
+            <tr>
+                <th colspan="16" , style="background-color:red; align-content:center">@Model.intSeason Team Data</th>
+            </tr>
+
+            <tr>                
+                <th>W</th>
+                <th>L</th>
+                <th>CW</th>
+                <th>CL</th>
+                <th>PF</th>
+                <th>PA</th>
+                <th>PD</th>
+                <th>SCRANK</th>
+                <th>SOV</th>
+                <th>DOM</th>
+                
+            </tr>
+
+            @*  New Row *@
+            <tr>
+                <td>@drFirstRow["fintWins"]</td>
+                <td>@drFirstRow["fintLosses"]</td>
+                    <td>@drFirstRow["fintConferenceWins"]</td>
+                    <td>@drFirstRow["fintConferenceLosses"]</td>
+                    <td>@drFirstRow["flngPointsFor"]</td>
+                    <td>@drFirstRow["flngPointsAgainst"]</td>
+                    <td>@drFirstRow["flngPointDifferential"]</td>
+                <td>@Math.Round(Convert.ToDecimal(@drFirstRow["flngPowerRanking"]), 2)</td>
+                <td>@Math.Round(Convert.ToDecimal(@drFirstRow["flngAdjustedStrengthOfVictory"]), 3)</td>
+                <td>@Math.Round(Convert.ToDecimal(@drFirstRow["flngDominanceRating"]), 1)</td>
+            </tr>
+            </Table>
+
+       
+
+        // <br/>
+        // <table style="font-size:clamp(1px, 1.9vw, 1em);table-layout:auto; width:100%; max-width:1200px">
+        // <tr>
+        //     <th colspan="10" , style="background-color:mediumpurple; align-content:center">@Model.intSeason Probabilities</th>
+        // </tr>
+        //     <tr>
+                
+        //         <th>Playoffs</th>
+        //         @if (Model.strClass != "5A")
+        //         {
+        //             <th>Dist 1st</th>
+        //             <th>Dist 2nd</th>
+        //         }
+        //         @if (Model.strClass != "5A" && Model.strClass != "4A" && Model.strClass != "3A")
+        //         {
+        //             <th>Dist 3rd</th>
+        //         }
+        //         @if (Model.strClass == "2A" || Model.strClass == "1A" || Model.strClass == "A")
+        //         {
+        //             <th>Dist 4th</th>
+        //         }
+        //         @if (Model.strClass != "2A" && Model.strClass != "1A" && Model.strClass != "A")
+        //         {
+        //             <th>At Large</th>
+        //         }
+        //         @if (Model.strClass != "5A" && Model.strClass != "4A" && Model.strClass != "3A")
+        //         {
+        //             <th>Snd Rd</th>
+        //         } 
+                
+        //         <th>QF</th>
+        //         <th>SF</th>
+        //         <th>Finals</th>
+        //         <th>Champs</th>
+        //     </tr>
+           
+        //     <tr>
+        //         <td>@drFirstRow["flngPlayoffs"]%</td>
+        //         @if(Model.strClass != "5A")
+        //         {
+        //             <td>@drFirstRow["flngDistrictFirst"]%</td>
+        //             <td>@drFirstRow["flngDistrictSecond"]%</td>
+        //         }
+        //         @if (Model.strClass != "5A" && Model.strClass != "4A" && Model.strClass != "3A")
+        //         {
+        //             <td>@drFirstRow["flngDistrictThird"]%</td>
+        //         }
+        //         @if (Model.strClass == "2A" || Model.strClass == "1A" || Model.strClass == "A")
+        //         {
+        //             <td>@drFirstRow["flngDistrictFourth"]%</td>
+        //         }
+        //         @if (Model.strClass != "2A" && Model.strClass != "1A" && Model.strClass != "A")
+        //         {
+        //             <td>@drFirstRow["flngAtLarge"]%</td>
+        //         }
+        //         @if (Model.strClass != "5A" && Model.strClass != "4A" && Model.strClass != "3A")
+        //         {
+        //             <td>@drFirstRow["flngSecondRound"]%</td>
+        //         }
+        //         <td>@drFirstRow["flngQuarters"]%</td>
+        //         <td>@drFirstRow["flngSemis"]%</td>
+        //         <td>@drFirstRow["flngFinals"]%</td>
+        //         <td>@drFirstRow["flngChampions"]%</td>
+        //     </tr>
+        // </table>
+    }
+    <br/>
+    <table style="font-size:clamp(1px, 1.9vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
+        <thead>
+            <tr>
+                <th colspan="10" , style="background-color:forestgreen; align-content:center">@Model.intSeason Schedule</th>
+            </tr>
+            <tr>
+
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>SCRANK</th>
+                <th>PF</th>
+                <th>PA</th>
+                <th>W/L</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+
+                @foreach (DataRow team in @Model.dtTeamViewInfo.Select("fstrSchoolName = '" + @Model.strTeam.ToString().Replace("'", "''") + "'", "fdtmGameDate"))
+                {
+                    
+                         var home = @team["fstrLocation"].ToString() == "Home" ? "background-color: #cccccc" : "";
+                         var conference = @team["fstrConference"].ToString() == @team["fstrOppConference"].ToString() ? "*" : "";
+                         var ncaa = @team["fstrGameType"].ToString() == "NCAA" ? "background-color: #4cc9ff" : "";
+                         var ctourn = @team["fstrGameType"].ToString() == "CTOURN" ? "background-color: #d29ffe" : "";
+                     
+                    <tr style="@home @ncaa @ctourn">
+
+                        <td>@Convert.ToDateTime(@team["fdtmGameDate"]).ToString("MM/dd/yy")</td>
+                        <td width="285px">
+                            <a style="color:black" asp-action="CollegeBasketballTeam" asp-route-pstrClass="@team["fstrOppConference"]" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView" asp-route-pstrTeam="@team["fstrOpponent"]">@team["fstrOpponent"]<sup>@conference</sup></a>
+                        </td>
+                        <td>@Math.Round(Convert.ToDecimal(@team["flngOppPowerRanking"]), 2)</td>
+                        <td>@team["fintForScore"]</td>
+                        <td>@team["fintOppScore"]</td>
+                        <td>@team["fstrOutcome"]</td>
+                    </tr>
+                } 
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

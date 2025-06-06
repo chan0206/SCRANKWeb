@@ -37,7 +37,8 @@ namespace SCRANKWeb.Models
         public DataTable dtDistrictProjections { get; set; } = new();
         public DataTable dtProbabilities { get; set; } = new();
         public DataTable dtDistrictStandingProbabilities { get; set; } = new();
-
+        public DataTable dtTeamViewInfo { get; set; } = new();
+        
         public string strPathStart = "";
 
         public string strPathStartWeb = "https://scranksports-e0ahaxcahddyeaam.centralus-01.azurewebsites.net/xmldata/";
@@ -49,6 +50,7 @@ namespace SCRANKWeb.Models
         public string strState { get; set; } = "";
         public string strStateLong { get; set; } = "";
         public string strStateLogo { get; set; } = "";
+        public string strTeam { get; set; } = "";
 
         public void SetPath(ref string pstrPath)
         {
@@ -144,6 +146,15 @@ namespace SCRANKWeb.Models
             dtProjectionSeasons.Columns.Add("fintSeason", typeof(int));
             dtProjectionSeasons.Rows.Add(2025);
             //    dtSeasons.ReadXml(strPath);
+        }
+
+        public void GetTeamViewInfo(int pintSeason, string pstrState)
+        {
+            SetPath(ref strPathStart);
+            string strPath = strPathStart + pstrState + "Football/Rankings/" + pintSeason.ToString() + "TeamView.xml";
+            dtTeamViewInfo = new DataTable("dtTeamViewInfo");
+            dtTeamViewInfo.ReadXml(strPath);           
+          
         }
 
         public void setSeason(int pintSeason)

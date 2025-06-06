@@ -1,0 +1,140 @@
+﻿@using System.Data
+@model CollegeBasketballModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+            a:hover {
+                font-weight: bolder;
+            }
+        table {
+            border-collapse: collapse;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: cornflowerblue;
+        }
+
+        th {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px 10px 5px 1px;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px 10px 5px 2px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .nav-link {
+            font-size: clamp(1px, 2.5vw, 1em) !important;
+            background-color: white;
+            color: black;
+            padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+        }
+
+        .nav-link2 {
+            font-size: clamp(1px, 2.5vw, 1em) !important;
+            color: Red;
+            padding: clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em) clamp(1px, 1vw, 1em);
+        }
+
+
+        .navbar-right {
+            background-color: white;
+            white-space: nowrap;
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: clamp(1px, 2.5vw, 1em);
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src="../img/basketballhoop.png" style="height: 1.5em"> College Basketball Rankings</h1>
+    <nav class="nav nav-pills" navbar-right">
+        @foreach (DataRow season in @Model.dtSeasons.Rows)
+        {
+
+            <a class="nav-link text-dark" style="font-size:1em;" asp-action="CollegeBasketballRankings" asp-route-pintSeason=@season["fintSeason"] asp-route-pstrRankingView="@Model.strRankingView">@season["fintSeason"]</a>
+        }
+    </nav>
+
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" >SCRANK Power Rankings</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballConferenceStandings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Conference" >Conference Standings</a>
+    </nav> 
+
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="SOV" >SCRANK SOV</a>
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="DOM" >SCRANK Dominance Rating</a>
+
+    </nav>
+
+    <div class="container-fluid">
+
+        <p style="font-size:clamp(1px, 3.5vw, 2.2em);white-space: nowrap; font-weight:bold; color:black">@Model.intSeason College Basketball Conference Standings</p>
+
+        <div class="row row-cols-auto">
+
+
+            @foreach (DataRow conference in @Model.dtConferences.Rows)
+            {
+                <div class="col-auto">
+                    <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto">
+                        <thead>
+                            <tr>
+                                <th colspan="2">@conference["fstrConference"] Standings</th>
+                                <th>CW</th>
+                                <th>CL</th>
+                                <th>W</th>
+                                <th>L</th>
+                                <th>SCRANK</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @{
+                                int counter = 1;
+
+                                @foreach (DataRow team in @Model.dtConferenceStandings.Select("fstrConference = '" + @conference["fstrConference"] + "'"))
+                                {
+                                    <tr>
+                                        <td>@counter</td>
+                                        <td width="285px">
+                                            <a class="nav-link2 text-dark" style="text-decoration:none; color:black" asp-action="CollegeBasketballTeam" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="@Model.strRankingView"  asp-route-pstrTeam="@team["fstrSchoolName"]">@team["fstrSchoolName"]</a>
+                                        </td>
+                                        <td>@team["fintConferenceWins"]</td>
+                                        <td>@team["fintConferenceLosses"]</td>
+                                        <td>@team["fintWins"]</td>
+                                        <td>@team["fintLosses"]</td>
+                                        <td>@team["flngPowerRanking"]</td>
+                                    </tr>
+                                    ++counter;
+                                }
+                            }
+                        </tbody>
+                    </table><br>
+                </div>
+
+
+            }
+        </div>
+    </div>
+</body>
+</html>
+
+

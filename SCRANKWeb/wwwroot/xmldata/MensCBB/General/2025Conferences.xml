@@ -1,0 +1,110 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dtConferences" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dtConferences">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="fstrConference" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dtConferences>
+    <fstrConference>America East</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>American Athletic</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>ASUN</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Atlantic 10</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Atlantic Coast</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Big 12</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Big East</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Big Sky</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Big South</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Big Ten</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Big West</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Coastal</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Conference USA</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Horizon</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Ivy League</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Metro Atlantic</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Mid-American</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Mid-Eastern</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Missouri Valley</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Mountain West</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Northeast</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Ohio Valley</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Patriot</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Southeastern</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Southern</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Southland</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Southwest Athletic</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Summit</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Sunbelt</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>West Coast</fstrConference>
+  </dtConferences>
+  <dtConferences>
+    <fstrConference>Western Athletic</fstrConference>
+  </dtConferences>
+</NewDataSet>
