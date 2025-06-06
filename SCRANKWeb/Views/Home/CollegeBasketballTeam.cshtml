@@ -40,6 +40,10 @@
         sup {
             z-index:0;
         }
+        
+        span {
+            font-weight: bolder;
+        }
 
         .nav-link {
             font-size: clamp(1px, 2.5vw, 1em) !important;
@@ -62,11 +66,9 @@
 <body>
     <h1 style="font-size:clamp(1px, 4vw, 3em);white-space: nowrap;width:100%"><img src="../img/basketballhoop.png" style="height: 1.5em"> College Basketball Rankings</h1>
 
-   @*  <nav class="nav nav-pills navbar-right">
-        <a class="nav-link text-dark" asp-action="HighSchoolFootballRankings" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power" asp-route-pstrState="@Model.strState">Rankings</a>
-        <a class="nav-link text-dark" asp-action="HighSchoolFootballProjections" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="RPI" asp-route-pstrState="@Model.strState">Projections</a>
-        <a class="nav-link text-dark" asp-action="HighSchoolFootballProbabilities" asp-route-pstrClass="@Model.strClass" asp-route-pintSeason="2025" asp-route-pstrRankingView="Champions" asp-route-pstrState="@Model.strState">Probabilities</a>
-    </nav> *@
+    <nav class="nav nav-pills navbar-right">
+        <a class="nav-link text-dark" asp-action="CollegeBasketballRankings" asp-route-pintSeason="@Model.intSeason" asp-route-pstrRankingView="Power">Rankings</a>
+    </nav>
 
     <nav class="nav nav-pills navbar-right">
         @foreach (DataRow season in @Model.dtSeasons.Rows)
@@ -186,6 +188,10 @@
         // </table>
     }
     <br/>
+    <span style="background-color: #cccccc">Home</span>
+    <span style="background-color: #d29ffe">Conference Tournament</span>
+    <span style="background-color: #4cc9ff">NCAA Tournament</span>
+    <span>Conference<sup>*</sup> </span>
     <table style="font-size:clamp(1px, 1.9vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
         <thead>
             <tr>

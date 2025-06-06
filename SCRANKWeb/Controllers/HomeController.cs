@@ -108,7 +108,7 @@ namespace SCRANKWeb.Controllers
                 case "Power":
                     rank.GetRankings(pintSeason, "Power");
                     break;
-                case "Dominance":
+                case "DOM":
                     rank.GetRankings(pintSeason, "Dominance");
                     break;
                 case "SOV":

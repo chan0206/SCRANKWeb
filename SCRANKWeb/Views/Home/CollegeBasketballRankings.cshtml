@@ -79,8 +79,13 @@
 
     <table style="font-size:clamp(1px, 2vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
         <thead>
+
+            @{
+                var rankingType = @Model.strRankingView == "DOM" ? "Dominance" : @Model.strRankingView;
+            }
+
             <tr>
-                <th colspan="9" , style="background-color:forestgreen; align-content:center">NCAA Mens Division 1 @Model.intSeason @Model.strRankingView Rankings</th>
+                <th colspan="9" , style="background-color:forestgreen; align-content:center">NCAA Mens Division 1 @Model.intSeason @rankingType Rankings</th>
             </tr>
             <tr>
 
@@ -91,8 +96,9 @@
                 <th>L</th>
                 <th>CW</th>
                 <th>CL</th>
-                <th>Dom. Rating</th>
                 <th>SOV</th>
+                <th>DOM</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -111,8 +117,8 @@
                         <td>@team["fintLosses"]</td>
                         <td>@team["fintConferenceWins"]</td>
                         <td>@team["fintConferenceLosses"]</td>
-                        <td>@team["flngDominanceRating"]</td>
-                        <td>@team["flngAdjustedStrengthOfVictory"]</td>
+                        <td>@Math.Round(Convert.ToDecimal(@team["flngAdjustedStrengthOfVictory"]), 3)</td>
+                        <td>@Math.Round(Convert.ToDecimal(@team["flngDominanceRating"]), 2)</td>
                     </tr>
                     ++counter;
                 }

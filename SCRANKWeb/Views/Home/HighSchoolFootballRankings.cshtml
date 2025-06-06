@@ -99,9 +99,12 @@
     </nav>
         <table style="font-size:clamp(1px, 1.9vw, 1em);white-space: nowrap;table-layout:auto; width:100%; max-width:1200px">
             <thead>
-                    <tr>
-                        <th colspan="10" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @Model.strRankingView Rankings</th>
-                    </tr>
+            @{
+                var rankingType = @Model.strRankingView == "DOM" ? "Dominance" : @Model.strRankingView;
+            }
+                <tr>
+                <th colspan="10" , style="background-color:forestgreen; align-content:center">@Model.intSeason Class @Model.strClass @rankingType Rankings</th>
+                </tr>
                 <tr>
                 
                     <th>Rank</th>
